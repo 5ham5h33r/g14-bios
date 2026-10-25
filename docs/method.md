@@ -1,5 +1,7 @@
 # Method
 
+Apply these steps to each GA403WR release pair. The [release workflow](release-workflow.md) covers publication, and the [release index](../changelog/README.md) records coverage. Examples below use 310 → 312.
+
 ## Confidence
 
 | Label | Evidence |
@@ -21,7 +23,7 @@ The work here compares distributed images. A laptop's current flash can contain 
 
 ## Address conventions
 
-ASUS wraps each 32 MiB image in a 2,048-byte capsule header.
+For 310 and 312, ASUS wraps each 32 MiB image in a 2,048-byte capsule header. Verify the layout again for subsequent releases.
 
 | Address | Meaning |
 |---|---|

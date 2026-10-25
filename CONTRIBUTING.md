@@ -1,5 +1,7 @@
 # Contributing
 
+The goal is to document GA403WR BIOS changes across releases, starting with 310 → 312. Use the [release workflow](docs/release-workflow.md) for each upcoming version. Keep the [release index](changelog/README.md) current and preserve the evidence for earlier comparisons.
+
 Keep code observations separate from hardware results. A change in a charging routine does not establish the behavior of a custom charge limit on a running laptop.
 
 For a firmware finding, include:
@@ -18,3 +20,5 @@ Please leave firmware images, flash dumps, serial numbers, device identifiers an
 Write changes in plain language. Name the condition and the resulting behavior. Keep speculation in the open-questions section and cite the source of a register or structure definition.
 
 Every release-comparison changelog must start with a `## Plain-language takeaway` section before its technical findings. Explain what an owner might notice, define unfamiliar terms, and distinguish confirmed changes from effects that still need a hardware test. Keep addresses, instruction names and register details in the evidence sections. Update the takeaway whenever a finding changes, and check it before each push.
+
+Describe the change without personal narration. Use specific evidence and short testing-status statements. Keep shared hardware-testing limits in the coverage notes; name a local uncertainty beside the finding it qualifies. Avoid repeated disclaimers and stock conclusions. A confident tone must still reflect the strength of the evidence.

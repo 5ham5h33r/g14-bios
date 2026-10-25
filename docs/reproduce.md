@@ -1,4 +1,6 @@
-# Reproduce 310 → 312
+# Reproduce the 310 → 312 comparison
+
+These commands reproduce the initial release pair. For a new version, follow the [release workflow](release-workflow.md) and verify its layout before reusing extraction offsets.
 
 Use Python 3.12 or later. The helper scripts read files; they do not access EC ports, change NVRAM or flash firmware.
 
@@ -47,7 +49,7 @@ python -m psptool -E -j local/firmware/GA403WRAS.310 > local/310-psp.json
 python -m psptool -E -j local/firmware/GA403WRAS.312 > local/312-psp.json
 ```
 
-PSPTool 3.7 warns about unfamiliar generation IDs in these images. Retain its successfully parsed entries, but do not assume the warnings prove that it found every AMD payload.
+PSPTool 3.7 warns about unfamiliar generation IDs in these images. Retain the parsed entries and record those warnings as a coverage limit.
 
 ## Ghidra
 
@@ -80,7 +82,7 @@ Full decompilation output belongs in `local/`; commit the short excerpts or orig
 
 ## Add another release
 
-Add its official URL, posting date, member name and verified hashes to `data/releases.json`. Compare against the preceding published version. Add a new changelog page and a finding ID for each functional change. Record tool failures and unresolved regions in `research/coverage.md`.
+Follow the [release workflow](release-workflow.md). Add a pair-specific changelog, evidence directory and coverage record. Update the release index and README, and use the [template](changelog-template.md) to keep the plain-language takeaway ahead of technical findings.
 
 Run the checks before committing:
 

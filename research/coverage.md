@@ -1,6 +1,6 @@
-# Coverage and open questions
+# 310 → 312: coverage and open questions
 
-I compared the official 310 and 312 EZ Flash packages. The files and their hashes appear in [the release manifest](../data/releases.json).
+This comparison covers the official 310 and 312 EZ Flash packages in [the release manifest](../data/releases.json). Each future release pair gets its own coverage record through the [release workflow](../docs/release-workflow.md).
 
 ## Completed passes
 
@@ -34,12 +34,12 @@ The public candidate-pair files under `data/310-312/function-candidates/` retain
 
 ## Hardware claims
 
-I have not measured fan curves, CPU/GPU wattage, performance, sleep behavior or GPU crash rates. The EC power-selector change supports a testable battery-policy hypothesis. It does not supply a benchmark result.
+Hardware validation is pending for charging, fan curves, CPU/GPU wattage, performance, sleep behavior and GPU crash rates. The EC power-selector change supports a battery-policy hypothesis that needs before/after telemetry.
 
-I did not flash firmware, change BIOS settings, read a live flash chip or access live EC ports during this analysis.
+Inputs are distributed update images. This comparison includes no live flash-chip dump or EC trace.
 
 ## Corrections to the initial notes
 
 The second pass resolves the early SoC/startup differences as address rebasing, identifies the two OpenSSL patch matches, and traces the battery-transition policy reset. It also corrects EC RAM notation to `0x0080xxxx`; capsule-file offsets in the initial notes retain their meaning.
 
-Older releases remain outside the current comparison. Add a separate page when someone completes another pair.
+The [release index](../changelog/README.md) tracks published comparisons and pending analysis. Coverage begins with 310 → 312; subsequent releases need separate evidence and coverage notes.
