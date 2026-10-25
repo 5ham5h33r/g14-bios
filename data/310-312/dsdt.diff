@@ -1,0 +1,62 @@
+--- 310.dsl
+
++++ 312.dsl
+
+@@ -1,26 +1,26 @@
+
+ /*
+  * Intel ACPI Component Architecture
+  * AML/ASL+ Disassembler version 20260408 (32-bit version)
+  * Copyright (c) 2000 - 2026 Intel Corporation
+  *
+  * Disassembling to symbolic ASL+ operators
+  *
+- * Disassembly of work/dsdt-old.aml
++ * Disassembly of work/dsdt-new.aml
+  *
+  * Original Table Header:
+  *     Signature        "DSDT"
+  *     Length           0x000102E3 (66275)
+  *     Revision         0x02
+- *     Checksum         0xB9
++ *     Checksum         0xB5
+  *     OEM ID           "_ASUS_"
+  *     OEM Table ID     "Notebook"
+  *     OEM Revision     0x01072009 (17244169)
+  *     Compiler ID      "INTL"
+  *     Compiler Version 0x20230331 (539165489)
+  */
+ DefinitionBlock ("", "DSDT", 2, "_ASUS_", "Notebook", 0x01072009)
+ {
+     External (_SB_.ALIB, MethodObj)    // 2 Arguments
+     External (_SB_.APTS, MethodObj)    // 1 Arguments
+     External (_SB_.ATKD.MAKY, UnknownObj)
+     External (_SB_.ATKD.WMNB.M009, MethodObj)    // 1 Arguments
+@@ -14239,25 +14239,25 @@
+
+         {
+             Name (MLSB, Package (0x1A)
+             {
+                 0x4D,
+                 0x54,
+                 0x43,
+                 0x4C,
+                 0x03,
+                 One,
+                 0xF9,
+                 0xCF,
+                 0xC7,
+-                0xD8,
++                0xDC,
+                 Zero,
+                 Zero,
+                 One,
+                 Zero,
+                 0x80,
+                 Zero,
+                 0x08,
+                 Zero,
+                 Zero,
+                 One,
+                 Zero,
+                 0x20,

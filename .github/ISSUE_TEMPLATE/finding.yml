@@ -1,0 +1,23 @@
+name: Firmware finding or correction
+description: Explain a changed routine, add evidence, or correct a claim.
+body:
+  - type: input
+    id: versions
+    attributes:
+      label: Model and BIOS versions
+      placeholder: GA403WR, 310 → 312
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Include capsule hashes, module GUIDs, offsets, instructions or test results. Keep firmware images and personal device data out of the issue.
+    validations:
+      required: true
+  - type: textarea
+    id: interpretation
+    attributes:
+      label: Interpretation and remaining uncertainty
+    validations:
+      required: true

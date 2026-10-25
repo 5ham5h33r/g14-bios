@@ -1,0 +1,117 @@
+[
+  {
+    "module": "TlsDxe0",
+    "file_guid": "3ACEB0C0-3C72-11E4-9A56-74D435052646",
+    "old_module_sha256": "15990c96dae16ee09fd00e7eafc69de4a3a1751bdef1c95fd43d984618c643bd",
+    "new_module_sha256": "583aec346f3de7c747a3675ee8c4fa3258fe7dc8d474e2c96567c69cb96a3351",
+    "delta_crl": {
+      "old_entry_rva": "000347a0",
+      "new_entry_rva": "000347a0",
+      "new_null_guard_rva": "0x34a96",
+      "new_null_guard_bytes": "488b8f980000004885c9",
+      "old_guard_pattern_count": 0,
+      "new_guard_pattern_count": 1,
+      "upstream_fix": "59c3b3158553ab53275bbbccca5cb305d591cf2e",
+      "cve": "CVE-2026-28388"
+    },
+    "dane": {
+      "old_entry_rva": "000363d4",
+      "new_entry_rva": "000363d8",
+      "upstream_fix": "ec03fa050b3346997ed9c5fef3d0e16ad7db8177",
+      "cve": "CVE-2026-28387",
+      "review": "Checked decompiled ownership/reference-count handling; firmware reachability untested"
+    }
+  },
+  {
+    "module": "FmpDxe0",
+    "file_guid": "BAA122FC-FF0C-3F81-BB19-D1DF8C2B3986",
+    "old_module_sha256": "d74ce78b2da4e55a7b2e3383dd23832332ae5a87f201b22bc4613a9d5132d0ca",
+    "new_module_sha256": "b33d0a50886487beefa51bc1a9d2ac51d41ced5c3d3ed20da30411cc94b61c53",
+    "delta_crl": {
+      "old_entry_rva": "00007224",
+      "new_entry_rva": "00007224",
+      "new_null_guard_rva": "0x751a",
+      "new_null_guard_bytes": "488b8f980000004885c9",
+      "old_guard_pattern_count": 0,
+      "new_guard_pattern_count": 1,
+      "upstream_fix": "59c3b3158553ab53275bbbccca5cb305d591cf2e",
+      "cve": "CVE-2026-28388"
+    },
+    "dane": {
+      "old_entry_rva": "00008ef4",
+      "new_entry_rva": "00008ef8",
+      "upstream_fix": "ec03fa050b3346997ed9c5fef3d0e16ad7db8177",
+      "cve": "CVE-2026-28387",
+      "review": "Checked decompiled ownership/reference-count handling; firmware reachability untested"
+    }
+  },
+  {
+    "module": "FmpDxe1",
+    "file_guid": "6B21A708-2A77-427D-85E1-9CEB82A52129",
+    "old_module_sha256": "9daea1820e0a296d4d1d5ca00d03f319b432b771fc545346e0344b1fa046eb2b",
+    "new_module_sha256": "1934e9c17bd6b951f85b3837fbe8c4cd990b019b472460d1d2527055ee28f212",
+    "delta_crl": {
+      "old_entry_rva": "00008b80",
+      "new_entry_rva": "00008b80",
+      "new_null_guard_rva": "0x8e76",
+      "new_null_guard_bytes": "488b8f980000004885c9",
+      "old_guard_pattern_count": 0,
+      "new_guard_pattern_count": 1,
+      "upstream_fix": "59c3b3158553ab53275bbbccca5cb305d591cf2e",
+      "cve": "CVE-2026-28388"
+    },
+    "dane": {
+      "old_entry_rva": "0000a850",
+      "new_entry_rva": "0000a854",
+      "upstream_fix": "ec03fa050b3346997ed9c5fef3d0e16ad7db8177",
+      "cve": "CVE-2026-28387",
+      "review": "Checked decompiled ownership/reference-count handling; firmware reachability untested"
+    }
+  },
+  {
+    "module": "FmpDxe2",
+    "file_guid": "446DF109-83BF-44DB-A86D-8E4B24B954A9",
+    "old_module_sha256": "f22d272a091724af5dea6e084ade86c7e4188ea9983b1debfe9ab60bb2bf98f3",
+    "new_module_sha256": "92abc1c1a2a91e1b99c98afc69320f703b5ad6898f73aaf461108985f3a7a435",
+    "delta_crl": {
+      "old_entry_rva": "00006eb4",
+      "new_entry_rva": "00006eb4",
+      "new_null_guard_rva": "0x71aa",
+      "new_null_guard_bytes": "488b8f980000004885c9",
+      "old_guard_pattern_count": 0,
+      "new_guard_pattern_count": 1,
+      "upstream_fix": "59c3b3158553ab53275bbbccca5cb305d591cf2e",
+      "cve": "CVE-2026-28388"
+    },
+    "dane": {
+      "old_entry_rva": "00008b84",
+      "new_entry_rva": "00008b88",
+      "upstream_fix": "ec03fa050b3346997ed9c5fef3d0e16ad7db8177",
+      "cve": "CVE-2026-28387",
+      "review": "Checked decompiled ownership/reference-count handling; firmware reachability untested"
+    }
+  },
+  {
+    "module": "FmpDxe3",
+    "file_guid": "5035966B-1B4B-4722-9947-654F985C32C3",
+    "old_module_sha256": "4677958c44abbbe6ce9f59b67d71fbeac7e3f6083370f8e493d9c905018fc4a4",
+    "new_module_sha256": "35455733293e54bac4f29d40095241fee5337f56b640e8973b28abe4a502a3d6",
+    "delta_crl": {
+      "old_entry_rva": "00007034",
+      "new_entry_rva": "00007034",
+      "new_null_guard_rva": "0x732a",
+      "new_null_guard_bytes": "488b8f980000004885c9",
+      "old_guard_pattern_count": 0,
+      "new_guard_pattern_count": 1,
+      "upstream_fix": "59c3b3158553ab53275bbbccca5cb305d591cf2e",
+      "cve": "CVE-2026-28388"
+    },
+    "dane": {
+      "old_entry_rva": "00008d04",
+      "new_entry_rva": "00008d08",
+      "upstream_fix": "ec03fa050b3346997ed9c5fef3d0e16ad7db8177",
+      "cve": "CVE-2026-28387",
+      "review": "Checked decompiled ownership/reference-count handling; firmware reachability untested"
+    }
+  }
+]

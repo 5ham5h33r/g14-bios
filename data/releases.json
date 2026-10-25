@@ -1,0 +1,33 @@
+{
+  "checked": "2026-10-25",
+  "device": "ASUS ROG Zephyrus G14 GA403WR (2025)",
+  "releases": {
+    "310": {
+      "analysis": "310-312",
+      "bios_build": "2025-11-21T15:07:21",
+      "capsule_bytes": 33556480,
+      "capsule_sha256": "4721567ab1d23ca45ee48d982498984a8cc42000ef504f89f0d15913804ea412",
+      "ec_build": "2025-10-02 b02",
+      "ec_version": "03.10F",
+      "member": "GA403WRAS.310",
+      "posted": "2026-07-22",
+      "uefi_body_sha256": "813e10fe605646cb1b76359e17d60ed41fe849db4bac0dc8afc0f13f722c5d41",
+      "url": "https://dlcdnets.asus.com/pub/ASUS/GamingNB/Image/BIOS/124024/GA403WRAS310.zip",
+      "zip_sha256": "085ee6332bd1e9c2f1dc8e58f02eeb0da9dc6015131efc928569a85bd67a5b67"
+    },
+    "312": {
+      "analysis": "310-312",
+      "bios_build": "2026-09-22T11:44:27",
+      "capsule_bytes": 33556480,
+      "capsule_sha256": "af0a3b46df6976302e5760916c0e1b5d94de2ac4132b1911bfbbd7bdd94987dd",
+      "ec_build": "2026-09-17 b01",
+      "ec_version": "03.12F",
+      "member": "GA403WRAS.312",
+      "posted": "2026-10-21",
+      "uefi_body_sha256": "245b748b66b8e798e1c40488648df8b739698506d7cc56f7ca300616357810d0",
+      "url": "https://dlcdnets.asus.com/pub/ASUS/GamingNB/Image/BIOS/128528/GA403WRAS312.zip",
+      "zip_sha256": "809df6bce9037449bcbd298ddcc2ef0aa13ffe615512bd413b07530e5e5aa92d"
+    }
+  },
+  "support_url": "https://www.asus.com/us/supportonly/ga403wr/helpdesk_bios/"
+}

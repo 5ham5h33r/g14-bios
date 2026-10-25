@@ -1,0 +1,401 @@
+{
+  "counts_are_recovered_boundaries_not_source_functions": true,
+  "ghidra": "12.2",
+  "images": [
+    {
+      "decompiled_functions": 1406,
+      "export_errors": [
+        {
+          "entry": "ram:00008a2e",
+          "error": ""
+        },
+        {
+          "entry": "ram:0000c314",
+          "error": ""
+        },
+        {
+          "entry": "ram:000114ac",
+          "error": ""
+        },
+        {
+          "entry": "ram:00022964",
+          "error": ""
+        },
+        {
+          "entry": "ram:0003218a",
+          "error": ""
+        },
+        {
+          "entry": "ram:00033140",
+          "error": ""
+        },
+        {
+          "entry": "ram:00039804",
+          "error": ""
+        }
+      ],
+      "input": "ec-310.bin",
+      "recovered_functions": 1413
+    },
+    {
+      "decompiled_functions": 1407,
+      "export_errors": [
+        {
+          "entry": "ram:00008a2e",
+          "error": ""
+        },
+        {
+          "entry": "ram:0000c314",
+          "error": ""
+        },
+        {
+          "entry": "ram:000114b0",
+          "error": ""
+        },
+        {
+          "entry": "ram:00022aca",
+          "error": ""
+        },
+        {
+          "entry": "ram:000322e0",
+          "error": ""
+        },
+        {
+          "entry": "ram:000332a2",
+          "error": ""
+        },
+        {
+          "entry": "ram:00039966",
+          "error": ""
+        }
+      ],
+      "input": "ec-312.bin",
+      "recovered_functions": 1414
+    },
+    {
+      "decompiled_functions": 3057,
+      "export_errors": [
+        {
+          "entry": "0011b634",
+          "error": ""
+        },
+        {
+          "entry": "0015d660",
+          "error": ""
+        },
+        {
+          "entry": "0015d6b8",
+          "error": ""
+        },
+        {
+          "entry": "0015d6c0",
+          "error": ""
+        },
+        {
+          "entry": "0015d6c8",
+          "error": ""
+        },
+        {
+          "entry": "0015d6e0",
+          "error": ""
+        },
+        {
+          "entry": "0015d704",
+          "error": ""
+        }
+      ],
+      "input": "new-AMITSE0.efi",
+      "recovered_functions": 3064
+    },
+    {
+      "decompiled_functions": 1738,
+      "export_errors": [
+        {
+          "entry": "000b1a9c",
+          "error": ""
+        },
+        {
+          "entry": "000b1aa4",
+          "error": ""
+        },
+        {
+          "entry": "000b1aac",
+          "error": ""
+        }
+      ],
+      "input": "new-FmpDxe0.efi",
+      "recovered_functions": 1741
+    },
+    {
+      "decompiled_functions": 1763,
+      "export_errors": [
+        {
+          "entry": "000b34cc",
+          "error": ""
+        },
+        {
+          "entry": "000b34d4",
+          "error": ""
+        },
+        {
+          "entry": "000b34dc",
+          "error": ""
+        }
+      ],
+      "input": "new-FmpDxe1.efi",
+      "recovered_functions": 1766
+    },
+    {
+      "decompiled_functions": 1736,
+      "export_errors": [
+        {
+          "entry": "000b172c",
+          "error": ""
+        },
+        {
+          "entry": "000b1734",
+          "error": ""
+        },
+        {
+          "entry": "000b173c",
+          "error": ""
+        }
+      ],
+      "input": "new-FmpDxe2.efi",
+      "recovered_functions": 1739
+    },
+    {
+      "decompiled_functions": 1739,
+      "export_errors": [
+        {
+          "entry": "000b18ac",
+          "error": ""
+        },
+        {
+          "entry": "000b18b4",
+          "error": ""
+        },
+        {
+          "entry": "000b18bc",
+          "error": ""
+        }
+      ],
+      "input": "new-FmpDxe3.efi",
+      "recovered_functions": 1742
+    },
+    {
+      "decompiled_functions": 75,
+      "export_errors": [
+        {
+          "entry": "0000607c",
+          "error": ""
+        },
+        {
+          "entry": "00006084",
+          "error": ""
+        },
+        {
+          "entry": "000060f0",
+          "error": ""
+        }
+      ],
+      "input": "new-PrjDxe0.efi",
+      "recovered_functions": 78
+    },
+    {
+      "decompiled_functions": 51,
+      "export_errors": [],
+      "input": "new-SbRun0.efi",
+      "recovered_functions": 51
+    },
+    {
+      "decompiled_functions": 53,
+      "export_errors": [],
+      "input": "new-SbRunSmm0.efi",
+      "recovered_functions": 53
+    },
+    {
+      "decompiled_functions": 2154,
+      "export_errors": [
+        {
+          "entry": "000db94c",
+          "error": ""
+        },
+        {
+          "entry": "000db954",
+          "error": ""
+        },
+        {
+          "entry": "000db95c",
+          "error": ""
+        }
+      ],
+      "input": "new-TlsDxe0.efi",
+      "recovered_functions": 2157
+    },
+    {
+      "decompiled_functions": 3058,
+      "export_errors": [
+        {
+          "entry": "000fcee8",
+          "error": ""
+        },
+        {
+          "entry": "0015bd14",
+          "error": ""
+        },
+        {
+          "entry": "0015bd1c",
+          "error": ""
+        },
+        {
+          "entry": "0015bd24",
+          "error": ""
+        },
+        {
+          "entry": "0015bd2c",
+          "error": ""
+        },
+        {
+          "entry": "0015bd34",
+          "error": ""
+        },
+        {
+          "entry": "0015bdfc",
+          "error": ""
+        }
+      ],
+      "input": "old-AMITSE0.efi",
+      "recovered_functions": 3065
+    },
+    {
+      "decompiled_functions": 1738,
+      "export_errors": [
+        {
+          "entry": "000b1a90",
+          "error": ""
+        },
+        {
+          "entry": "000b1a98",
+          "error": ""
+        },
+        {
+          "entry": "000b1aa0",
+          "error": ""
+        }
+      ],
+      "input": "old-FmpDxe0.efi",
+      "recovered_functions": 1741
+    },
+    {
+      "decompiled_functions": 1763,
+      "export_errors": [
+        {
+          "entry": "000b34c0",
+          "error": ""
+        },
+        {
+          "entry": "000b34c8",
+          "error": ""
+        },
+        {
+          "entry": "000b34d0",
+          "error": ""
+        }
+      ],
+      "input": "old-FmpDxe1.efi",
+      "recovered_functions": 1766
+    },
+    {
+      "decompiled_functions": 1736,
+      "export_errors": [
+        {
+          "entry": "000b1720",
+          "error": ""
+        },
+        {
+          "entry": "000b1728",
+          "error": ""
+        },
+        {
+          "entry": "000b1730",
+          "error": ""
+        }
+      ],
+      "input": "old-FmpDxe2.efi",
+      "recovered_functions": 1739
+    },
+    {
+      "decompiled_functions": 1739,
+      "export_errors": [
+        {
+          "entry": "000b18a0",
+          "error": ""
+        },
+        {
+          "entry": "000b18a8",
+          "error": ""
+        },
+        {
+          "entry": "000b18b0",
+          "error": ""
+        }
+      ],
+      "input": "old-FmpDxe3.efi",
+      "recovered_functions": 1742
+    },
+    {
+      "decompiled_functions": 75,
+      "export_errors": [
+        {
+          "entry": "0000607c",
+          "error": ""
+        },
+        {
+          "entry": "00006084",
+          "error": ""
+        },
+        {
+          "entry": "000060f0",
+          "error": ""
+        }
+      ],
+      "input": "old-PrjDxe0.efi",
+      "recovered_functions": 78
+    },
+    {
+      "decompiled_functions": 52,
+      "export_errors": [],
+      "input": "old-SbRun0.efi",
+      "recovered_functions": 52
+    },
+    {
+      "decompiled_functions": 54,
+      "export_errors": [],
+      "input": "old-SbRunSmm0.efi",
+      "recovered_functions": 54
+    },
+    {
+      "decompiled_functions": 2154,
+      "export_errors": [
+        {
+          "entry": "000db93c",
+          "error": ""
+        },
+        {
+          "entry": "000db944",
+          "error": ""
+        },
+        {
+          "entry": "000db94c",
+          "error": ""
+        }
+      ],
+      "input": "old-TlsDxe0.efi",
+      "recovered_functions": 2157
+    }
+  ],
+  "jdk": "Temurin 25.0.1+8",
+  "total_decompiled_functions": 27548,
+  "total_recovered_functions": 27612
+}

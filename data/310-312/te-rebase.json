@@ -1,0 +1,97 @@
+[
+  {
+    "module": "AmdSocFp8StxKrkPei",
+    "sections": [
+      {
+        "first_differences": [],
+        "name": ".text",
+        "new_size": 34944,
+        "old_size": 34944,
+        "pointers_adjusted_by_8": 205,
+        "remaining_differing_bytes": 0
+      },
+      {
+        "first_differences": [],
+        "name": ".data",
+        "new_size": 6624,
+        "old_size": 6624,
+        "pointers_adjusted_by_8": 77,
+        "remaining_differing_bytes": 0
+      },
+      {
+        "first_differences": [],
+        "name": ".reloc",
+        "new_size": 672,
+        "old_size": 672,
+        "pointers_adjusted_by_8": 0,
+        "remaining_differing_bytes": 0
+      }
+    ]
+  },
+  {
+    "module": "PrjPei",
+    "sections": [
+      {
+        "first_differences": [],
+        "name": ".text",
+        "new_size": 160,
+        "old_size": 160,
+        "pointers_adjusted_by_8": 0,
+        "remaining_differing_bytes": 0
+      },
+      {
+        "first_differences": [],
+        "name": ".data",
+        "new_size": 224,
+        "old_size": 224,
+        "pointers_adjusted_by_8": 0,
+        "remaining_differing_bytes": 0
+      }
+    ]
+  },
+  {
+    "module": "Volume Top File",
+    "sections": [
+      {
+        "first_differences": [],
+        "name": ".text",
+        "new_size": 15840,
+        "old_size": 15840,
+        "pointers_adjusted_by_8": 342,
+        "remaining_differing_bytes": 0
+      },
+      {
+        "first_differences": [],
+        "name": "STARTUP_",
+        "new_size": 1792,
+        "old_size": 1792,
+        "pointers_adjusted_by_8": 4,
+        "remaining_differing_bytes": 0
+      },
+      {
+        "first_differences": [],
+        "name": ".rodata",
+        "new_size": 32,
+        "old_size": 32,
+        "pointers_adjusted_by_8": 0,
+        "remaining_differing_bytes": 0
+      },
+      {
+        "first_differences": [],
+        "name": ".data",
+        "new_size": 2912,
+        "old_size": 2912,
+        "pointers_adjusted_by_8": 55,
+        "remaining_differing_bytes": 0
+      },
+      {
+        "first_differences": [],
+        "name": ".reloc",
+        "new_size": 0,
+        "old_size": 0,
+        "pointers_adjusted_by_8": 0,
+        "remaining_differing_bytes": 0
+      }
+    ]
+  }
+]

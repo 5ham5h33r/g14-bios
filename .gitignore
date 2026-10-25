@@ -1,0 +1,15 @@
+/.cache/
+/local/
+__pycache__/
+*.pyc
+.venv/
+*.zip
+*.bin
+*.efi
+*.rom
+*.cap
+*.gpr
+*.rep/
+*.dump/
+*.log
+.DS_Store
