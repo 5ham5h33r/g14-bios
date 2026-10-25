@@ -60,6 +60,10 @@ for path in ROOT.rglob("*.md"):
     if any(part in (".git", "local", ".venv") for part in path.parts):
         continue
     text = path.read_text(encoding="utf-8")
+    if path.parent == ROOT / "changelog" and re.fullmatch(r"\d+-to-\d+\.md", path.name):
+        sections = re.findall(r"^## (.+)$", text, re.M)
+        check(bool(sections) and sections[0] == "Plain-language takeaway",
+              f"Changelog must open with a plain-language takeaway: {path.name}")
     check("—" not in text, f"Em dash in prose: {path.relative_to(ROOT)}")
     check(not re.search(r"C:[/\\]Users[/\\]", text, re.I), f"Local user path in {path.relative_to(ROOT)}")
     for target in re.findall(r"\[[^\]]*\]\(([^)]+)\)", text):

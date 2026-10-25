@@ -4,7 +4,7 @@ Firmware changes for the **2025 ASUS ROG Zephyrus G14, GA403WR**.
 
 ASUS describes BIOS 312 as “Optimize system performance.” I wanted to know what changed, so I started comparing the update images. These notes cover the code, tables and bundled firmware I can identify, with offsets and hashes for checking the findings.
 
-**Start with [310 → 312](changelog/310-to-312.md).** The comparison covers:
+**Start with the [plain-language takeaway for 310 → 312](changelog/310-to-312.md#plain-language-takeaway).** The detailed evidence follows it. The comparison covers:
 
 | Area | Finding |
 |---|---|

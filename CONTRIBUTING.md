@@ -16,3 +16,5 @@ Use the confidence labels in [the method](docs/method.md). A match to an upstrea
 Please leave firmware images, flash dumps, serial numbers, device identifiers and credentials out of issues and pull requests. Link the official download and include its hash. Small instruction excerpts and original pseudocode are enough for most findings.
 
 Write changes in plain language. Name the condition and the resulting behavior. Keep speculation in the open-questions section and cite the source of a register or structure definition.
+
+Every release-comparison changelog must start with a `## Plain-language takeaway` section before its technical findings. Explain what an owner might notice, define unfamiliar terms, and distinguish confirmed changes from effects that still need a hardware test. Keep addresses, instruction names and register details in the evidence sections. Update the takeaway whenever a finding changes, and check it before each push.
