@@ -1,0 +1,128 @@
+{
+  "module": "AmdCpmDisplayFeatureDxe-57E9EEE9",
+  "old_function_count": 19,
+  "new_function_count": 19,
+  "matched": 19,
+  "changed_normalized_c": [
+    {
+      "old": "0000184c",
+      "new": "0000184c",
+      "match": "semantic_sha256",
+      "old_bytes": 1945,
+      "new_bytes": 1945
+    },
+    {
+      "old": "00001fe8",
+      "new": "00001fe8",
+      "match": "similar_c:0.648",
+      "old_bytes": 314,
+      "new_bytes": 382
+    },
+    {
+      "old": "00003f84",
+      "new": "00003fc8",
+      "match": "semantic_sha256",
+      "old_bytes": 97,
+      "new_bytes": 97
+    }
+  ],
+  "unmatched_old": [],
+  "unmatched_new": [],
+  "pairs": [
+    [
+      "00000750",
+      "00000750",
+      "semantic_sha256"
+    ],
+    [
+      "000002d0",
+      "000002d0",
+      "semantic_sha256"
+    ],
+    [
+      "00000340",
+      "00000340",
+      "semantic_sha256"
+    ],
+    [
+      "00000b30",
+      "00000b30",
+      "semantic_sha256"
+    ],
+    [
+      "00003f84",
+      "00003fc8",
+      "semantic_sha256"
+    ],
+    [
+      "00000e60",
+      "00000e60",
+      "semantic_sha256"
+    ],
+    [
+      "0000220c",
+      "00002250",
+      "semantic_sha256"
+    ],
+    [
+      "00000324",
+      "00000324",
+      "semantic_sha256"
+    ],
+    [
+      "0000184c",
+      "0000184c",
+      "semantic_sha256"
+    ],
+    [
+      "00003f44",
+      "00003f88",
+      "semantic_sha256"
+    ],
+    [
+      "000010f4",
+      "000010f4",
+      "semantic_sha256"
+    ],
+    [
+      "00000bdc",
+      "00000bdc",
+      "semantic_sha256"
+    ],
+    [
+      "00000260",
+      "00000260",
+      "semantic_sha256"
+    ],
+    [
+      "00002124",
+      "00002168",
+      "semantic_sha256"
+    ],
+    [
+      "00000538",
+      "00000538",
+      "semantic_sha256"
+    ],
+    [
+      "00001530",
+      "00001530",
+      "semantic_sha256"
+    ],
+    [
+      "000002c0",
+      "000002c0",
+      "semantic_sha256"
+    ],
+    [
+      "00003fe8",
+      "0000402c",
+      "semantic_sha256"
+    ],
+    [
+      "00001fe8",
+      "00001fe8",
+      "similar_c:0.648"
+    ]
+  ]
+}

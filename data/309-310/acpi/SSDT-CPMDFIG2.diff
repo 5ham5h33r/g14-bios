@@ -1,0 +1,20 @@
+--- 309-SSDT-67-CPMDFIG2.dsl
+
++++ 310-SSDT-67-CPMDFIG2.dsl
+
+@@ -368,12 +368,12 @@
+
+         Method (ATCA, 1, Serialized)
+         {
+             CreateWordField (Arg0, Zero, M157)
+             CreateByteField (Arg0, 0x02, M23F)
+             CreateByteField (Arg0, 0x03, M240)
+-            Local0 = ((M240 & 0x0F) << 0x04)
+-            Local0 |= (M23F & 0x0F)
++            Local0 = ((M240 & 0x07) << 0x05)
++            Local0 |= (M23F & 0x1F)
+             M232 (M23A, Local0, One)
+         }
+
+         Method (XTRM, 2, Serialized)
+         {

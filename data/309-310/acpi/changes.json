@@ -1,0 +1,163 @@
+[
+  {
+    "key": "root/Image:UEFI:#1/Volume:FFSv3:#1/File:Volume image:9E21FD93-9C72-4C15-8C4B-E77F1DB2D792#1/Section:GUID defined:EE4E5898-3914-4259-9D6E-DC7BD79403CF#1/Section:Volume image:#1/Volume:FFSv2:#1/File:DXE driver:3821290E-B8DD-4821-8182-0361DE51609D#1/Section:Raw:#6",
+    "old": {
+      "signature": "SSDT",
+      "oem_id": "AMD",
+      "oem_table": "INTGPPC_",
+      "bytes": 38699,
+      "sha256": "76d4f799ae7cc93c2c75212579e255186bcd0253257d1d28eee7f90c63418760",
+      "version": "309",
+      "key": "root/Image:UEFI:#1/Volume:FFSv3:#1/File:Volume image:9E21FD93-9C72-4C15-8C4B-E77F1DB2D792#1/Section:GUID defined:EE4E5898-3914-4259-9D6E-DC7BD79403CF#1/Section:Volume image:#1/Volume:FFSv2:#1/File:DXE driver:3821290E-B8DD-4821-8182-0361DE51609D#1/Section:Raw:#6",
+      "source": "0 UEFI image/9 4F1C52D3-D824-4D2A-A2F0-EC40C23C5916/0 9E21FD93-9C72-4C15-8C4B-E77F1DB2D792/0 EE4E5898-3914-4259-9D6E-DC7BD79403CF/1 Volume image section/0 5C60F367-A505-419A-859E-2A4FF6CA6FE5/350 AmdCpmOemAcpi/9 Raw section/body.bin"
+    },
+    "new": {
+      "signature": "SSDT",
+      "oem_id": "AMD",
+      "oem_table": "INTGPPC_",
+      "bytes": 38865,
+      "sha256": "3dce435708ce9a31b3ec6cd9f196ddae37aebd2b8463031845a20f598a623079",
+      "version": "310",
+      "key": "root/Image:UEFI:#1/Volume:FFSv3:#1/File:Volume image:9E21FD93-9C72-4C15-8C4B-E77F1DB2D792#1/Section:GUID defined:EE4E5898-3914-4259-9D6E-DC7BD79403CF#1/Section:Volume image:#1/Volume:FFSv2:#1/File:DXE driver:3821290E-B8DD-4821-8182-0361DE51609D#1/Section:Raw:#6",
+      "source": "0 UEFI image/9 4F1C52D3-D824-4D2A-A2F0-EC40C23C5916/0 9E21FD93-9C72-4C15-8C4B-E77F1DB2D792/0 EE4E5898-3914-4259-9D6E-DC7BD79403CF/1 Volume image section/0 5C60F367-A505-419A-859E-2A4FF6CA6FE5/351 AmdCpmOemAcpi/9 Raw section/body.bin"
+    }
+  },
+  {
+    "key": "root/Image:UEFI:#1/Volume:FFSv3:#1/File:Volume image:9E21FD93-9C72-4C15-8C4B-E77F1DB2D792#1/Section:GUID defined:EE4E5898-3914-4259-9D6E-DC7BD79403CF#1/Section:Volume image:#1/Volume:FFSv2:#1/File:DXE driver:57E9EEE9-EB7D-4453-BBF7-6C138BF06458#1/Section:Raw:#10",
+    "old": {
+      "signature": "SSDT",
+      "oem_id": "AMD",
+      "oem_table": "CPMDFIG1",
+      "bytes": 5662,
+      "sha256": "2fee6c69df9f5a4ca0b1711f11cbe005dc937380fb93e1c0e219f6069e21c378",
+      "version": "309",
+      "key": "root/Image:UEFI:#1/Volume:FFSv3:#1/File:Volume image:9E21FD93-9C72-4C15-8C4B-E77F1DB2D792#1/Section:GUID defined:EE4E5898-3914-4259-9D6E-DC7BD79403CF#1/Section:Volume image:#1/Volume:FFSv2:#1/File:DXE driver:57E9EEE9-EB7D-4453-BBF7-6C138BF06458#1/Section:Raw:#10",
+      "source": "0 UEFI image/9 4F1C52D3-D824-4D2A-A2F0-EC40C23C5916/0 9E21FD93-9C72-4C15-8C4B-E77F1DB2D792/0 EE4E5898-3914-4259-9D6E-DC7BD79403CF/1 Volume image section/0 5C60F367-A505-419A-859E-2A4FF6CA6FE5/354 AmdCpmDisplayFeatureDxe/13 Raw section/body.bin"
+    },
+    "new": {
+      "signature": "SSDT",
+      "oem_id": "AMD",
+      "oem_table": "CPMDFIG1",
+      "bytes": 5662,
+      "sha256": "5c5df1f44046cfec49c5e99eb7beb9148ab150830b7f7ad209ea291cfa4054b9",
+      "version": "310",
+      "key": "root/Image:UEFI:#1/Volume:FFSv3:#1/File:Volume image:9E21FD93-9C72-4C15-8C4B-E77F1DB2D792#1/Section:GUID defined:EE4E5898-3914-4259-9D6E-DC7BD79403CF#1/Section:Volume image:#1/Volume:FFSv2:#1/File:DXE driver:57E9EEE9-EB7D-4453-BBF7-6C138BF06458#1/Section:Raw:#10",
+      "source": "0 UEFI image/9 4F1C52D3-D824-4D2A-A2F0-EC40C23C5916/0 9E21FD93-9C72-4C15-8C4B-E77F1DB2D792/0 EE4E5898-3914-4259-9D6E-DC7BD79403CF/1 Volume image section/0 5C60F367-A505-419A-859E-2A4FF6CA6FE5/355 AmdCpmDisplayFeatureDxe/13 Raw section/body.bin"
+    }
+  },
+  {
+    "key": "root/Image:UEFI:#1/Volume:FFSv3:#1/File:Volume image:9E21FD93-9C72-4C15-8C4B-E77F1DB2D792#1/Section:GUID defined:EE4E5898-3914-4259-9D6E-DC7BD79403CF#1/Section:Volume image:#1/Volume:FFSv2:#1/File:DXE driver:57E9EEE9-EB7D-4453-BBF7-6C138BF06458#1/Section:Raw:#11",
+    "old": {
+      "signature": "SSDT",
+      "oem_id": "AMD",
+      "oem_table": "CPMDFIG2",
+      "bytes": 5790,
+      "sha256": "69e5bbb2e0c3916acf5860aab07b0bca34e48ce007880550e734857cf806cf91",
+      "version": "309",
+      "key": "root/Image:UEFI:#1/Volume:FFSv3:#1/File:Volume image:9E21FD93-9C72-4C15-8C4B-E77F1DB2D792#1/Section:GUID defined:EE4E5898-3914-4259-9D6E-DC7BD79403CF#1/Section:Volume image:#1/Volume:FFSv2:#1/File:DXE driver:57E9EEE9-EB7D-4453-BBF7-6C138BF06458#1/Section:Raw:#11",
+      "source": "0 UEFI image/9 4F1C52D3-D824-4D2A-A2F0-EC40C23C5916/0 9E21FD93-9C72-4C15-8C4B-E77F1DB2D792/0 EE4E5898-3914-4259-9D6E-DC7BD79403CF/1 Volume image section/0 5C60F367-A505-419A-859E-2A4FF6CA6FE5/354 AmdCpmDisplayFeatureDxe/14 Raw section/body.bin"
+    },
+    "new": {
+      "signature": "SSDT",
+      "oem_id": "AMD",
+      "oem_table": "CPMDFIG2",
+      "bytes": 5790,
+      "sha256": "d0b39025aa40ac6d3efc8baca6139b9deca078cde4134517dd013fd95cd5de54",
+      "version": "310",
+      "key": "root/Image:UEFI:#1/Volume:FFSv3:#1/File:Volume image:9E21FD93-9C72-4C15-8C4B-E77F1DB2D792#1/Section:GUID defined:EE4E5898-3914-4259-9D6E-DC7BD79403CF#1/Section:Volume image:#1/Volume:FFSv2:#1/File:DXE driver:57E9EEE9-EB7D-4453-BBF7-6C138BF06458#1/Section:Raw:#11",
+      "source": "0 UEFI image/9 4F1C52D3-D824-4D2A-A2F0-EC40C23C5916/0 9E21FD93-9C72-4C15-8C4B-E77F1DB2D792/0 EE4E5898-3914-4259-9D6E-DC7BD79403CF/1 Volume image section/0 5C60F367-A505-419A-859E-2A4FF6CA6FE5/355 AmdCpmDisplayFeatureDxe/14 Raw section/body.bin"
+    }
+  },
+  {
+    "key": "root/Image:UEFI:#1/Volume:FFSv3:#1/File:Volume image:9E21FD93-9C72-4C15-8C4B-E77F1DB2D792#1/Section:GUID defined:EE4E5898-3914-4259-9D6E-DC7BD79403CF#1/Section:Volume image:#1/Volume:FFSv2:#1/File:DXE driver:57E9EEE9-EB7D-4453-BBF7-6C138BF06458#1/Section:Raw:#12",
+    "old": {
+      "signature": "SSDT",
+      "oem_id": "AMD",
+      "oem_table": "CPMDFIG3",
+      "bytes": 3113,
+      "sha256": "02f8c7717c0325296686cd50d01499e762551c25d00877c12d3650197af509a5",
+      "version": "309",
+      "key": "root/Image:UEFI:#1/Volume:FFSv3:#1/File:Volume image:9E21FD93-9C72-4C15-8C4B-E77F1DB2D792#1/Section:GUID defined:EE4E5898-3914-4259-9D6E-DC7BD79403CF#1/Section:Volume image:#1/Volume:FFSv2:#1/File:DXE driver:57E9EEE9-EB7D-4453-BBF7-6C138BF06458#1/Section:Raw:#12",
+      "source": "0 UEFI image/9 4F1C52D3-D824-4D2A-A2F0-EC40C23C5916/0 9E21FD93-9C72-4C15-8C4B-E77F1DB2D792/0 EE4E5898-3914-4259-9D6E-DC7BD79403CF/1 Volume image section/0 5C60F367-A505-419A-859E-2A4FF6CA6FE5/354 AmdCpmDisplayFeatureDxe/15 Raw section/body.bin"
+    },
+    "new": {
+      "signature": "SSDT",
+      "oem_id": "AMD",
+      "oem_table": "CPMDFIG3",
+      "bytes": 3113,
+      "sha256": "999b08def99cb95461cbb7da3a32dbd6bb14e1067a58f66f6968cb5e1aee9ef1",
+      "version": "310",
+      "key": "root/Image:UEFI:#1/Volume:FFSv3:#1/File:Volume image:9E21FD93-9C72-4C15-8C4B-E77F1DB2D792#1/Section:GUID defined:EE4E5898-3914-4259-9D6E-DC7BD79403CF#1/Section:Volume image:#1/Volume:FFSv2:#1/File:DXE driver:57E9EEE9-EB7D-4453-BBF7-6C138BF06458#1/Section:Raw:#12",
+      "source": "0 UEFI image/9 4F1C52D3-D824-4D2A-A2F0-EC40C23C5916/0 9E21FD93-9C72-4C15-8C4B-E77F1DB2D792/0 EE4E5898-3914-4259-9D6E-DC7BD79403CF/1 Volume image section/0 5C60F367-A505-419A-859E-2A4FF6CA6FE5/355 AmdCpmDisplayFeatureDxe/15 Raw section/body.bin"
+    }
+  },
+  {
+    "key": "root/Image:UEFI:#1/Volume:FFSv3:#1/File:Volume image:9E21FD93-9C72-4C15-8C4B-E77F1DB2D792#1/Section:GUID defined:EE4E5898-3914-4259-9D6E-DC7BD79403CF#1/Section:Volume image:#1/Volume:FFSv2:#1/File:DXE driver:57E9EEE9-EB7D-4453-BBF7-6C138BF06458#1/Section:Raw:#13",
+    "old": {
+      "signature": "SSDT",
+      "oem_id": "AMD",
+      "oem_table": "CPMDFIG4",
+      "bytes": 3241,
+      "sha256": "86a2bb94f94d94bc7d9d18b45155de1176cbb7f970c6ce8ab6e0e28540c2740e",
+      "version": "309",
+      "key": "root/Image:UEFI:#1/Volume:FFSv3:#1/File:Volume image:9E21FD93-9C72-4C15-8C4B-E77F1DB2D792#1/Section:GUID defined:EE4E5898-3914-4259-9D6E-DC7BD79403CF#1/Section:Volume image:#1/Volume:FFSv2:#1/File:DXE driver:57E9EEE9-EB7D-4453-BBF7-6C138BF06458#1/Section:Raw:#13",
+      "source": "0 UEFI image/9 4F1C52D3-D824-4D2A-A2F0-EC40C23C5916/0 9E21FD93-9C72-4C15-8C4B-E77F1DB2D792/0 EE4E5898-3914-4259-9D6E-DC7BD79403CF/1 Volume image section/0 5C60F367-A505-419A-859E-2A4FF6CA6FE5/354 AmdCpmDisplayFeatureDxe/16 Raw section/body.bin"
+    },
+    "new": {
+      "signature": "SSDT",
+      "oem_id": "AMD",
+      "oem_table": "CPMDFIG4",
+      "bytes": 3241,
+      "sha256": "c8682208f73544f8145e70358e9d55a9e6349d4a640ba1232bae78a66fad3816",
+      "version": "310",
+      "key": "root/Image:UEFI:#1/Volume:FFSv3:#1/File:Volume image:9E21FD93-9C72-4C15-8C4B-E77F1DB2D792#1/Section:GUID defined:EE4E5898-3914-4259-9D6E-DC7BD79403CF#1/Section:Volume image:#1/Volume:FFSv2:#1/File:DXE driver:57E9EEE9-EB7D-4453-BBF7-6C138BF06458#1/Section:Raw:#13",
+      "source": "0 UEFI image/9 4F1C52D3-D824-4D2A-A2F0-EC40C23C5916/0 9E21FD93-9C72-4C15-8C4B-E77F1DB2D792/0 EE4E5898-3914-4259-9D6E-DC7BD79403CF/1 Volume image section/0 5C60F367-A505-419A-859E-2A4FF6CA6FE5/355 AmdCpmDisplayFeatureDxe/16 Raw section/body.bin"
+    }
+  },
+  {
+    "key": "root/Image:UEFI:#1/Volume:FFSv3:#1/File:Volume image:9E21FD93-9C72-4C15-8C4B-E77F1DB2D792#1/Section:GUID defined:EE4E5898-3914-4259-9D6E-DC7BD79403CF#1/Section:Volume image:#1/Volume:FFSv2:#1/File:Freeform:31A8592D-BFF6-4A00-B4DB-74F1571E879E#1/Section:Raw:#1",
+    "old": {
+      "signature": "SSDT",
+      "oem_id": "OemNv2",
+      "oem_table": "OemNv2T",
+      "bytes": 17237,
+      "sha256": "8d61f5e870ed381b02cb2ad922c64acb8c95c3968acef406c6d825ca34157381",
+      "version": "309",
+      "key": "root/Image:UEFI:#1/Volume:FFSv3:#1/File:Volume image:9E21FD93-9C72-4C15-8C4B-E77F1DB2D792#1/Section:GUID defined:EE4E5898-3914-4259-9D6E-DC7BD79403CF#1/Section:Volume image:#1/Volume:FFSv2:#1/File:Freeform:31A8592D-BFF6-4A00-B4DB-74F1571E879E#1/Section:Raw:#1",
+      "source": "0 UEFI image/9 4F1C52D3-D824-4D2A-A2F0-EC40C23C5916/0 9E21FD93-9C72-4C15-8C4B-E77F1DB2D792/0 EE4E5898-3914-4259-9D6E-DC7BD79403CF/1 Volume image section/0 5C60F367-A505-419A-859E-2A4FF6CA6FE5/324 31A8592D-BFF6-4A00-B4DB-74F1571E879E/0 Raw section/body.bin"
+    },
+    "new": {
+      "signature": "SSDT",
+      "oem_id": "OemNv2",
+      "oem_table": "OemNv2T",
+      "bytes": 17082,
+      "sha256": "b269537a744aeba25eb597693114bf91d0ea6ee4de111a5185e935732c6b6bee",
+      "version": "310",
+      "key": "root/Image:UEFI:#1/Volume:FFSv3:#1/File:Volume image:9E21FD93-9C72-4C15-8C4B-E77F1DB2D792#1/Section:GUID defined:EE4E5898-3914-4259-9D6E-DC7BD79403CF#1/Section:Volume image:#1/Volume:FFSv2:#1/File:Freeform:31A8592D-BFF6-4A00-B4DB-74F1571E879E#1/Section:Raw:#1",
+      "source": "0 UEFI image/9 4F1C52D3-D824-4D2A-A2F0-EC40C23C5916/0 9E21FD93-9C72-4C15-8C4B-E77F1DB2D792/0 EE4E5898-3914-4259-9D6E-DC7BD79403CF/1 Volume image section/0 5C60F367-A505-419A-859E-2A4FF6CA6FE5/325 31A8592D-BFF6-4A00-B4DB-74F1571E879E/0 Raw section/body.bin"
+    }
+  },
+  {
+    "key": "root/Image:UEFI:#1/Volume:FFSv3:#1/File:Volume image:9E21FD93-9C72-4C15-8C4B-E77F1DB2D792#1/Section:GUID defined:EE4E5898-3914-4259-9D6E-DC7BD79403CF#1/Section:Volume image:#1/Volume:FFSv2:#1/File:Freeform:C118F50D-391D-45F4-B3D3-11BC931AA56D#1/Section:Raw:#1",
+    "old": {
+      "signature": "DSDT",
+      "oem_id": "_ASUS_",
+      "oem_table": "Notebook",
+      "bytes": 66199,
+      "sha256": "f29d940a578fa4cad5485ceca25637079653a5139334c676439f41d4514affe8",
+      "version": "309",
+      "key": "root/Image:UEFI:#1/Volume:FFSv3:#1/File:Volume image:9E21FD93-9C72-4C15-8C4B-E77F1DB2D792#1/Section:GUID defined:EE4E5898-3914-4259-9D6E-DC7BD79403CF#1/Section:Volume image:#1/Volume:FFSv2:#1/File:Freeform:C118F50D-391D-45F4-B3D3-11BC931AA56D#1/Section:Raw:#1",
+      "source": "0 UEFI image/9 4F1C52D3-D824-4D2A-A2F0-EC40C23C5916/0 9E21FD93-9C72-4C15-8C4B-E77F1DB2D792/0 EE4E5898-3914-4259-9D6E-DC7BD79403CF/1 Volume image section/0 5C60F367-A505-419A-859E-2A4FF6CA6FE5/325 C118F50D-391D-45F4-B3D3-11BC931AA56D/0 Raw section/body.bin"
+    },
+    "new": {
+      "signature": "DSDT",
+      "oem_id": "_ASUS_",
+      "oem_table": "Notebook",
+      "bytes": 66275,
+      "sha256": "c5f1f6b74c7b45e76c7b54772b2f47f105b7009439304124a22729d94405cacd",
+      "version": "310",
+      "key": "root/Image:UEFI:#1/Volume:FFSv3:#1/File:Volume image:9E21FD93-9C72-4C15-8C4B-E77F1DB2D792#1/Section:GUID defined:EE4E5898-3914-4259-9D6E-DC7BD79403CF#1/Section:Volume image:#1/Volume:FFSv2:#1/File:Freeform:C118F50D-391D-45F4-B3D3-11BC931AA56D#1/Section:Raw:#1",
+      "source": "0 UEFI image/9 4F1C52D3-D824-4D2A-A2F0-EC40C23C5916/0 9E21FD93-9C72-4C15-8C4B-E77F1DB2D792/0 EE4E5898-3914-4259-9D6E-DC7BD79403CF/1 Volume image section/0 5C60F367-A505-419A-859E-2A4FF6CA6FE5/326 C118F50D-391D-45F4-B3D3-11BC931AA56D/0 Raw section/body.bin"
+    }
+  }
+]

@@ -1,0 +1,48 @@
+--- 309-SSDT-52-INTGPPC_.dsl
+
++++ 310-SSDT-52-INTGPPC_.dsl
+
+@@ -3705,12 +3705,18 @@
+
+         Device (SWUS)
+         {
+             Name (_ADR, Zero)  // _ADR: Address
+             Method (_RMV, 0, Serialized)  // _RMV: Removal Status
+             {
+-                M460 ("  OEM-ASL-\\_SB.PCI0.GPP0.SWUS._RMV ()  Return 0\n", Zero, Zero, Zero, Zero, Zero, Zero)
+-                Return (Zero)
++                If ((RPRM ((DADR + 0x0A), 0x02) == 0x0604))
++                {
++                    M460 ("  OEM-ASL-\\_SB.PCI0.GPP0.SWUS._RMV ()  Return 0\n", Zero, Zero, Zero, Zero, Zero, Zero)
++                    Return (Zero)
++                }
++
++                M460 ("  OEM-ASL-\\_SB.PCI0.GPP0.SWUS._RMV ()  Return 1\n", Zero, Zero, Zero, Zero, Zero, Zero)
++                Return (One)
+             }
+
+             Method (_S0W, 0, Serialized)  // _S0W: S0 Device Wake State
+             {
+                 M000 (0x3F94)
+@@ -4768,12 +4774,18 @@
+
+         Device (SWUS)
+         {
+             Name (_ADR, Zero)  // _ADR: Address
+             Method (_RMV, 0, Serialized)  // _RMV: Removal Status
+             {
+-                M460 ("  OEM-ASL-\\_SB.PCI0.GPP1.SWUS._RMV ()  Return 0\n", Zero, Zero, Zero, Zero, Zero, Zero)
+-                Return (Zero)
++                If ((RPRM ((DADR + 0x0A), 0x02) == 0x0604))
++                {
++                    M460 ("  OEM-ASL-\\_SB.PCI0.GPP1.SWUS._RMV ()  Return 0\n", Zero, Zero, Zero, Zero, Zero, Zero)
++                    Return (Zero)
++                }
++
++                M460 ("  OEM-ASL-\\_SB.PCI0.GPP1.SWUS._RMV ()  Return 1\n", Zero, Zero, Zero, Zero, Zero, Zero)
++                Return (One)
+             }
+
+             Method (_S0W, 0, Serialized)  // _S0W: S0 Device Wake State
+             {
+                 M000 (0x3FA4)

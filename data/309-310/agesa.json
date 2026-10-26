@@ -1,0 +1,16 @@
+[
+  {
+    "version": "309",
+    "key": "root/Image:UEFI:#1/Volume:FFSv3:#1/File:Volume image:9E21FD93-9C72-4C15-8C4B-E77F1DB2D792#1/Section:GUID defined:EE4E5898-3914-4259-9D6E-DC7BD79403CF#1/Section:Volume image:#1/Volume:FFSv2:#1/File:DXE driver:29D40F30-E8BF-4803-88A6-4247A29A5318#1/Section:PE32 image:#1",
+    "sha256": "73988392e640a17bab76996489fcb62167ec8e6ff0e36a7bf87a3e8ddc7281c2",
+    "file_offset": "0x3d9",
+    "string": "StrixKrackanPI-FP8 1.1.0.0a"
+  },
+  {
+    "version": "310",
+    "key": "root/Image:UEFI:#1/Volume:FFSv3:#1/File:Volume image:9E21FD93-9C72-4C15-8C4B-E77F1DB2D792#1/Section:GUID defined:EE4E5898-3914-4259-9D6E-DC7BD79403CF#1/Section:Volume image:#1/Volume:FFSv2:#1/File:DXE driver:29D40F30-E8BF-4803-88A6-4247A29A5318#1/Section:PE32 image:#1",
+    "sha256": "dea1d6de13eff96a951110cf691ed58b3eda6f1bb9c804fdf0b7d7c88e941a4f",
+    "file_offset": "0x3d9",
+    "string": "StrixKrackanPI-FP8 1.1.0.0c"
+  }
+]

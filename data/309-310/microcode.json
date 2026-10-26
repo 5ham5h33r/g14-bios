@@ -1,0 +1,82 @@
+[
+  {
+    "version": "309",
+    "key": "root/Image:UEFI:#1/AMD microcode::#1",
+    "sha256": "7a1cf56779d465d1894f4a3ddb124c780969f61a0d76ec88fbb49be7cdf77f26",
+    "bytes": 14368,
+    "capsule_offset": "0x68a200",
+    "cpu_signature": "0000B240h",
+    "revision": "0B20401Bh",
+    "date": "14.10.2024"
+  },
+  {
+    "version": "309",
+    "key": "root/Image:UEFI:#1/AMD microcode::#2",
+    "sha256": "d2289e897af97443e5e91966b11758edbb743a6ee93cc86a534b74e3491177e3",
+    "bytes": 14368,
+    "capsule_offset": "0x68dd00",
+    "cpu_signature": "0000B600h",
+    "revision": "0B60000Eh",
+    "date": "14.10.2024"
+  },
+  {
+    "version": "309",
+    "key": "root/Image:UEFI:#1/AMD microcode::#3",
+    "sha256": "7a1cf56779d465d1894f4a3ddb124c780969f61a0d76ec88fbb49be7cdf77f26",
+    "bytes": 14368,
+    "capsule_offset": "0xbd6200",
+    "cpu_signature": "0000B240h",
+    "revision": "0B20401Bh",
+    "date": "14.10.2024"
+  },
+  {
+    "version": "309",
+    "key": "root/Image:UEFI:#1/AMD microcode::#4",
+    "sha256": "d2289e897af97443e5e91966b11758edbb743a6ee93cc86a534b74e3491177e3",
+    "bytes": 14368,
+    "capsule_offset": "0xbd9d00",
+    "cpu_signature": "0000B600h",
+    "revision": "0B60000Eh",
+    "date": "14.10.2024"
+  },
+  {
+    "version": "310",
+    "key": "root/Image:UEFI:#1/AMD microcode::#1",
+    "sha256": "6e42570341e778a2d8cb2e40e9aa812e509dc806a49c4d346e86de10b435cd04",
+    "bytes": 14368,
+    "capsule_offset": "0x68a200",
+    "cpu_signature": "0000B240h",
+    "revision": "0B204032h",
+    "date": "25.02.2025"
+  },
+  {
+    "version": "310",
+    "key": "root/Image:UEFI:#1/AMD microcode::#2",
+    "sha256": "b53295bb0573f5f99ed9bf0ca13356e4ad9c5a0f2ca152a8207aa6a49eab2ab7",
+    "bytes": 14368,
+    "capsule_offset": "0x68dd00",
+    "cpu_signature": "0000B600h",
+    "revision": "0B600032h",
+    "date": "25.02.2025"
+  },
+  {
+    "version": "310",
+    "key": "root/Image:UEFI:#1/AMD microcode::#3",
+    "sha256": "6e42570341e778a2d8cb2e40e9aa812e509dc806a49c4d346e86de10b435cd04",
+    "bytes": 14368,
+    "capsule_offset": "0xbd6200",
+    "cpu_signature": "0000B240h",
+    "revision": "0B204032h",
+    "date": "25.02.2025"
+  },
+  {
+    "version": "310",
+    "key": "root/Image:UEFI:#1/AMD microcode::#4",
+    "sha256": "b53295bb0573f5f99ed9bf0ca13356e4ad9c5a0f2ca152a8207aa6a49eab2ab7",
+    "bytes": 14368,
+    "capsule_offset": "0xbd9d00",
+    "cpu_signature": "0000B600h",
+    "revision": "0B600032h",
+    "date": "25.02.2025"
+  }
+]

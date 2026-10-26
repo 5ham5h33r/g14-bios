@@ -1,0 +1,630 @@
+{
+  "ghidra": "12.2",
+  "jdk": "Temurin 25.0.1",
+  "counts_are_recovered_boundaries_not_source_functions": true,
+  "images": [
+    {
+      "version": "309",
+      "module": "EC",
+      "sha256": "d64307371d0092a6925f90ce6e0761c15a793d5c12a2cebea4a0e9d7595aa0e3",
+      "input": "ec-309.bin",
+      "recovered_functions": 1413,
+      "decompiled_functions": 1406,
+      "export_errors": [
+        {
+          "entry": "ram:00008a2e",
+          "error": ""
+        },
+        {
+          "entry": "ram:0000c314",
+          "error": ""
+        },
+        {
+          "entry": "ram:000114ae",
+          "error": ""
+        },
+        {
+          "entry": "ram:00022966",
+          "error": ""
+        },
+        {
+          "entry": "ram:0003218c",
+          "error": ""
+        },
+        {
+          "entry": "ram:00033142",
+          "error": ""
+        },
+        {
+          "entry": "ram:00039806",
+          "error": ""
+        }
+      ]
+    },
+    {
+      "version": "309",
+      "module": "CpuDxe",
+      "file_guid": "E03ABADF-E536-4E88-B3A0-B77F78EB34FE",
+      "sha256": "aab5cea94f91ba15bc66f030cb404a7425fb1e56572119ac4579ddb70a2fdbe5",
+      "input": "309-CpuDxe-E03ABADF.efi",
+      "recovered_functions": 55,
+      "decompiled_functions": 55,
+      "export_errors": []
+    },
+    {
+      "version": "309",
+      "module": "AmdCcxZen5Dxe",
+      "file_guid": "9FB8AC55-D266-4F86-AC43-BF2BA74F5A7A",
+      "sha256": "0fd47ac94a7c8d8ff91c1bf9ad665247cd5e97d579282484da8097d9db8ca08a",
+      "input": "309-AmdCcxZen5Dxe-9FB8AC55.efi",
+      "recovered_functions": 92,
+      "decompiled_functions": 92,
+      "export_errors": []
+    },
+    {
+      "version": "309",
+      "module": "FchHuangshanDxe",
+      "file_guid": "26FD847A-DC93-4D93-917C-6041A3856CBC",
+      "sha256": "ed214350af9f19b31de9ae785d4573bb943db69e9faee99736456987a34aad1f",
+      "input": "309-FchHuangshanDxe-26FD847A.efi",
+      "recovered_functions": 88,
+      "decompiled_functions": 88,
+      "export_errors": []
+    },
+    {
+      "version": "309",
+      "module": "AmdNbioDxe",
+      "file_guid": "AD82C06C-34C0-44F0-BA98-801C3CA7592F",
+      "sha256": "acc2dd75dd491c1ffae695d6ca30f9e7c4a271552d830f167eff32c8f84984e4",
+      "input": "309-AmdNbioDxe-AD82C06C.efi",
+      "recovered_functions": 229,
+      "decompiled_functions": 229,
+      "export_errors": []
+    },
+    {
+      "version": "309",
+      "module": "AmdUsb4Dxe",
+      "file_guid": "051274F4-A724-4732-BE00-82793A3D499A",
+      "sha256": "7940fe43598697f428bed2d4268586c5abfa59b0f7f9cd0a2a6ce30d13954e02",
+      "input": "309-AmdUsb4Dxe-051274F4.efi",
+      "recovered_functions": 109,
+      "decompiled_functions": 109,
+      "export_errors": []
+    },
+    {
+      "version": "309",
+      "module": "CpuDxe",
+      "file_guid": "1A1E4886-9517-440E-9FDE-3BE44CEE2136",
+      "sha256": "fb19b994c1b50746ed963ae27e87cc4fdddbd05dbe1d7655ea52635b16bcb79f",
+      "input": "309-CpuDxe-1A1E4886.efi",
+      "recovered_functions": 171,
+      "decompiled_functions": 170,
+      "export_errors": [
+        {
+          "entry": "00006be0",
+          "error": ""
+        }
+      ]
+    },
+    {
+      "version": "309",
+      "module": "Setup",
+      "file_guid": "899407D7-99FE-43D8-9A21-79EC328CAC21",
+      "sha256": "7b912f6f3701e80e8ce208de197e336f6e9b7d326183411eb3bb481f6ef2404a",
+      "input": "309-Setup-899407D7.efi",
+      "recovered_functions": 1603,
+      "decompiled_functions": 1603,
+      "export_errors": []
+    },
+    {
+      "version": "309",
+      "module": "PciRootBridge",
+      "file_guid": "80E66E0A-CCD1-43FA-A7B1-2D5EE0F13910",
+      "sha256": "b507b8c35517e734ac4596e915abc991db4a20639e140b14c3a4992b7a94dc2e",
+      "input": "309-PciRootBridge-80E66E0A.efi",
+      "recovered_functions": 95,
+      "decompiled_functions": 95,
+      "export_errors": []
+    },
+    {
+      "version": "309",
+      "module": "AsusFmpWrapper",
+      "file_guid": "9BF467DC-DF4E-441D-8356-C3863D6645D9",
+      "sha256": "e3e8a7406a21da0022458402a38c4176cd30813ce8bba3d516d4df22e195f603",
+      "input": "309-AsusFmpWrapper-9BF467DC.efi",
+      "recovered_functions": 5,
+      "decompiled_functions": 5,
+      "export_errors": []
+    },
+    {
+      "version": "309",
+      "module": "PrjDxe",
+      "file_guid": "A478645A-4CA0-48AD-A02C-03F738A865B0",
+      "sha256": "0e809da462ec45e9fc4f043dff600bb987a8f058ebc777649c93d0e28b160f50",
+      "input": "309-PrjDxe-A478645A.efi",
+      "recovered_functions": 79,
+      "decompiled_functions": 76,
+      "export_errors": [
+        {
+          "entry": "00005f3c",
+          "error": ""
+        },
+        {
+          "entry": "00005f44",
+          "error": ""
+        },
+        {
+          "entry": "00005fb0",
+          "error": ""
+        }
+      ]
+    },
+    {
+      "version": "309",
+      "module": "Ip6Dxe",
+      "file_guid": "5BEDB5CC-D830-4EB2-8742-2D4CC9B54F2C",
+      "sha256": "ed92a6dc981082c50aa8ae2b4b2f41579a776a6ebdc8091db4984390310f5160",
+      "input": "309-Ip6Dxe-5BEDB5CC.efi",
+      "recovered_functions": 213,
+      "decompiled_functions": 213,
+      "export_errors": []
+    },
+    {
+      "version": "309",
+      "module": "CbsSetupSmmSTX",
+      "file_guid": "792930B0-7B29-4ECD-8B0C-65D62644C343",
+      "sha256": "4299b9ccaf9e97de89d3651d4664d30a80a8ff901469ff66def6bb57a42adde3",
+      "input": "309-CbsSetupSmmSTX-792930B0.efi",
+      "recovered_functions": 8,
+      "decompiled_functions": 8,
+      "export_errors": []
+    },
+    {
+      "version": "309",
+      "module": "AodSmm",
+      "file_guid": "B54299AD-B521-4BB8-A361-689249FE72B9",
+      "sha256": "e03b727eded03168bdd8346d53315b7c76f74c48aecbb2bd4e1cd7fe19d7ef16",
+      "input": "309-AodSmm-B54299AD.efi",
+      "recovered_functions": 54,
+      "decompiled_functions": 54,
+      "export_errors": []
+    },
+    {
+      "version": "309",
+      "module": "AsusWmiToProtocol",
+      "file_guid": "01D8F749-FD74-4F70-A393-6FED1D2C8D32",
+      "sha256": "c4825134fae15914157cdcb2788834734ffc55674015b6cfe19ea4b1f02d0076",
+      "input": "309-AsusWmiToProtocol-01D8F749.efi",
+      "recovered_functions": 25,
+      "decompiled_functions": 25,
+      "export_errors": []
+    },
+    {
+      "version": "309",
+      "module": "AMITSE",
+      "file_guid": "B1DA0ADF-4F77-4070-A88E-BFFE1C60529A",
+      "sha256": "b6e9d8f29f796561230f9b335190c314cc5606c6ffc6196ff3f0aceb476b33c6",
+      "input": "309-AMITSE-B1DA0ADF.efi",
+      "recovered_functions": 3060,
+      "decompiled_functions": 3053,
+      "export_errors": [
+        {
+          "entry": "001467b4",
+          "error": ""
+        },
+        {
+          "entry": "0015bc00",
+          "error": ""
+        },
+        {
+          "entry": "0015bc58",
+          "error": ""
+        },
+        {
+          "entry": "0015bc60",
+          "error": ""
+        },
+        {
+          "entry": "0015bc68",
+          "error": ""
+        },
+        {
+          "entry": "0015bc80",
+          "error": ""
+        },
+        {
+          "entry": "0015bca4",
+          "error": ""
+        }
+      ]
+    },
+    {
+      "version": "309",
+      "module": "EzFlashInterfaceBin",
+      "file_guid": "D1531968-E138-4E2E-8F7E-383307169276",
+      "sha256": "5a3d88e8dd5104e5080769df74c275ea0a60c8a93f14b984c8157d10ca571e35",
+      "input": "309-EzFlashInterfaceBin-D1531968.efi",
+      "recovered_functions": 50,
+      "decompiled_functions": 50,
+      "export_errors": []
+    },
+    {
+      "version": "309",
+      "module": "AsusSetupVariableItem",
+      "file_guid": "456F1C50-750A-4671-89ED-F536A68C6D9D",
+      "sha256": "1e4e21c1a435b0b5f342ba41d7e30b20fbebd86b0f677fd2ac70a65685bdb9bb",
+      "input": "309-AsusSetupVariableItem-456F1C50.efi",
+      "recovered_functions": 5,
+      "decompiled_functions": 5,
+      "export_errors": []
+    },
+    {
+      "version": "309",
+      "module": "AsusSetupReserveVariableItem",
+      "file_guid": "0086AF89-AE1A-4435-A698-0815E850A004",
+      "sha256": "2cf34cffc97dedc1c2b16cb06452c8a30eb35ce4c8259b234da4f179e7a476b5",
+      "input": "309-AsusSetupReserveVariableItem-0086AF89.efi",
+      "recovered_functions": 12,
+      "decompiled_functions": 12,
+      "export_errors": []
+    },
+    {
+      "version": "309",
+      "module": "QuantaDxeWrapperPkg",
+      "file_guid": "21D04395-96A0-4FD5-B477-A922648EDAF3",
+      "sha256": "7f0208eceb054ee8b3a8b4628e15e6159549ab2be402cbe0d4441fe8b49ef62e",
+      "input": "309-QuantaDxeWrapperPkg-21D04395.efi",
+      "recovered_functions": 45,
+      "decompiled_functions": 45,
+      "export_errors": []
+    },
+    {
+      "version": "309",
+      "module": "QuantaSmmWrapperPkg",
+      "file_guid": "FC3269A5-5514-4279-8C56-5D23718D879F",
+      "sha256": "ff214578e92e14e3aac9fd121f4d20451693aca0da9dd98fa0593fd539b8167e",
+      "input": "309-QuantaSmmWrapperPkg-FC3269A5.efi",
+      "recovered_functions": 66,
+      "decompiled_functions": 66,
+      "export_errors": []
+    },
+    {
+      "version": "310",
+      "module": "CpuDxe",
+      "file_guid": "E03ABADF-E536-4E88-B3A0-B77F78EB34FE",
+      "sha256": "21e5d5289d65cfa8d31c7d4f7d94a5232a2a839c01d0c0e9073af7cffd44ac34",
+      "input": "310-CpuDxe-E03ABADF.efi",
+      "recovered_functions": 55,
+      "decompiled_functions": 55,
+      "export_errors": []
+    },
+    {
+      "version": "310",
+      "module": "AmdCcxZen5Dxe",
+      "file_guid": "9FB8AC55-D266-4F86-AC43-BF2BA74F5A7A",
+      "sha256": "dcb9350cc8c41c05995aec05df98247e320e9c58540d2fe5e36ed9f1eaafbf00",
+      "input": "310-AmdCcxZen5Dxe-9FB8AC55.efi",
+      "recovered_functions": 91,
+      "decompiled_functions": 91,
+      "export_errors": []
+    },
+    {
+      "version": "310",
+      "module": "FchHuangshanDxe",
+      "file_guid": "26FD847A-DC93-4D93-917C-6041A3856CBC",
+      "sha256": "088504a3731a62b78cf57cb3b2d3671f556e60d375b9d5379693d1c794868118",
+      "input": "310-FchHuangshanDxe-26FD847A.efi",
+      "recovered_functions": 83,
+      "decompiled_functions": 83,
+      "export_errors": []
+    },
+    {
+      "version": "310",
+      "module": "AmdNbioDxe",
+      "file_guid": "AD82C06C-34C0-44F0-BA98-801C3CA7592F",
+      "sha256": "37d8cbbab2739fa45d60bf162ccaa81780e47f70588654e6664ae45c674594f9",
+      "input": "310-AmdNbioDxe-AD82C06C.efi",
+      "recovered_functions": 231,
+      "decompiled_functions": 231,
+      "export_errors": []
+    },
+    {
+      "version": "310",
+      "module": "AmdUsb4Dxe",
+      "file_guid": "051274F4-A724-4732-BE00-82793A3D499A",
+      "sha256": "094a9a631aed16e350ff84f8b71ad9570a3fd6cd194f197d5fec4a5c002ff744",
+      "input": "310-AmdUsb4Dxe-051274F4.efi",
+      "recovered_functions": 109,
+      "decompiled_functions": 109,
+      "export_errors": []
+    },
+    {
+      "version": "310",
+      "module": "CpuDxe",
+      "file_guid": "1A1E4886-9517-440E-9FDE-3BE44CEE2136",
+      "sha256": "fb19b994c1b50746ed963ae27e87cc4fdddbd05dbe1d7655ea52635b16bcb79f",
+      "input": "310-CpuDxe-1A1E4886.efi",
+      "recovered_functions": 171,
+      "decompiled_functions": 170,
+      "export_errors": [
+        {
+          "entry": "00006be0",
+          "error": ""
+        }
+      ]
+    },
+    {
+      "version": "310",
+      "module": "Setup",
+      "file_guid": "899407D7-99FE-43D8-9A21-79EC328CAC21",
+      "sha256": "7878a02104a4eb3896134b523c09bbdcfea9355f4508ca583432df6b4c888793",
+      "input": "310-Setup-899407D7.efi",
+      "recovered_functions": 1605,
+      "decompiled_functions": 1605,
+      "export_errors": []
+    },
+    {
+      "version": "310",
+      "module": "PciRootBridge",
+      "file_guid": "80E66E0A-CCD1-43FA-A7B1-2D5EE0F13910",
+      "sha256": "c961e5ba4b7bfc8e295198ad6479f4ec5d24bbca831c9b69190fb10cc4058177",
+      "input": "310-PciRootBridge-80E66E0A.efi",
+      "recovered_functions": 92,
+      "decompiled_functions": 92,
+      "export_errors": []
+    },
+    {
+      "version": "310",
+      "module": "AsusActiveEfficientCoresSyncToAmd",
+      "file_guid": "AFD34632-A599-4E8E-AB9A-C88075DA5EF0",
+      "sha256": "8ed13f2daed26839f6c9da9f5247569a298b1b23c6034febc786d8ce2cb6b33e",
+      "input": "310-AsusActiveEfficientCoresSyncToAmd-AFD34632.efi",
+      "recovered_functions": 14,
+      "decompiled_functions": 14,
+      "export_errors": []
+    },
+    {
+      "version": "310",
+      "module": "AsusFmpWrapper",
+      "file_guid": "9BF467DC-DF4E-441D-8356-C3863D6645D9",
+      "sha256": "903ec8b32f870ea4ad0c10c0821862042eb0d7c632be146b5a265a624d5f7a7d",
+      "input": "310-AsusFmpWrapper-9BF467DC.efi",
+      "recovered_functions": 7,
+      "decompiled_functions": 7,
+      "export_errors": []
+    },
+    {
+      "version": "310",
+      "module": "PrjDxe",
+      "file_guid": "A478645A-4CA0-48AD-A02C-03F738A865B0",
+      "sha256": "28e6dfd5f41913719bebc92fbde55fba145fcc5fc7ae986ab6cfe933ddaa51ae",
+      "input": "310-PrjDxe-A478645A.efi",
+      "recovered_functions": 78,
+      "decompiled_functions": 75,
+      "export_errors": [
+        {
+          "entry": "0000607c",
+          "error": ""
+        },
+        {
+          "entry": "00006084",
+          "error": ""
+        },
+        {
+          "entry": "000060f0",
+          "error": ""
+        }
+      ]
+    },
+    {
+      "version": "310",
+      "module": "Ip6Dxe",
+      "file_guid": "5BEDB5CC-D830-4EB2-8742-2D4CC9B54F2C",
+      "sha256": "f628a8114622980138b9402eee94c8da6b6e07cab068a0e7ec89fedcb10518ad",
+      "input": "310-Ip6Dxe-5BEDB5CC.efi",
+      "recovered_functions": 213,
+      "decompiled_functions": 213,
+      "export_errors": []
+    },
+    {
+      "version": "310",
+      "module": "CbsSetupSmmSTX",
+      "file_guid": "792930B0-7B29-4ECD-8B0C-65D62644C343",
+      "sha256": "a3e75834f48fd6c73f64106511a035344d167546a3ecf164f5309b134f3be397",
+      "input": "310-CbsSetupSmmSTX-792930B0.efi",
+      "recovered_functions": 34,
+      "decompiled_functions": 34,
+      "export_errors": []
+    },
+    {
+      "version": "310",
+      "module": "AodSmm",
+      "file_guid": "B54299AD-B521-4BB8-A361-689249FE72B9",
+      "sha256": "92c9a5f7cb851020ea649309e109618c3e3fc6cf69db2ec4ae8bfdc53d3f430e",
+      "input": "310-AodSmm-B54299AD.efi",
+      "recovered_functions": 52,
+      "decompiled_functions": 52,
+      "export_errors": []
+    },
+    {
+      "version": "310",
+      "module": "AsusWmiToProtocol",
+      "file_guid": "01D8F749-FD74-4F70-A393-6FED1D2C8D32",
+      "sha256": "9821cf1bc2344330fc968e1faacf4819cb65a1698f8abf38566d89c7687dc221",
+      "input": "310-AsusWmiToProtocol-01D8F749.efi",
+      "recovered_functions": 29,
+      "decompiled_functions": 29,
+      "export_errors": []
+    },
+    {
+      "version": "310",
+      "module": "AMITSE",
+      "file_guid": "B1DA0ADF-4F77-4070-A88E-BFFE1C60529A",
+      "sha256": "ce5aff2fc241b4a713f5ce92a2a005591bb9cf200c9d3b02e041002e1467fe32",
+      "input": "310-AMITSE-B1DA0ADF.efi",
+      "recovered_functions": 3065,
+      "decompiled_functions": 3058,
+      "export_errors": [
+        {
+          "entry": "000fcee8",
+          "error": ""
+        },
+        {
+          "entry": "0015bd14",
+          "error": ""
+        },
+        {
+          "entry": "0015bd1c",
+          "error": ""
+        },
+        {
+          "entry": "0015bd24",
+          "error": ""
+        },
+        {
+          "entry": "0015bd2c",
+          "error": ""
+        },
+        {
+          "entry": "0015bd34",
+          "error": ""
+        },
+        {
+          "entry": "0015bdfc",
+          "error": ""
+        }
+      ]
+    },
+    {
+      "version": "310",
+      "module": "EzFlashInterfaceBin",
+      "file_guid": "D1531968-E138-4E2E-8F7E-383307169276",
+      "sha256": "556c9869f4e029725d55ef24ccd378873eb8631a2396a7f7cbae9c7d91b810e4",
+      "input": "310-EzFlashInterfaceBin-D1531968.efi",
+      "recovered_functions": 76,
+      "decompiled_functions": 76,
+      "export_errors": []
+    },
+    {
+      "version": "310",
+      "module": "AsusSetupVariableItem",
+      "file_guid": "456F1C50-750A-4671-89ED-F536A68C6D9D",
+      "sha256": "9b85301dfd9238a6c491d5fa3d56975d3c7a5a483c8c9833cea23bf721da4f1e",
+      "input": "310-AsusSetupVariableItem-456F1C50.efi",
+      "recovered_functions": 5,
+      "decompiled_functions": 5,
+      "export_errors": []
+    },
+    {
+      "version": "310",
+      "module": "AsusSetupReserveVariableItem",
+      "file_guid": "0086AF89-AE1A-4435-A698-0815E850A004",
+      "sha256": "93a8ddbc70bf484fac9b49798138b4c4845a3170ddd404eba0ef30124a98b8b5",
+      "input": "310-AsusSetupReserveVariableItem-0086AF89.efi",
+      "recovered_functions": 15,
+      "decompiled_functions": 15,
+      "export_errors": []
+    },
+    {
+      "version": "310",
+      "module": "QuantaDxeWrapperPkg",
+      "file_guid": "21D04395-96A0-4FD5-B477-A922648EDAF3",
+      "sha256": "bb77913a7a8b065f7e291277872a29d2fbc84f4ab3682312f54de3004ec8f492",
+      "input": "310-QuantaDxeWrapperPkg-21D04395.efi",
+      "recovered_functions": 45,
+      "decompiled_functions": 45,
+      "export_errors": []
+    },
+    {
+      "version": "310",
+      "module": "QuantaSmmWrapperPkg",
+      "file_guid": "FC3269A5-5514-4279-8C56-5D23718D879F",
+      "sha256": "65eca028ccb78cac92ab4f3df3de322541a8882cbc53324779e5f53ce121eaa9",
+      "input": "310-QuantaSmmWrapperPkg-FC3269A5.efi",
+      "recovered_functions": 66,
+      "decompiled_functions": 66,
+      "export_errors": []
+    },
+    {
+      "version": "309",
+      "module": "AmdCpmDisplayFeatureDxe",
+      "file_guid": "57E9EEE9-EB7D-4453-BBF7-6C138BF06458",
+      "sha256": "277e3e38b1c8ace98cbf0ffc635026d0847cfb208d1a78c8a3162a4052ed26b5",
+      "input": "309-AmdCpmDisplayFeatureDxe-57E9EEE9.efi",
+      "recovered_functions": 19,
+      "decompiled_functions": 19,
+      "export_errors": []
+    },
+    {
+      "version": "310",
+      "module": "AmdCpmDisplayFeatureDxe",
+      "file_guid": "57E9EEE9-EB7D-4453-BBF7-6C138BF06458",
+      "sha256": "b456b9991f26d05c77205b89f91f874fbd1d10a9a3fdd0a8c6c095dd4a04693b",
+      "input": "310-AmdCpmDisplayFeatureDxe-57E9EEE9.efi",
+      "recovered_functions": 19,
+      "decompiled_functions": 19,
+      "export_errors": []
+    },
+    {
+      "version": "309",
+      "module": "AmdCpmDisplayFeatureSmm",
+      "file_guid": "30AF4110-A58E-4EF7-8C75-B725939B3B9F",
+      "sha256": "1f7f29133734cca0f1fdee9d95fb8a197a303acd5ee108839c399fa1167ff287",
+      "input": "309-AmdCpmDisplayFeatureSmm-30AF4110.efi",
+      "recovered_functions": 45,
+      "decompiled_functions": 45,
+      "export_errors": []
+    },
+    {
+      "version": "310",
+      "module": "AmdCpmDisplayFeatureSmm",
+      "file_guid": "30AF4110-A58E-4EF7-8C75-B725939B3B9F",
+      "sha256": "28cb46da77b7474ea46fd8624e10ee2befca3f41d930f8655c59210c88c28b11",
+      "input": "310-AmdCpmDisplayFeatureSmm-30AF4110.efi",
+      "recovered_functions": 45,
+      "decompiled_functions": 45,
+      "export_errors": []
+    },
+    {
+      "version": "310",
+      "module": "EC",
+      "input": "ec-310.bin",
+      "sha256": "a9ea14f1be459c623f055e03e6c4d0831d5ffad246143d78598ebd7cd1605f59",
+      "reused_from": "310-312",
+      "recovered_functions": 1413,
+      "decompiled_functions": 1406,
+      "export_errors": [
+        {
+          "entry": "ram:00008a2e",
+          "error": ""
+        },
+        {
+          "entry": "ram:0000c314",
+          "error": ""
+        },
+        {
+          "entry": "ram:000114ac",
+          "error": ""
+        },
+        {
+          "entry": "ram:00022964",
+          "error": ""
+        },
+        {
+          "entry": "ram:0003218a",
+          "error": ""
+        },
+        {
+          "entry": "ram:00033140",
+          "error": ""
+        },
+        {
+          "entry": "ram:00039804",
+          "error": ""
+        }
+      ]
+    }
+  ],
+  "total_recovered_functions": 15154,
+  "total_decompiled_functions": 15118
+}

@@ -1,0 +1,79 @@
+{
+  "module": "AsusSetupReserveVariableItem-0086AF89",
+  "old_function_count": 12,
+  "new_function_count": 15,
+  "matched": 8,
+  "changed_normalized_c": [
+    {
+      "old": "000004ac",
+      "new": "000005b8",
+      "match": "semantic_sha256",
+      "old_bytes": 352,
+      "new_bytes": 352
+    },
+    {
+      "old": "0000060c",
+      "new": "00000718",
+      "match": "semantic_sha256",
+      "old_bytes": 958,
+      "new_bytes": 958
+    }
+  ],
+  "unmatched_old": [
+    "00000474",
+    "000009cc",
+    "00001204",
+    "00001790"
+  ],
+  "unmatched_new": [
+    "000002a0",
+    "000004b0",
+    "000004f8",
+    "00000ad8",
+    "000012d0",
+    "00001a60",
+    "00001ab8"
+  ],
+  "pairs": [
+    [
+      "0000115c",
+      "00001228",
+      "semantic_sha256"
+    ],
+    [
+      "00001970",
+      "00001a08",
+      "semantic_sha256"
+    ],
+    [
+      "0000173c",
+      "00001858",
+      "semantic_sha256"
+    ],
+    [
+      "0000181c",
+      "000018b4",
+      "semantic_sha256"
+    ],
+    [
+      "000004ac",
+      "000005b8",
+      "semantic_sha256"
+    ],
+    [
+      "00000300",
+      "000002e0",
+      "semantic_sha256"
+    ],
+    [
+      "0000060c",
+      "00000718",
+      "semantic_sha256"
+    ],
+    [
+      "0000190c",
+      "000019a4",
+      "semantic_sha256"
+    ]
+  ]
+}

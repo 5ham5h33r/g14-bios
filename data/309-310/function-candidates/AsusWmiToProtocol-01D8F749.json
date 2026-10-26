@@ -1,0 +1,175 @@
+{
+  "module": "AsusWmiToProtocol-01D8F749",
+  "old_function_count": 25,
+  "new_function_count": 29,
+  "matched": 24,
+  "changed_normalized_c": [
+    {
+      "old": "00001374",
+      "new": "00001374",
+      "match": "semantic_sha256",
+      "old_bytes": 150,
+      "new_bytes": 150
+    },
+    {
+      "old": "0000140c",
+      "new": "0000140c",
+      "match": "similar_c:0.855",
+      "old_bytes": 527,
+      "new_bytes": 670
+    },
+    {
+      "old": "0000161c",
+      "new": "000016ac",
+      "match": "semantic_sha256",
+      "old_bytes": 182,
+      "new_bytes": 182
+    },
+    {
+      "old": "00001d58",
+      "new": "00001d3c",
+      "match": "semantic_sha256",
+      "old_bytes": 57,
+      "new_bytes": 57
+    },
+    {
+      "old": "00002448",
+      "new": "000024ec",
+      "match": "semantic_sha256",
+      "old_bytes": 302,
+      "new_bytes": 302
+    }
+  ],
+  "unmatched_old": [
+    "00001810"
+  ],
+  "unmatched_new": [
+    "000018a0",
+    "00001a74",
+    "00002034",
+    "000020f4",
+    "0000261c"
+  ],
+  "pairs": [
+    [
+      "00001180",
+      "00001180",
+      "semantic_sha256"
+    ],
+    [
+      "00001fdc",
+      "00001fc0",
+      "semantic_sha256"
+    ],
+    [
+      "00001d58",
+      "00001d3c",
+      "semantic_sha256"
+    ],
+    [
+      "000010c0",
+      "000010c0",
+      "semantic_sha256"
+    ],
+    [
+      "00001df8",
+      "00001ddc",
+      "semantic_sha256"
+    ],
+    [
+      "00001e70",
+      "00001e54",
+      "semantic_sha256"
+    ],
+    [
+      "00001efc",
+      "00001ee0",
+      "semantic_sha256"
+    ],
+    [
+      "00002448",
+      "000024ec",
+      "semantic_sha256"
+    ],
+    [
+      "00002578",
+      "00002760",
+      "semantic_sha256"
+    ],
+    [
+      "00001eac",
+      "00001e90",
+      "semantic_sha256"
+    ],
+    [
+      "00001374",
+      "00001374",
+      "semantic_sha256"
+    ],
+    [
+      "00001c20",
+      "00001c04",
+      "semantic_sha256"
+    ],
+    [
+      "00001260",
+      "00001260",
+      "semantic_sha256"
+    ],
+    [
+      "00001d28",
+      "00001d0c",
+      "semantic_sha256"
+    ],
+    [
+      "00001d94",
+      "00001d78",
+      "semantic_sha256"
+    ],
+    [
+      "00002160",
+      "00002204",
+      "semantic_sha256"
+    ],
+    [
+      "00001e2c",
+      "00001e10",
+      "semantic_sha256"
+    ],
+    [
+      "000011e0",
+      "000011e0",
+      "semantic_sha256"
+    ],
+    [
+      "00001ce4",
+      "00001cc8",
+      "semantic_sha256"
+    ],
+    [
+      "00001000",
+      "00001000",
+      "semantic_sha256"
+    ],
+    [
+      "00001170",
+      "00001170",
+      "semantic_sha256"
+    ],
+    [
+      "00001ce0",
+      "00001cc4",
+      "semantic_sha256"
+    ],
+    [
+      "0000161c",
+      "000016ac",
+      "semantic_sha256"
+    ],
+    [
+      "0000140c",
+      "0000140c",
+      "similar_c:0.855"
+    ]
+  ]
+}

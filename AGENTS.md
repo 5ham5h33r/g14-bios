@@ -2,7 +2,7 @@
 
 Read CONTRIBUTING.md before editing research or preparing a push.
 
-This repository documents GA403WR BIOS releases from 310 → 312 onward. Maintain the release index and add a separate comparison for each future release, following docs/release-workflow.md. Keep existing comparisons and their evidence available.
+This repository documents GA403WR BIOS releases from the 309 baseline onward, including 309 → 310 and 310 → 312. Maintain the release index and add a separate comparison for each future release, following docs/release-workflow.md. Keep existing comparisons and their evidence available.
 
 Keep a `## Plain-language takeaway` section near the top of each release-comparison changelog. Before every push, update it to reflect the current findings. Explain the practical effect for a laptop owner and preserve uncertainty about untested behavior. Include a brief plain-language takeaway in the message reporting the push.
 

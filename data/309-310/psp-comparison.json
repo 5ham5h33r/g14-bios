@@ -1,0 +1,2253 @@
+[
+  {
+    "type": "PSP_NV_DATA~0x4",
+    "address_309": "0x101800",
+    "address_310": "0x101800",
+    "bytes_309": 131072,
+    "bytes_310": 131072,
+    "version_309": "",
+    "version_310": "",
+    "sha256_309": "b5a41c3758763bbec72769fab4a2533bf2db0b6312d93d25a695f9e4b9e02260",
+    "sha256_310": "b5a41c3758763bbec72769fab4a2533bf2db0b6312d93d25a695f9e4b9e02260",
+    "same": true
+  },
+  {
+    "type": "SEC_DBG_PUBLIC_KEY~0x9",
+    "address_309": "0x166000",
+    "address_310": "0x166000",
+    "bytes_309": 1088,
+    "bytes_310": 1088,
+    "version_309": "1",
+    "version_310": "1",
+    "sha256_309": "a2219bb75c12d8595856cd11db3bda526acbf06d92b478cf782bf0adbbca4734",
+    "sha256_310": "a2219bb75c12d8595856cd11db3bda526acbf06d92b478cf782bf0adbbca4734",
+    "same": true
+  },
+  {
+    "type": "SOFT_FUSE_CHAIN_01~0xb",
+    "address_309": "0x165830",
+    "address_310": "0x165830",
+    "bytes_309": 16,
+    "bytes_310": 16,
+    "version_309": "",
+    "version_310": "",
+    "sha256_309": "118f3e62f2da1168edce20a96ff7516f89b1f0401837e8c83631b32c02a61a9d",
+    "sha256_310": "118f3e62f2da1168edce20a96ff7516f89b1f0401837e8c83631b32c02a61a9d",
+    "same": true
+  },
+  {
+    "type": "WRAPPED_IKEK~0x21",
+    "address_309": "0x166500",
+    "address_310": "0x166500",
+    "bytes_309": 48,
+    "bytes_310": 48,
+    "version_309": "",
+    "version_310": "",
+    "sha256_309": "5fc0543a8d2cf28f62021319a6138562196702483c754ce4591650c0e4cf7cac",
+    "sha256_310": "5fc0543a8d2cf28f62021319a6138562196702483c754ce4591650c0e4cf7cac",
+    "same": true
+  },
+  {
+    "type": "MP2_FW~0x25",
+    "address_309": "0x166600",
+    "address_310": "0x166600",
+    "bytes_309": 514992,
+    "bytes_310": 786432,
+    "version_309": "B.0.0.2F",
+    "version_310": "B.0.0.4F",
+    "sha256_309": "81836c22b4d24f427f65182c835581ff89de8b254fa918f067654bd5bd3bee6d",
+    "sha256_310": "97c12d16a0c6745cf61744fe3aa3b5b5f9891b7089ed2fdb7f6a9d3d29892b10",
+    "same": false,
+    "differing_positions_in_overlap": 419855
+  },
+  {
+    "type": "C20_PHY_FW~0x95",
+    "address_309": "0x1e4200",
+    "address_310": "0x226600",
+    "bytes_309": 41472,
+    "bytes_310": 41472,
+    "version_309": "0.2.18.0",
+    "version_310": "0.2.18.1",
+    "sha256_309": "8b6d4906aefbcc9e59965bbc4940db0327ecec7b555cd46d0badfc325bd289c1",
+    "sha256_310": "20fe7f6f37c617bbeced2c34ecc26c35c1bf624781d9bb10acb588a89b77b862",
+    "same": false,
+    "differing_positions_in_overlap": 320
+  },
+  {
+    "type": "PSP_NVRAM~0x54",
+    "address_309": "0x121800",
+    "address_310": "0x121800",
+    "bytes_309": 262144,
+    "bytes_310": 262144,
+    "version_309": "",
+    "version_310": "",
+    "sha256_309": "3b874d3ba46c638fc3094f8e92fb744ca974893873f8885f54e23760f9b6311b",
+    "sha256_310": "3b874d3ba46c638fc3094f8e92fb744ca974893873f8885f54e23760f9b6311b",
+    "same": true
+  },
+  {
+    "type": "MPIO_FW~0x5d",
+    "address_309": "0x1ee400",
+    "address_310": "0x230800",
+    "bytes_309": 80608,
+    "bytes_310": 80896,
+    "version_309": "0.11.3.F0",
+    "version_310": "0.11.6.26",
+    "sha256_309": "37503e333030b5bc6b96accd59449b44506a8777ec2c52fe285247cbd0a2e791",
+    "sha256_310": "adcf72fde368d3c3765cd0a1c0587e168a858b101d1d462c903bd31543d0c929",
+    "same": false,
+    "differing_positions_in_overlap": 68324
+  },
+  {
+    "type": "SPI_ROM_CONFIG~0x5c",
+    "address_309": "0x201f00",
+    "address_310": "0x244400",
+    "bytes_309": 3872,
+    "bytes_310": 4256,
+    "version_309": "0.23.17.36",
+    "version_310": "0.23.17.38",
+    "sha256_309": "b6cdd08ff15b2d447e2971882b881f17895d2ad513f708a5a8fb8be38141b15c",
+    "sha256_310": "89a5cf49b9c771f7a2603ad8ee4b4ceae4f36752ddbcbd24af873d708a3e8c66",
+    "same": false,
+    "differing_positions_in_overlap": 385
+  },
+  {
+    "type": "FW_PSP_SMUSCS_OR_TPMLITE~0x5f",
+    "address_309": "0x202f00",
+    "address_310": "0x245500",
+    "bytes_309": 383756,
+    "bytes_310": 383756,
+    "version_309": "",
+    "version_310": "",
+    "sha256_309": "e867041b48d11f42ac836fbf30b31b4f8e9cc8025280e1d4c7a6a8bc41aa62da",
+    "sha256_310": "e867041b48d11f42ac836fbf30b31b4f8e9cc8025280e1d4c7a6a8bc41aa62da",
+    "same": true
+  },
+  {
+    "type": "PSP_DMCUB_CODE~0x71",
+    "address_309": "0x260b00",
+    "address_310": "0x2a3100",
+    "bytes_309": 206864,
+    "bytes_310": 206864,
+    "version_309": "0.3.D6.4B",
+    "version_310": "0.3.D6.4B",
+    "sha256_309": "b2f10c72ffa2e3aa4ff9b9ac8ed92944adc5b6207c6b29ceb6049c1bd2486334",
+    "sha256_310": "b2f10c72ffa2e3aa4ff9b9ac8ed92944adc5b6207c6b29ceb6049c1bd2486334",
+    "same": true
+  },
+  {
+    "type": "REGISTER_INIT_BIN~0x76",
+    "address_309": "0x293400",
+    "address_310": "0x2d5a00",
+    "bytes_309": 6384,
+    "bytes_310": 6384,
+    "version_309": "9.0.9.6",
+    "version_310": "9.0.9.6",
+    "sha256_309": "1a7098ef644bd23b97289af059cca8da5991b0f18918ec9ae6792cb05a90f20b",
+    "sha256_310": "1a7098ef644bd23b97289af059cca8da5991b0f18918ec9ae6792cb05a90f20b",
+    "same": true
+  },
+  {
+    "type": "REGISTER_INIT_BIN~0x76",
+    "address_309": "0x294d00",
+    "address_310": "0x2d7300",
+    "bytes_309": 5984,
+    "bytes_310": 5984,
+    "version_309": "F.0.6.1",
+    "version_310": "F.0.6.1",
+    "sha256_309": "c9cc1dc365107c7c9eca69ecaade4035acf9588bcb86815b03beda523628179d",
+    "sha256_310": "c9cc1dc365107c7c9eca69ecaade4035acf9588bcb86815b03beda523628179d",
+    "same": true
+  },
+  {
+    "type": "IKEK_TA~0x8d",
+    "address_309": "0x296500",
+    "address_310": "0x2d8b00",
+    "bytes_309": 48,
+    "bytes_310": 48,
+    "version_309": "",
+    "version_310": "",
+    "sha256_309": "c727adadf480d7b99fe3105fe9fe768c9297fde4cd4582c04f2feb7c366e996e",
+    "sha256_310": "c727adadf480d7b99fe3105fe9fe768c9297fde4cd4582c04f2feb7c366e996e",
+    "same": true
+  },
+  {
+    "type": "LSDMA_FW~0x94",
+    "address_309": "0x296600",
+    "address_310": "0x2d8c00",
+    "bytes_309": 17408,
+    "bytes_310": 17408,
+    "version_309": "0.6.11.8",
+    "version_310": "0.6.11.8",
+    "sha256_309": "62d7148f796ac70ef9e9ef11b6e4478141b9b5dfd24f15eb4aae34f0ab55c414",
+    "sha256_310": "62d7148f796ac70ef9e9ef11b6e4478141b9b5dfd24f15eb4aae34f0ab55c414",
+    "same": true
+  },
+  {
+    "type": "FW_ROM_OR_FIPS_SRAM~0x9d",
+    "address_309": "0x29aa00",
+    "address_310": "0x2dd000",
+    "bytes_309": 2048,
+    "bytes_310": 2048,
+    "version_309": "0.3E.3.13",
+    "version_310": "0.3E.3.13",
+    "sha256_309": "f5a156e9a6b248f756cd85d4904140fafefd9840946c7d277b6a9bcb357bf24a",
+    "sha256_310": "f5a156e9a6b248f756cd85d4904140fafefd9840946c7d277b6a9bcb357bf24a",
+    "same": true
+  },
+  {
+    "type": "USB_TYPEC_DP~0xa4",
+    "address_309": "0x29b200",
+    "address_310": "0x2dd800",
+    "bytes_309": 12800,
+    "bytes_310": 12800,
+    "version_309": "3.77.72.93",
+    "version_310": "3.77.72.93",
+    "sha256_309": "352fca8529f6dccb1aee2a06487727387749b59ea87145ba7549360110ca4b7c",
+    "sha256_310": "352fca8529f6dccb1aee2a06487727387749b59ea87145ba7549360110ca4b7c",
+    "same": true
+  },
+  {
+    "type": "USB_SS_FW~0xa5",
+    "address_309": "0x29e400",
+    "address_310": "0x2e0a00",
+    "bytes_309": 12800,
+    "bytes_310": 12800,
+    "version_309": "3.73.94.20",
+    "version_310": "3.73.94.20",
+    "sha256_309": "9d77ae973540ea28d3cc0d5c06f5d82d2bf94022d01c7a2aec7876ae58329d04",
+    "sha256_310": "9d77ae973540ea28d3cc0d5c06f5d82d2bf94022d01c7a2aec7876ae58329d04",
+    "same": true
+  },
+  {
+    "type": "USB4~0xa6",
+    "address_309": "0x2a1600",
+    "address_310": "0x2e3c00",
+    "bytes_309": 41472,
+    "bytes_310": 41472,
+    "version_309": "3.91.47.47",
+    "version_310": "3.91.47.47",
+    "sha256_309": "e19d504a15f14c69f33621721aafe0afc37b4acb1c14c75a90c13b4be6e15cf0",
+    "sha256_310": "e19d504a15f14c69f33621721aafe0afc37b4acb1c14c75a90c13b4be6e15cf0",
+    "same": true
+  },
+  {
+    "type": "GFX_IMU_LX7_CODE~0x9b",
+    "address_309": "0x2ab800",
+    "address_310": "0x2ede00",
+    "bytes_309": 66048,
+    "bytes_310": 66048,
+    "version_309": "B.33.20.0",
+    "version_310": "B.33.20.0",
+    "sha256_309": "d165b406a28e4369462e846b31f2708d2954ce34b352ca6c86eb12bb1c8594d9",
+    "sha256_310": "d165b406a28e4369462e846b31f2708d2954ce34b352ca6c86eb12bb1c8594d9",
+    "same": true
+  },
+  {
+    "type": "GFX_IMU_LX7_CODE~0x9b",
+    "address_309": "0x2bba00",
+    "address_310": "0x2fe000",
+    "bytes_309": 66048,
+    "bytes_310": 66048,
+    "version_309": "B.34.20.0",
+    "version_310": "B.34.20.0",
+    "sha256_309": "f4d01630c88d553c314a2e52a4e520e80fd7a27cef72e2490fbb5fca91441a6b",
+    "sha256_310": "f4d01630c88d553c314a2e52a4e520e80fd7a27cef72e2490fbb5fca91441a6b",
+    "same": true
+  },
+  {
+    "type": "GFX_IMU_LX7_DATA~0x9c",
+    "address_309": "0x2cbc00",
+    "address_310": "0x30e200",
+    "bytes_309": 66048,
+    "bytes_310": 66048,
+    "version_309": "B.33.20.0",
+    "version_310": "B.33.20.0",
+    "sha256_309": "8c6d64baa18839b2ad613f70d6279782c9e54c4479915b9f755127c801025b6e",
+    "sha256_310": "8c6d64baa18839b2ad613f70d6279782c9e54c4479915b9f755127c801025b6e",
+    "same": true
+  },
+  {
+    "type": "GFX_IMU_LX7_DATA~0x9c",
+    "address_309": "0x2dbe00",
+    "address_310": "0x31e400",
+    "bytes_309": 66048,
+    "bytes_310": 66048,
+    "version_309": "B.34.20.0",
+    "version_310": "B.34.20.0",
+    "sha256_309": "9f0c60a80eb358599910f01b30bb2f66b564301a3b08b89aacbfddad2fb7497a",
+    "sha256_310": "9f0c60a80eb358599910f01b30bb2f66b564301a3b08b89aacbfddad2fb7497a",
+    "same": true
+  },
+  {
+    "type": "BIOS_L2AB_PTR~0x49",
+    "address_309": "0x629800",
+    "address_310": "0x629800",
+    "bytes_309": 1024,
+    "bytes_310": 1024,
+    "version_309": "",
+    "version_310": "",
+    "sha256_309": "2ac2be416769d86ab35a807d0dd8a98ae71720927fd6d3f10ff1bdf45f7e6a0d",
+    "sha256_310": "2ac2be416769d86ab35a807d0dd8a98ae71720927fd6d3f10ff1bdf45f7e6a0d",
+    "same": true
+  },
+  {
+    "type": "SEC_GASKET~0x24",
+    "address_309": "0x2ec000",
+    "address_310": "0x32e600",
+    "bytes_309": 28880,
+    "bytes_310": 28880,
+    "version_309": "E.1.0.A2",
+    "version_310": "E.1.0.A2",
+    "sha256_309": "46b22fc3385f28322a5ed52eac389978fd8067a0c3e881f3d5c708f5996a9cc0",
+    "sha256_310": "46b22fc3385f28322a5ed52eac389978fd8067a0c3e881f3d5c708f5996a9cc0",
+    "same": true
+  },
+  {
+    "type": "VBIOS_PRELOAD~0x3c",
+    "address_309": "0x2f3100",
+    "address_310": "0x335700",
+    "bytes_309": 16256,
+    "bytes_310": 16256,
+    "version_309": "22.10.1.22",
+    "version_310": "22.10.1.22",
+    "sha256_309": "b0c7f8b3485b4ab1a7f945ffcc4288b699088c51dbc8b9e80be3d80370ada364",
+    "sha256_310": "b0c7f8b3485b4ab1a7f945ffcc4288b699088c51dbc8b9e80be3d80370ada364",
+    "same": true
+  },
+  {
+    "type": "MSMU_BINARY_0~0x5a",
+    "address_309": "0x2f7100",
+    "address_310": "0x339700",
+    "bytes_309": 88512,
+    "bytes_310": 88448,
+    "version_309": "FE.5D.18.0",
+    "version_310": "FC.5D.1.0",
+    "sha256_309": "0aba76b7bc7e5f3b66423d0d68198d6328bc76ced28d5c30beb6de4fd69173ed",
+    "sha256_310": "1aeca39d2fd06a8ddceeedd39095b5d6ad9a8b3b4ae84df8568005868a020e60",
+    "same": false,
+    "differing_positions_in_overlap": 87717
+  },
+  {
+    "type": "REDUCED_MSMU_SIZE~0x9a",
+    "address_309": "0x30cb00",
+    "address_310": "0x34f100",
+    "bytes_309": 58096,
+    "bytes_310": 58064,
+    "version_309": "FE.5D.18.0",
+    "version_310": "FC.5D.1.0",
+    "sha256_309": "bf20ddd3fa17a68e222a362a8e349b3177b47ba7d37da0ce370be3aac56188e5",
+    "sha256_310": "4d68ed19ebea5d848907242316207935dc60214ea1350ce69973a334022f9ae5",
+    "same": false,
+    "differing_positions_in_overlap": 57405
+  },
+  {
+    "type": "ABL0~0x30",
+    "address_309": "0x31ae00",
+    "address_310": "0x35d400",
+    "bytes_309": 479440,
+    "bytes_310": 480672,
+    "version_309": "51.16.D0.50",
+    "version_310": "55.26.D0.50",
+    "sha256_309": "10d215d04b2227f805a007f765728a523f41d14c7eecff032f027e18b1e2a5ce",
+    "sha256_310": "1149635b632686356f5d6c06bacf496ea362d034aecccb51df27362cd6ad0b0b",
+    "same": false,
+    "differing_positions_in_overlap": 455229
+  },
+  {
+    "type": "SMU_OFFCHIP_FW~0x8",
+    "address_309": "0x38ff00",
+    "address_310": "0x3d2a00",
+    "bytes_309": 194832,
+    "bytes_310": 195824,
+    "version_309": "B.5D.4.0",
+    "version_310": "B.5D.B.0",
+    "sha256_309": "5bc750b08cf75812d53bcfddc965f6bc6e01afc077f98ae8a480d58f6db717a1",
+    "sha256_310": "deb895b5e94546e4915b09a4e090f50f63e61e8d38d873b69d0ba00fdf17a64f",
+    "same": false,
+    "differing_positions_in_overlap": 193760
+  },
+  {
+    "type": "SMU_OFFCHIP_FW~0x8",
+    "address_309": "0x3bf900",
+    "address_310": "0x402700",
+    "bytes_309": 191264,
+    "bytes_310": 192304,
+    "version_309": "B.65.4.0",
+    "version_310": "B.65.C.0",
+    "sha256_309": "4338ca5d9d8fd66f8aacbc285a727a9d55f1863fafab3910fed9a71802277686",
+    "sha256_310": "9f3c09c69991c27ded26d1f7f68fe2418b87eaa53c3ef7a58198f07be74399a0",
+    "same": false,
+    "differing_positions_in_overlap": 190265
+  },
+  {
+    "type": "SMU_OFF_CHIP_FW_2~0x12",
+    "address_309": "0x3ee500",
+    "address_310": "0x431700",
+    "bytes_309": 688,
+    "bytes_310": 688,
+    "version_309": "B.5D.4.0",
+    "version_310": "B.5D.B.0",
+    "sha256_309": "822af14dce28943406c06be51d1da582754a5ea99333ba2b6c624467b8d1140c",
+    "sha256_310": "d320c9d2ec17814cb2bcd2f8b0f4fa4a9d941def387de51af13060cc5ccf55b0",
+    "same": false,
+    "differing_positions_in_overlap": 362
+  },
+  {
+    "type": "SMU_OFF_CHIP_FW_2~0x12",
+    "address_309": "0x3ee800",
+    "address_310": "0x431a00",
+    "bytes_309": 688,
+    "bytes_310": 688,
+    "version_309": "B.65.4.0",
+    "version_310": "B.65.C.0",
+    "sha256_309": "000f09efb6694a6cb636be10c92e7d84da7afa80f113a17232d65d2cc7baecfc",
+    "sha256_310": "f7dc65e05b7e6683f68e1b50e857dfea388c2e288b5c0de12616f8465af5b156",
+    "same": false,
+    "differing_positions_in_overlap": 326
+  },
+  {
+    "type": "CCX_CORE_INIT_AND_PM~0x90",
+    "address_309": "0x3eeb00",
+    "address_310": "0x431d00",
+    "bytes_309": 70592,
+    "bytes_310": 70720,
+    "version_309": "B.5D.4.0",
+    "version_310": "B.5D.B.0",
+    "sha256_309": "b5541592ac0bb65734790a6512aecc31a00089d0769701f2567a634d90c89ec9",
+    "sha256_310": "f44e682ac87042f5c5ff09094efcdafd55193d118cf33bf9d43fe4eb52def9c6",
+    "same": false,
+    "differing_positions_in_overlap": 70008
+  },
+  {
+    "type": "CCX_CORE_INIT_AND_PM~0x90",
+    "address_309": "0x3fff00",
+    "address_310": "0x443200",
+    "bytes_309": 67856,
+    "bytes_310": 68480,
+    "version_309": "B.65.4.0",
+    "version_310": "B.65.C.0",
+    "sha256_309": "e3984fa1d6264220111570001b52aafc74cbf5088b33e69e75f61436a95fddb0",
+    "sha256_310": "ad4a67963a90d54368ed3543016937b5ff287e3ed73008f22e745c5fcd2b9d9d",
+    "same": false,
+    "differing_positions_in_overlap": 67180
+  },
+  {
+    "type": "PSP_BOOT_TIME_TRUSTLETS~0xc",
+    "address_309": "0x410900",
+    "address_310": "0x453e00",
+    "bytes_309": 135168,
+    "bytes_310": 135168,
+    "version_309": "6.18.0.7",
+    "version_310": "6.18.0.7",
+    "sha256_309": "1ba6086161668b92f498043501bc71de69265e4adba8a547aeb0b376d1bdad23",
+    "sha256_310": "1ba6086161668b92f498043501bc71de69265e4adba8a547aeb0b376d1bdad23",
+    "same": true
+  },
+  {
+    "type": "TOS_SECURITY_POLICY~0x45",
+    "address_309": "0x431a00",
+    "address_310": "0x474f00",
+    "bytes_309": 10720,
+    "bytes_310": 10720,
+    "version_309": "E.1.40.A2",
+    "version_310": "E.1.40.A2",
+    "sha256_309": "645154a18dbbc2cb51a2cd09273718a881173327674c46f1074b6f445b43e8d0",
+    "sha256_310": "645154a18dbbc2cb51a2cd09273718a881173327674c46f1074b6f445b43e8d0",
+    "same": true
+  },
+  {
+    "type": "DRTM_TA~0x47",
+    "address_309": "0x434400",
+    "address_310": "0x477900",
+    "bytes_309": 24832,
+    "bytes_310": 24832,
+    "version_309": "4.2D.0.3A",
+    "version_310": "4.2D.0.3A",
+    "sha256_309": "103a60e01b64a95fc3ab9278c22fd2c910362660142a6ddce355ba4298701329",
+    "sha256_310": "103a60e01b64a95fc3ab9278c22fd2c910362660142a6ddce355ba4298701329",
+    "same": true
+  },
+  {
+    "type": "BL_ROLLBACK_SPL~0x55",
+    "address_309": "0x43a500",
+    "address_310": "0x47da00",
+    "bytes_309": 1952,
+    "bytes_310": 1952,
+    "version_309": "5.3E.0.75",
+    "version_310": "5.3E.0.75",
+    "sha256_309": "f5b34c1afa9f4247dfc0cd88e56c2243affceb899251a0ce4aa2c12fd3c60020",
+    "sha256_310": "f5b34c1afa9f4247dfc0cd88e56c2243affceb899251a0ce4aa2c12fd3c60020",
+    "same": true
+  },
+  {
+    "type": "PSP_FW_BOOT_LOADER~0x1",
+    "address_309": "0x43ad00",
+    "address_310": "0x47e200",
+    "bytes_309": 12848,
+    "bytes_310": 12848,
+    "version_309": "0.3E.4.74",
+    "version_310": "0.3E.C.74",
+    "sha256_309": "0876fd60de56edd94dcd2efd087d52f915917e34a951188f9f57322fa8432889",
+    "sha256_310": "a48039fdb68a6f003586198e87ac3857b93bcea0f4646b1d09cc5d70b46a281d",
+    "same": false,
+    "differing_positions_in_overlap": 10737
+  },
+  {
+    "type": "PSP_FW_BOOT_LOADER~0x73",
+    "address_309": "0x43e000",
+    "address_310": "0x481500",
+    "bytes_309": 79552,
+    "bytes_310": 79552,
+    "version_309": "0.3E.4.74",
+    "version_310": "0.3E.C.74",
+    "sha256_309": "9ad2e878a56d24034da922577a4032a7ec933ad5f3f376c976b68fa9e519f47e",
+    "sha256_310": "5545cbc7749856876026a623e8d827584bcba13daf7cf15e5aaeeb9aafb1cb12",
+    "same": false,
+    "differing_positions_in_overlap": 61633
+  },
+  {
+    "type": "PSP_FW_TRUSTED_OS~0x2",
+    "address_309": "0x451700",
+    "address_310": "0x494c00",
+    "bytes_309": 108832,
+    "bytes_310": 108832,
+    "version_309": "0.3E.4.74",
+    "version_310": "0.3E.C.74",
+    "sha256_309": "ea99dafb7330501168965954e7321ca2c50310c51e077456e2d46f10acf09c5b",
+    "sha256_310": "3c555ba22c1b0f21e06d4aa41e8624f8eced489f53188689a08978de69876999",
+    "same": false,
+    "differing_positions_in_overlap": 13540
+  },
+  {
+    "type": "DEBUG_UNLOCK~0x13",
+    "address_309": "0x46c300",
+    "address_310": "0x4af800",
+    "bytes_309": 8832,
+    "bytes_310": 8832,
+    "version_309": "0.3E.4.74",
+    "version_310": "0.3E.C.74",
+    "sha256_309": "a020ead74ab18070c4c346e78457da81b0db3a375eec174ac21987541c25f722",
+    "sha256_310": "aaeb564fb4730a038038df0005acd23e8a14902d57f4390ffc594f6c63fb79ff",
+    "same": false,
+    "differing_positions_in_overlap": 271
+  },
+  {
+    "type": "TEE_IP_KEY_MGR_DRIVER~0x15",
+    "address_309": "0x46e600",
+    "address_310": "0x4b1b00",
+    "bytes_309": 16384,
+    "bytes_310": 16384,
+    "version_309": "0.3E.4.74",
+    "version_310": "0.3E.C.74",
+    "sha256_309": "beb74ca05b2fae61c167eaf131b578685bae91903168d74694c44646635e5397",
+    "sha256_310": "e504d5eab325ab563c6187288d84ab93dd8175d53f817b8cf814b7987985b3c0",
+    "same": false,
+    "differing_positions_in_overlap": 17
+  },
+  {
+    "type": "TEE_BOOT_DRIVER~0x1b",
+    "address_309": "0x472700",
+    "address_310": "0x4b5c00",
+    "bytes_309": 20480,
+    "bytes_310": 20480,
+    "version_309": "0.3E.4.74",
+    "version_310": "0.3E.C.74",
+    "sha256_309": "48b714a2784dc1bb1c945f98ea4ce8635f9112846b201a564cf7d513f8ae54ba",
+    "sha256_310": "30744330fdd4b8ec44dc386cb28258ce47827b8705cfa117b28b63fd03545535",
+    "same": false,
+    "differing_positions_in_overlap": 17
+  },
+  {
+    "type": "TEE_SOC_DRIVER~0x1c",
+    "address_309": "0x477800",
+    "address_310": "0x4bad00",
+    "bytes_309": 106496,
+    "bytes_310": 106496,
+    "version_309": "0.3E.4.74",
+    "version_310": "0.3E.C.74",
+    "sha256_309": "8be0a4a330db5787a434245086d492c385d04167932fb190f270a2da15b32c32",
+    "sha256_310": "b15b171a0bf776aade7dbe1c9361a80c73a53bebdede77214352364d4516afc4",
+    "same": false,
+    "differing_positions_in_overlap": 80310
+  },
+  {
+    "type": "TEE_FBG_DRIVER~0x1d",
+    "address_309": "0x491900",
+    "address_310": "0x4d4e00",
+    "bytes_309": 20480,
+    "bytes_310": 20480,
+    "version_309": "0.3E.4.74",
+    "version_310": "0.3E.C.74",
+    "sha256_309": "db998b5fcbd6ea32849724c960b75e55fc80ae060cb34d487c8b3f82cd208ae2",
+    "sha256_310": "7ddae4bef7552f3924e1036ef3d3d4cd9e20b3e7996df958e4cfc25f5414d7cc",
+    "same": false,
+    "differing_positions_in_overlap": 17
+  },
+  {
+    "type": "TEE_INTERFACE_DRIVER~0x1f",
+    "address_309": "0x496a00",
+    "address_310": "0x4d9f00",
+    "bytes_309": 36864,
+    "bytes_310": 36864,
+    "version_309": "0.3E.4.74",
+    "version_310": "0.3E.C.74",
+    "sha256_309": "de4b023a47f164ff48de0f4ab3188dd502f31b98e3b92700b7595225eb2011b4",
+    "sha256_310": "c56a9be578caeefeda274d10e933cdbbfb6efdf8374f5acc5a05f0c285cf0d85",
+    "same": false,
+    "differing_positions_in_overlap": 20126
+  },
+  {
+    "type": "DRIVER_ENTRIES~0x28",
+    "address_309": "0x49fb00",
+    "address_310": "0x4e3000",
+    "bytes_309": 65536,
+    "bytes_310": 65536,
+    "version_309": "0.3E.4.74",
+    "version_310": "0.3E.C.74",
+    "sha256_309": "935589caac94bca39c0baaa4047612fb936b2f465a8b43d7ef054e91b18e1f58",
+    "sha256_310": "d6ae738502938a9a784c3de63b5c6e3fc4291d0d23345bfc3e676c84dd97109e",
+    "same": false,
+    "differing_positions_in_overlap": 66
+  },
+  {
+    "type": "BL_PUBLIC_KEY~0x50",
+    "address_309": "0x4afd00",
+    "address_310": "0x4f3200",
+    "bytes_309": 9008,
+    "bytes_310": 9008,
+    "version_309": "1",
+    "version_310": "1",
+    "sha256_309": "ddb0daddd4f0ae473cd2a3f4dd755f1db311705b192d524c7d86a4157cb289b1",
+    "sha256_310": "ddb0daddd4f0ae473cd2a3f4dd755f1db311705b192d524c7d86a4157cb289b1",
+    "same": true
+  },
+  {
+    "type": "TOS_PUBLIC_KEY~0x51",
+    "address_309": "0x4b2100",
+    "address_310": "0x4f5600",
+    "bytes_309": 9168,
+    "bytes_310": 9168,
+    "version_309": "1",
+    "version_310": "1",
+    "sha256_309": "c623e9c43a7754fb1c0eebb0bb91cecc8bb8af67c7402cec07259bae8c4d0f91",
+    "sha256_310": "c623e9c43a7754fb1c0eebb0bb91cecc8bb8af67c7402cec07259bae8c4d0f91",
+    "same": true
+  },
+  {
+    "type": "BIOS_PUBLIC_KEY~0x5",
+    "address_309": "0x629c00",
+    "address_310": "0x629c00",
+    "bytes_309": 1088,
+    "bytes_310": 1088,
+    "version_309": "1",
+    "version_310": "1",
+    "sha256_309": "a1f79fcea7ec3a8ea86500548d05ef879c928e38e0b424112be473f9975b0934",
+    "sha256_310": "a1f79fcea7ec3a8ea86500548d05ef879c928e38e0b424112be473f9975b0934",
+    "same": true
+  },
+  {
+    "type": "BIOS_RTM_SIGNATURE~0x7",
+    "address_309": "0x62a100",
+    "address_310": "0x62a100",
+    "bytes_309": 256,
+    "bytes_310": 256,
+    "version_309": "",
+    "version_310": "",
+    "sha256_309": "42ba1d37e4c08a28be4faefcb6d3014003edd36914545b82483caf7eff026b4b",
+    "sha256_310": "c9a34be01fdba5cf4b4393b260e2f401e34bd12aa5e754434daf4397c0ef8eb3",
+    "same": false,
+    "differing_positions_in_overlap": 256
+  },
+  {
+    "type": "HARDWARE_IP_CONFIG~0x20",
+    "address_309": "0x62a200",
+    "address_310": "0x62a200",
+    "bytes_309": 1952,
+    "bytes_310": 1952,
+    "version_309": "F.1.1.4",
+    "version_310": "F.1.1.4",
+    "sha256_309": "58cdc4e3ecfe950a0d104e12ebf52193084b29e67380a19acd34ce5bbccb1372",
+    "sha256_310": "58cdc4e3ecfe950a0d104e12ebf52193084b29e67380a19acd34ce5bbccb1372",
+    "same": true
+  },
+  {
+    "type": "HARDWARE_IP_CONFIG~0x20",
+    "address_309": "0x62aa00",
+    "address_310": "0x62aa00",
+    "bytes_309": 1936,
+    "bytes_310": 1936,
+    "version_309": "11.1.1.6",
+    "version_310": "11.1.1.6",
+    "sha256_309": "5186609b2ab92ccf424dba565584adf3fa127f6bd4ad6e1cbe750d457b3ce4e3",
+    "sha256_310": "5186609b2ab92ccf424dba565584adf3fa127f6bd4ad6e1cbe750d457b3ce4e3",
+    "same": true
+  },
+  {
+    "type": "APCB~0x60",
+    "address_309": "0x62b800",
+    "address_310": "0x62b800",
+    "bytes_309": 12288,
+    "bytes_310": 12288,
+    "version_309": "",
+    "version_310": "",
+    "sha256_309": "cd106895522eb8e981b12a4419b320819816890348124247498b34275e8c7985",
+    "sha256_310": "316b6f78e59e4bcfa7ead40fac7ba3eca4b4e94e006fa088d1e6e65b77359b16",
+    "same": false,
+    "differing_positions_in_overlap": 3,
+    "first_differences": [
+      {
+        "offset": "0xc",
+        "old": 24,
+        "new": 138
+      },
+      {
+        "offset": "0xd",
+        "old": 50,
+        "new": 120
+      },
+      {
+        "offset": "0x10",
+        "old": 118,
+        "new": 190
+      }
+    ]
+  },
+  {
+    "type": "APCB_COPY~0x68",
+    "address_309": "0x62e800",
+    "address_310": "0x62e800",
+    "bytes_309": 13312,
+    "bytes_310": 13312,
+    "version_309": "",
+    "version_310": "",
+    "sha256_309": "ad3e6a7c8b651814c8d65f99a157ad7852112f6cb34d8648708520d8847842b7",
+    "sha256_310": "3b9e3544a515f50d2ab920bf00cd7f761a7fce7a6f7eb76884ffd7151073ecb0",
+    "same": false,
+    "differing_positions_in_overlap": 416,
+    "first_differences": [
+      {
+        "offset": "0x8",
+        "old": 192,
+        "new": 216
+      },
+      {
+        "offset": "0xc",
+        "old": 17,
+        "new": 131
+      },
+      {
+        "offset": "0xd",
+        "old": 50,
+        "new": 120
+      },
+      {
+        "offset": "0x10",
+        "old": 172,
+        "new": 93
+      },
+      {
+        "offset": "0x260c",
+        "old": 192,
+        "new": 216
+      },
+      {
+        "offset": "0x2614",
+        "old": 144,
+        "new": 152
+      },
+      {
+        "offset": "0x2668",
+        "old": 42,
+        "new": 168
+      },
+      {
+        "offset": "0x2669",
+        "old": 29,
+        "new": 49
+      },
+      {
+        "offset": "0x266a",
+        "old": 228,
+        "new": 171
+      },
+      {
+        "offset": "0x266b",
+        "old": 119,
+        "new": 100
+      },
+      {
+        "offset": "0x266c",
+        "old": 1,
+        "new": 0
+      },
+      {
+        "offset": "0x2670",
+        "old": 90,
+        "new": 42
+      },
+      {
+        "offset": "0x2671",
+        "old": 139,
+        "new": 29
+      },
+      {
+        "offset": "0x2672",
+        "old": 149,
+        "new": 228
+      },
+      {
+        "offset": "0x2673",
+        "old": 135,
+        "new": 119
+      },
+      {
+        "offset": "0x2678",
+        "old": 53,
+        "new": 90
+      },
+      {
+        "offset": "0x2679",
+        "old": 52,
+        "new": 139
+      },
+      {
+        "offset": "0x267a",
+        "old": 230,
+        "new": 149
+      },
+      {
+        "offset": "0x267b",
+        "old": 185,
+        "new": 135
+      },
+      {
+        "offset": "0x2680",
+        "old": 33,
+        "new": 53
+      },
+      {
+        "offset": "0x2681",
+        "old": 255,
+        "new": 52
+      },
+      {
+        "offset": "0x2682",
+        "old": 51,
+        "new": 230
+      },
+      {
+        "offset": "0x2683",
+        "old": 220,
+        "new": 185
+      },
+      {
+        "offset": "0x2689",
+        "old": 74,
+        "new": 255
+      },
+      {
+        "offset": "0x268a",
+        "old": 2,
+        "new": 51
+      },
+      {
+        "offset": "0x268b",
+        "old": 231,
+        "new": 220
+      },
+      {
+        "offset": "0x2690",
+        "old": 186,
+        "new": 33
+      },
+      {
+        "offset": "0x2691",
+        "old": 96,
+        "new": 74
+      },
+      {
+        "offset": "0x2692",
+        "old": 237,
+        "new": 2
+      },
+      {
+        "offset": "0x2693",
+        "old": 238,
+        "new": 231
+      },
+      {
+        "offset": "0x2698",
+        "old": 248,
+        "new": 186
+      },
+      {
+        "offset": "0x2699",
+        "old": 1,
+        "new": 96
+      },
+      {
+        "offset": "0x269a",
+        "old": 219,
+        "new": 237
+      },
+      {
+        "offset": "0x269b",
+        "old": 254,
+        "new": 238
+      },
+      {
+        "offset": "0x26a0",
+        "old": 0,
+        "new": 248
+      },
+      {
+        "offset": "0x26a1",
+        "old": 48,
+        "new": 1
+      },
+      {
+        "offset": "0x26a2",
+        "old": 1,
+        "new": 219
+      },
+      {
+        "offset": "0x26a3",
+        "old": 0,
+        "new": 254
+      },
+      {
+        "offset": "0x26a4",
+        "old": 152,
+        "new": 1
+      },
+      {
+        "offset": "0x26a5",
+        "old": 1,
+        "new": 0
+      }
+    ]
+  },
+  {
+    "type": "APCB_COPY~0x68",
+    "address_309": "0x631c00",
+    "address_310": "0x631c00",
+    "bytes_309": 12288,
+    "bytes_310": 12288,
+    "version_309": "",
+    "version_310": "",
+    "sha256_309": "cd106895522eb8e981b12a4419b320819816890348124247498b34275e8c7985",
+    "sha256_310": "316b6f78e59e4bcfa7ead40fac7ba3eca4b4e94e006fa088d1e6e65b77359b16",
+    "same": false,
+    "differing_positions_in_overlap": 3,
+    "first_differences": [
+      {
+        "offset": "0xc",
+        "old": 24,
+        "new": 138
+      },
+      {
+        "offset": "0xd",
+        "old": 50,
+        "new": 120
+      },
+      {
+        "offset": "0x10",
+        "old": 118,
+        "new": 190
+      }
+    ]
+  },
+  {
+    "type": "BIOS",
+    "address_309": "0x1d02800",
+    "address_310": "0x1d02800",
+    "bytes_309": 651470,
+    "bytes_310": 651581,
+    "version_309": "",
+    "version_310": "",
+    "sha256_309": "123403d8d0c9c2bdc3e5afcb2d73eae9d788b54bd6a9016907cb71d74a2cccd0",
+    "sha256_310": "07c045dc3d2a146438db9b253a009717dc704da7daaf5adfb9af4df27c590932",
+    "same": false,
+    "differing_positions_in_overlap": 602624
+  },
+  {
+    "type": "BIOS",
+    "address_309": "0x1a02800",
+    "address_310": "0x1a02800",
+    "bytes_309": 5767296,
+    "bytes_310": 5767296,
+    "version_309": "",
+    "version_310": "",
+    "sha256_309": "845fdcad63e74838d0fcdbbe2b069411d6843704f57b325508cff1eb44d6bad7",
+    "sha256_310": "3f381d2f4916af21bac0185fb033f94feef06bc518da3fe3236b2af4af2900f5",
+    "same": false,
+    "differing_positions_in_overlap": 1205481
+  },
+  {
+    "type": "APOB_NV_COPY~0x63",
+    "address_309": "0x635800",
+    "address_310": "0x635800",
+    "bytes_309": 262144,
+    "bytes_310": 262144,
+    "version_309": "",
+    "version_310": "",
+    "sha256_309": "3b874d3ba46c638fc3094f8e92fb744ca974893873f8885f54e23760f9b6311b",
+    "sha256_310": "3b874d3ba46c638fc3094f8e92fb744ca974893873f8885f54e23760f9b6311b",
+    "same": true
+  },
+  {
+    "type": "PMU_CODE~0x64",
+    "address_309": "0x675800",
+    "address_310": "0x675800",
+    "bytes_309": 14080,
+    "bytes_310": 14080,
+    "version_309": "0.0.C.14",
+    "version_310": "0.0.C.14",
+    "sha256_309": "0f9837f55971ddc816d03de5736d7e0d2f76871fb72e73479311e4c35795f4c8",
+    "sha256_310": "0f9837f55971ddc816d03de5736d7e0d2f76871fb72e73479311e4c35795f4c8",
+    "same": true
+  },
+  {
+    "type": "PMU_DATA~0x65",
+    "address_309": "0x678f00",
+    "address_310": "0x678f00",
+    "bytes_309": 1520,
+    "bytes_310": 1520,
+    "version_309": "0.0.C.14",
+    "version_310": "0.0.C.14",
+    "sha256_309": "f29b43e46d1c9e2980c5532f87d322bd94aeacdbe261592a661f17a63c6f42cc",
+    "sha256_310": "f29b43e46d1c9e2980c5532f87d322bd94aeacdbe261592a661f17a63c6f42cc",
+    "same": true
+  },
+  {
+    "type": "PMU_CODE~0x64",
+    "address_309": "0x679500",
+    "address_310": "0x679500",
+    "bytes_309": 24848,
+    "bytes_310": 24848,
+    "version_309": "0.0.53.D",
+    "version_310": "0.0.53.D",
+    "sha256_309": "1365168881e379c9bff203afb1e4c52c13bbeb35f9c5b17edaf310dbd5b92918",
+    "sha256_310": "1365168881e379c9bff203afb1e4c52c13bbeb35f9c5b17edaf310dbd5b92918",
+    "same": true
+  },
+  {
+    "type": "PMU_CODE~0x64",
+    "address_309": "0x67f700",
+    "address_310": "0x67f700",
+    "bytes_309": 24112,
+    "bytes_310": 24112,
+    "version_309": "0.0.53.D",
+    "version_310": "0.0.53.D",
+    "sha256_309": "c1558e9dcbc601aa5b73ee4091c615125b3371d955e6340fed180c82c03ec0a5",
+    "sha256_310": "c1558e9dcbc601aa5b73ee4091c615125b3371d955e6340fed180c82c03ec0a5",
+    "same": true
+  },
+  {
+    "type": "PMU_CODE~0x64",
+    "address_309": "0x685600",
+    "address_310": "0x685600",
+    "bytes_309": 15728,
+    "bytes_310": 15728,
+    "version_309": "0.0.53.D",
+    "version_310": "0.0.53.D",
+    "sha256_309": "242ee6cec0ef91f040382825826fff1274af5c00547df93c1af98203e43f1807",
+    "sha256_310": "242ee6cec0ef91f040382825826fff1274af5c00547df93c1af98203e43f1807",
+    "same": true
+  },
+  {
+    "type": "PMU_DATA~0x65",
+    "address_309": "0x689400",
+    "address_310": "0x689400",
+    "bytes_309": 1760,
+    "bytes_310": 1760,
+    "version_309": "0.0.53.D",
+    "version_310": "0.0.53.D",
+    "sha256_309": "285f8d566422f8eba9058668f272655973492823fffae74c7a512be143dfc4fc",
+    "sha256_310": "285f8d566422f8eba9058668f272655973492823fffae74c7a512be143dfc4fc",
+    "same": true
+  },
+  {
+    "type": "PMU_DATA~0x65",
+    "address_309": "0x689b00",
+    "address_310": "0x689b00",
+    "bytes_309": 592,
+    "bytes_310": 592,
+    "version_309": "0.0.53.D",
+    "version_310": "0.0.53.D",
+    "sha256_309": "6c945f75e842be645d1bc737d96af89458ba4942028f186b39f1d8b777c9ea37",
+    "sha256_310": "6c945f75e842be645d1bc737d96af89458ba4942028f186b39f1d8b777c9ea37",
+    "same": true
+  },
+  {
+    "type": "PMU_DATA~0x65",
+    "address_309": "0x689e00",
+    "address_310": "0x689e00",
+    "bytes_309": 592,
+    "bytes_310": 592,
+    "version_309": "0.0.53.D",
+    "version_310": "0.0.53.D",
+    "sha256_309": "e34f049ad4bfb34674f20b3da954b757a51fdb6c17206ddeb6db64d2b2a5c86f",
+    "sha256_310": "e34f049ad4bfb34674f20b3da954b757a51fdb6c17206ddeb6db64d2b2a5c86f",
+    "same": true
+  },
+  {
+    "type": "MICROCODE_PATCH~0x66",
+    "address_309": "0x68a100",
+    "address_310": "0x68a100",
+    "bytes_309": 14880,
+    "bytes_310": 14880,
+    "version_309": "B.20.40.1B",
+    "version_310": "B.20.40.32",
+    "sha256_309": "b7ce55b3b885509471197e572928668d4f5b4c00e576df0ea09349dce734f735",
+    "sha256_310": "d1746bcafa2945196664adbee64fce99d3a87419d1b31615a78c28847c3b2c13",
+    "same": false,
+    "differing_positions_in_overlap": 14083
+  },
+  {
+    "type": "MICROCODE_PATCH~0x66",
+    "address_309": "0x68dc00",
+    "address_310": "0x68dc00",
+    "bytes_309": 14880,
+    "bytes_310": 14880,
+    "version_309": "B.60.0.E",
+    "version_310": "B.60.0.32",
+    "sha256_309": "64318b5f0c558fe2a9a32bce09684cff5703915f4bceabdaeea6a46825ee92fa",
+    "sha256_310": "b31a227ac0d983b9985890b2b26a1604c0e2e1fe854fb4421e28e9e5c12090c7",
+    "same": false,
+    "differing_positions_in_overlap": 14094
+  },
+  {
+    "type": "TEE_PRE_MEM_DRIVER_FW~0x6a",
+    "address_309": "0x691700",
+    "address_310": "0x691700",
+    "bytes_309": 608,
+    "bytes_310": 608,
+    "version_309": "24.5.22.15",
+    "version_310": "24.5.22.15",
+    "sha256_309": "f98e252d15a34cb6690b6774faefcbe987ec9640a607b85f825ec3f7412a34b7",
+    "sha256_310": "bd9c7fad6ce801b3a0e762e97c3806bb6e83daea9c58a0c5436cb807e2dd53f3",
+    "same": false,
+    "differing_positions_in_overlap": 368
+  },
+  {
+    "type": "ROM_ARMOR_BIOS_NVSTORE~0x6d",
+    "address_309": "0x19e0800",
+    "address_310": "0x19e0800",
+    "bytes_309": 131072,
+    "bytes_310": 131072,
+    "version_309": "",
+    "version_310": "",
+    "sha256_309": "b5a41c3758763bbec72769fab4a2533bf2db0b6312d93d25a695f9e4b9e02260",
+    "sha256_310": "b5a41c3758763bbec72769fab4a2533bf2db0b6312d93d25a695f9e4b9e02260",
+    "same": true
+  },
+  {
+    "type": "ROM_ARMOR_BIOS_NVSTORE~0x6d",
+    "address_309": "0x19c0800",
+    "address_310": "0x19c0800",
+    "bytes_309": 131072,
+    "bytes_310": 131072,
+    "version_309": "",
+    "version_310": "",
+    "sha256_309": "6d7a26cab8cdee9c322afd8a5fccd1efdb93464d41e8b650ff48e6222b738075",
+    "sha256_310": "78a574a7b84274a63a1d7096f04f5e44ce0f38781acb59a225c45c0a81c8910a",
+    "same": false,
+    "differing_positions_in_overlap": 1254
+  },
+  {
+    "type": "ROM_ARMOR_BIOS_NVSTORE~0x6d",
+    "address_309": "0x196f800",
+    "address_310": "0x196f800",
+    "bytes_309": 331776,
+    "bytes_310": 331776,
+    "version_309": "",
+    "version_310": "",
+    "sha256_309": "bf700f82c82d37c0d41dc0a598b5c24f311b0c9cbdf96b8feae99684c5688654",
+    "sha256_310": "bf700f82c82d37c0d41dc0a598b5c24f311b0c9cbdf96b8feae99684c5688654",
+    "same": true
+  },
+  {
+    "type": "SEC_DBG_PUBLIC_KEY~0x9",
+    "address_309": "0x6b2000",
+    "address_310": "0x6b2000",
+    "bytes_309": 1088,
+    "bytes_310": 1088,
+    "version_309": "1",
+    "version_310": "1",
+    "sha256_309": "a2219bb75c12d8595856cd11db3bda526acbf06d92b478cf782bf0adbbca4734",
+    "sha256_310": "a2219bb75c12d8595856cd11db3bda526acbf06d92b478cf782bf0adbbca4734",
+    "same": true
+  },
+  {
+    "type": "SOFT_FUSE_CHAIN_01~0xb",
+    "address_309": "0x6b1830",
+    "address_310": "0x6b1830",
+    "bytes_309": 16,
+    "bytes_310": 16,
+    "version_309": "",
+    "version_310": "",
+    "sha256_309": "118f3e62f2da1168edce20a96ff7516f89b1f0401837e8c83631b32c02a61a9d",
+    "sha256_310": "118f3e62f2da1168edce20a96ff7516f89b1f0401837e8c83631b32c02a61a9d",
+    "same": true
+  },
+  {
+    "type": "WRAPPED_IKEK~0x21",
+    "address_309": "0x6b2500",
+    "address_310": "0x6b2500",
+    "bytes_309": 48,
+    "bytes_310": 48,
+    "version_309": "",
+    "version_310": "",
+    "sha256_309": "5fc0543a8d2cf28f62021319a6138562196702483c754ce4591650c0e4cf7cac",
+    "sha256_310": "5fc0543a8d2cf28f62021319a6138562196702483c754ce4591650c0e4cf7cac",
+    "same": true
+  },
+  {
+    "type": "MP2_FW~0x25",
+    "address_309": "0x6b2600",
+    "address_310": "0x6b2600",
+    "bytes_309": 514992,
+    "bytes_310": 786432,
+    "version_309": "B.0.0.2F",
+    "version_310": "B.0.0.4F",
+    "sha256_309": "81836c22b4d24f427f65182c835581ff89de8b254fa918f067654bd5bd3bee6d",
+    "sha256_310": "97c12d16a0c6745cf61744fe3aa3b5b5f9891b7089ed2fdb7f6a9d3d29892b10",
+    "same": false,
+    "differing_positions_in_overlap": 419855
+  },
+  {
+    "type": "C20_PHY_FW~0x95",
+    "address_309": "0x730200",
+    "address_310": "0x772600",
+    "bytes_309": 41472,
+    "bytes_310": 41472,
+    "version_309": "0.2.18.0",
+    "version_310": "0.2.18.1",
+    "sha256_309": "8b6d4906aefbcc9e59965bbc4940db0327ecec7b555cd46d0badfc325bd289c1",
+    "sha256_310": "20fe7f6f37c617bbeced2c34ecc26c35c1bf624781d9bb10acb588a89b77b862",
+    "same": false,
+    "differing_positions_in_overlap": 320
+  },
+  {
+    "type": "MPIO_FW~0x5d",
+    "address_309": "0x73a400",
+    "address_310": "0x77c800",
+    "bytes_309": 80608,
+    "bytes_310": 80896,
+    "version_309": "0.11.3.F0",
+    "version_310": "0.11.6.26",
+    "sha256_309": "37503e333030b5bc6b96accd59449b44506a8777ec2c52fe285247cbd0a2e791",
+    "sha256_310": "adcf72fde368d3c3765cd0a1c0587e168a858b101d1d462c903bd31543d0c929",
+    "same": false,
+    "differing_positions_in_overlap": 68324
+  },
+  {
+    "type": "SPI_ROM_CONFIG~0x5c",
+    "address_309": "0x74df00",
+    "address_310": "0x790400",
+    "bytes_309": 3872,
+    "bytes_310": 4256,
+    "version_309": "0.23.17.36",
+    "version_310": "0.23.17.38",
+    "sha256_309": "b6cdd08ff15b2d447e2971882b881f17895d2ad513f708a5a8fb8be38141b15c",
+    "sha256_310": "89a5cf49b9c771f7a2603ad8ee4b4ceae4f36752ddbcbd24af873d708a3e8c66",
+    "same": false,
+    "differing_positions_in_overlap": 385
+  },
+  {
+    "type": "FW_PSP_SMUSCS_OR_TPMLITE~0x5f",
+    "address_309": "0x74ef00",
+    "address_310": "0x791500",
+    "bytes_309": 383756,
+    "bytes_310": 383756,
+    "version_309": "",
+    "version_310": "",
+    "sha256_309": "e867041b48d11f42ac836fbf30b31b4f8e9cc8025280e1d4c7a6a8bc41aa62da",
+    "sha256_310": "e867041b48d11f42ac836fbf30b31b4f8e9cc8025280e1d4c7a6a8bc41aa62da",
+    "same": true
+  },
+  {
+    "type": "PSP_DMCUB_CODE~0x71",
+    "address_309": "0x7acb00",
+    "address_310": "0x7ef100",
+    "bytes_309": 206864,
+    "bytes_310": 206864,
+    "version_309": "0.3.D6.4B",
+    "version_310": "0.3.D6.4B",
+    "sha256_309": "b2f10c72ffa2e3aa4ff9b9ac8ed92944adc5b6207c6b29ceb6049c1bd2486334",
+    "sha256_310": "b2f10c72ffa2e3aa4ff9b9ac8ed92944adc5b6207c6b29ceb6049c1bd2486334",
+    "same": true
+  },
+  {
+    "type": "REGISTER_INIT_BIN~0x76",
+    "address_309": "0x7df400",
+    "address_310": "0x821a00",
+    "bytes_309": 6384,
+    "bytes_310": 6384,
+    "version_309": "9.0.9.6",
+    "version_310": "9.0.9.6",
+    "sha256_309": "1a7098ef644bd23b97289af059cca8da5991b0f18918ec9ae6792cb05a90f20b",
+    "sha256_310": "1a7098ef644bd23b97289af059cca8da5991b0f18918ec9ae6792cb05a90f20b",
+    "same": true
+  },
+  {
+    "type": "REGISTER_INIT_BIN~0x76",
+    "address_309": "0x7e0d00",
+    "address_310": "0x823300",
+    "bytes_309": 5984,
+    "bytes_310": 5984,
+    "version_309": "F.0.6.1",
+    "version_310": "F.0.6.1",
+    "sha256_309": "c9cc1dc365107c7c9eca69ecaade4035acf9588bcb86815b03beda523628179d",
+    "sha256_310": "c9cc1dc365107c7c9eca69ecaade4035acf9588bcb86815b03beda523628179d",
+    "same": true
+  },
+  {
+    "type": "IKEK_TA~0x8d",
+    "address_309": "0x7e2500",
+    "address_310": "0x824b00",
+    "bytes_309": 48,
+    "bytes_310": 48,
+    "version_309": "",
+    "version_310": "",
+    "sha256_309": "c727adadf480d7b99fe3105fe9fe768c9297fde4cd4582c04f2feb7c366e996e",
+    "sha256_310": "c727adadf480d7b99fe3105fe9fe768c9297fde4cd4582c04f2feb7c366e996e",
+    "same": true
+  },
+  {
+    "type": "LSDMA_FW~0x94",
+    "address_309": "0x7e2600",
+    "address_310": "0x824c00",
+    "bytes_309": 17408,
+    "bytes_310": 17408,
+    "version_309": "0.6.11.8",
+    "version_310": "0.6.11.8",
+    "sha256_309": "62d7148f796ac70ef9e9ef11b6e4478141b9b5dfd24f15eb4aae34f0ab55c414",
+    "sha256_310": "62d7148f796ac70ef9e9ef11b6e4478141b9b5dfd24f15eb4aae34f0ab55c414",
+    "same": true
+  },
+  {
+    "type": "FW_ROM_OR_FIPS_SRAM~0x9d",
+    "address_309": "0x7e6a00",
+    "address_310": "0x829000",
+    "bytes_309": 2048,
+    "bytes_310": 2048,
+    "version_309": "0.3E.3.13",
+    "version_310": "0.3E.3.13",
+    "sha256_309": "f5a156e9a6b248f756cd85d4904140fafefd9840946c7d277b6a9bcb357bf24a",
+    "sha256_310": "f5a156e9a6b248f756cd85d4904140fafefd9840946c7d277b6a9bcb357bf24a",
+    "same": true
+  },
+  {
+    "type": "USB_TYPEC_DP~0xa4",
+    "address_309": "0x7e7200",
+    "address_310": "0x829800",
+    "bytes_309": 12800,
+    "bytes_310": 12800,
+    "version_309": "3.77.72.93",
+    "version_310": "3.77.72.93",
+    "sha256_309": "352fca8529f6dccb1aee2a06487727387749b59ea87145ba7549360110ca4b7c",
+    "sha256_310": "352fca8529f6dccb1aee2a06487727387749b59ea87145ba7549360110ca4b7c",
+    "same": true
+  },
+  {
+    "type": "USB_SS_FW~0xa5",
+    "address_309": "0x7ea400",
+    "address_310": "0x82ca00",
+    "bytes_309": 12800,
+    "bytes_310": 12800,
+    "version_309": "3.73.94.20",
+    "version_310": "3.73.94.20",
+    "sha256_309": "9d77ae973540ea28d3cc0d5c06f5d82d2bf94022d01c7a2aec7876ae58329d04",
+    "sha256_310": "9d77ae973540ea28d3cc0d5c06f5d82d2bf94022d01c7a2aec7876ae58329d04",
+    "same": true
+  },
+  {
+    "type": "USB4~0xa6",
+    "address_309": "0x7ed600",
+    "address_310": "0x82fc00",
+    "bytes_309": 41472,
+    "bytes_310": 41472,
+    "version_309": "3.91.47.47",
+    "version_310": "3.91.47.47",
+    "sha256_309": "e19d504a15f14c69f33621721aafe0afc37b4acb1c14c75a90c13b4be6e15cf0",
+    "sha256_310": "e19d504a15f14c69f33621721aafe0afc37b4acb1c14c75a90c13b4be6e15cf0",
+    "same": true
+  },
+  {
+    "type": "GFX_IMU_LX7_CODE~0x9b",
+    "address_309": "0x7f7800",
+    "address_310": "0x839e00",
+    "bytes_309": 66048,
+    "bytes_310": 66048,
+    "version_309": "B.33.20.0",
+    "version_310": "B.33.20.0",
+    "sha256_309": "d165b406a28e4369462e846b31f2708d2954ce34b352ca6c86eb12bb1c8594d9",
+    "sha256_310": "d165b406a28e4369462e846b31f2708d2954ce34b352ca6c86eb12bb1c8594d9",
+    "same": true
+  },
+  {
+    "type": "GFX_IMU_LX7_CODE~0x9b",
+    "address_309": "0x807a00",
+    "address_310": "0x84a000",
+    "bytes_309": 66048,
+    "bytes_310": 66048,
+    "version_309": "B.34.20.0",
+    "version_310": "B.34.20.0",
+    "sha256_309": "f4d01630c88d553c314a2e52a4e520e80fd7a27cef72e2490fbb5fca91441a6b",
+    "sha256_310": "f4d01630c88d553c314a2e52a4e520e80fd7a27cef72e2490fbb5fca91441a6b",
+    "same": true
+  },
+  {
+    "type": "GFX_IMU_LX7_DATA~0x9c",
+    "address_309": "0x817c00",
+    "address_310": "0x85a200",
+    "bytes_309": 66048,
+    "bytes_310": 66048,
+    "version_309": "B.33.20.0",
+    "version_310": "B.33.20.0",
+    "sha256_309": "8c6d64baa18839b2ad613f70d6279782c9e54c4479915b9f755127c801025b6e",
+    "sha256_310": "8c6d64baa18839b2ad613f70d6279782c9e54c4479915b9f755127c801025b6e",
+    "same": true
+  },
+  {
+    "type": "GFX_IMU_LX7_DATA~0x9c",
+    "address_309": "0x827e00",
+    "address_310": "0x86a400",
+    "bytes_309": 66048,
+    "bytes_310": 66048,
+    "version_309": "B.34.20.0",
+    "version_310": "B.34.20.0",
+    "sha256_309": "9f0c60a80eb358599910f01b30bb2f66b564301a3b08b89aacbfddad2fb7497a",
+    "sha256_310": "9f0c60a80eb358599910f01b30bb2f66b564301a3b08b89aacbfddad2fb7497a",
+    "same": true
+  },
+  {
+    "type": "BIOS_L2AB_PTR~0x49",
+    "address_309": "0xb75800",
+    "address_310": "0xb75800",
+    "bytes_309": 1024,
+    "bytes_310": 1024,
+    "version_309": "",
+    "version_310": "",
+    "sha256_309": "2ac2be416769d86ab35a807d0dd8a98ae71720927fd6d3f10ff1bdf45f7e6a0d",
+    "sha256_310": "2ac2be416769d86ab35a807d0dd8a98ae71720927fd6d3f10ff1bdf45f7e6a0d",
+    "same": true
+  },
+  {
+    "type": "SEC_GASKET~0x24",
+    "address_309": "0x838000",
+    "address_310": "0x87a600",
+    "bytes_309": 28880,
+    "bytes_310": 28880,
+    "version_309": "E.1.0.A2",
+    "version_310": "E.1.0.A2",
+    "sha256_309": "46b22fc3385f28322a5ed52eac389978fd8067a0c3e881f3d5c708f5996a9cc0",
+    "sha256_310": "46b22fc3385f28322a5ed52eac389978fd8067a0c3e881f3d5c708f5996a9cc0",
+    "same": true
+  },
+  {
+    "type": "VBIOS_PRELOAD~0x3c",
+    "address_309": "0x83f100",
+    "address_310": "0x881700",
+    "bytes_309": 16256,
+    "bytes_310": 16256,
+    "version_309": "22.10.1.22",
+    "version_310": "22.10.1.22",
+    "sha256_309": "b0c7f8b3485b4ab1a7f945ffcc4288b699088c51dbc8b9e80be3d80370ada364",
+    "sha256_310": "b0c7f8b3485b4ab1a7f945ffcc4288b699088c51dbc8b9e80be3d80370ada364",
+    "same": true
+  },
+  {
+    "type": "MSMU_BINARY_0~0x5a",
+    "address_309": "0x843100",
+    "address_310": "0x885700",
+    "bytes_309": 88512,
+    "bytes_310": 88448,
+    "version_309": "FE.5D.18.0",
+    "version_310": "FC.5D.1.0",
+    "sha256_309": "0aba76b7bc7e5f3b66423d0d68198d6328bc76ced28d5c30beb6de4fd69173ed",
+    "sha256_310": "1aeca39d2fd06a8ddceeedd39095b5d6ad9a8b3b4ae84df8568005868a020e60",
+    "same": false,
+    "differing_positions_in_overlap": 87717
+  },
+  {
+    "type": "REDUCED_MSMU_SIZE~0x9a",
+    "address_309": "0x858b00",
+    "address_310": "0x89b100",
+    "bytes_309": 58096,
+    "bytes_310": 58064,
+    "version_309": "FE.5D.18.0",
+    "version_310": "FC.5D.1.0",
+    "sha256_309": "bf20ddd3fa17a68e222a362a8e349b3177b47ba7d37da0ce370be3aac56188e5",
+    "sha256_310": "4d68ed19ebea5d848907242316207935dc60214ea1350ce69973a334022f9ae5",
+    "same": false,
+    "differing_positions_in_overlap": 57405
+  },
+  {
+    "type": "ABL0~0x30",
+    "address_309": "0x866e00",
+    "address_310": "0x8a9400",
+    "bytes_309": 479440,
+    "bytes_310": 480672,
+    "version_309": "51.16.D0.50",
+    "version_310": "55.26.D0.50",
+    "sha256_309": "10d215d04b2227f805a007f765728a523f41d14c7eecff032f027e18b1e2a5ce",
+    "sha256_310": "1149635b632686356f5d6c06bacf496ea362d034aecccb51df27362cd6ad0b0b",
+    "same": false,
+    "differing_positions_in_overlap": 455229
+  },
+  {
+    "type": "SMU_OFFCHIP_FW~0x8",
+    "address_309": "0x8dbf00",
+    "address_310": "0x91ea00",
+    "bytes_309": 194832,
+    "bytes_310": 195824,
+    "version_309": "B.5D.4.0",
+    "version_310": "B.5D.B.0",
+    "sha256_309": "5bc750b08cf75812d53bcfddc965f6bc6e01afc077f98ae8a480d58f6db717a1",
+    "sha256_310": "deb895b5e94546e4915b09a4e090f50f63e61e8d38d873b69d0ba00fdf17a64f",
+    "same": false,
+    "differing_positions_in_overlap": 193760
+  },
+  {
+    "type": "SMU_OFFCHIP_FW~0x8",
+    "address_309": "0x90b900",
+    "address_310": "0x94e700",
+    "bytes_309": 191264,
+    "bytes_310": 192304,
+    "version_309": "B.65.4.0",
+    "version_310": "B.65.C.0",
+    "sha256_309": "4338ca5d9d8fd66f8aacbc285a727a9d55f1863fafab3910fed9a71802277686",
+    "sha256_310": "9f3c09c69991c27ded26d1f7f68fe2418b87eaa53c3ef7a58198f07be74399a0",
+    "same": false,
+    "differing_positions_in_overlap": 190265
+  },
+  {
+    "type": "SMU_OFF_CHIP_FW_2~0x12",
+    "address_309": "0x93a500",
+    "address_310": "0x97d700",
+    "bytes_309": 688,
+    "bytes_310": 688,
+    "version_309": "B.5D.4.0",
+    "version_310": "B.5D.B.0",
+    "sha256_309": "822af14dce28943406c06be51d1da582754a5ea99333ba2b6c624467b8d1140c",
+    "sha256_310": "d320c9d2ec17814cb2bcd2f8b0f4fa4a9d941def387de51af13060cc5ccf55b0",
+    "same": false,
+    "differing_positions_in_overlap": 362
+  },
+  {
+    "type": "SMU_OFF_CHIP_FW_2~0x12",
+    "address_309": "0x93a800",
+    "address_310": "0x97da00",
+    "bytes_309": 688,
+    "bytes_310": 688,
+    "version_309": "B.65.4.0",
+    "version_310": "B.65.C.0",
+    "sha256_309": "000f09efb6694a6cb636be10c92e7d84da7afa80f113a17232d65d2cc7baecfc",
+    "sha256_310": "f7dc65e05b7e6683f68e1b50e857dfea388c2e288b5c0de12616f8465af5b156",
+    "same": false,
+    "differing_positions_in_overlap": 326
+  },
+  {
+    "type": "CCX_CORE_INIT_AND_PM~0x90",
+    "address_309": "0x93ab00",
+    "address_310": "0x97dd00",
+    "bytes_309": 70592,
+    "bytes_310": 70720,
+    "version_309": "B.5D.4.0",
+    "version_310": "B.5D.B.0",
+    "sha256_309": "b5541592ac0bb65734790a6512aecc31a00089d0769701f2567a634d90c89ec9",
+    "sha256_310": "f44e682ac87042f5c5ff09094efcdafd55193d118cf33bf9d43fe4eb52def9c6",
+    "same": false,
+    "differing_positions_in_overlap": 70008
+  },
+  {
+    "type": "CCX_CORE_INIT_AND_PM~0x90",
+    "address_309": "0x94bf00",
+    "address_310": "0x98f200",
+    "bytes_309": 67856,
+    "bytes_310": 68480,
+    "version_309": "B.65.4.0",
+    "version_310": "B.65.C.0",
+    "sha256_309": "e3984fa1d6264220111570001b52aafc74cbf5088b33e69e75f61436a95fddb0",
+    "sha256_310": "ad4a67963a90d54368ed3543016937b5ff287e3ed73008f22e745c5fcd2b9d9d",
+    "same": false,
+    "differing_positions_in_overlap": 67180
+  },
+  {
+    "type": "PSP_BOOT_TIME_TRUSTLETS~0xc",
+    "address_309": "0x95c900",
+    "address_310": "0x99fe00",
+    "bytes_309": 135168,
+    "bytes_310": 135168,
+    "version_309": "6.18.0.7",
+    "version_310": "6.18.0.7",
+    "sha256_309": "1ba6086161668b92f498043501bc71de69265e4adba8a547aeb0b376d1bdad23",
+    "sha256_310": "1ba6086161668b92f498043501bc71de69265e4adba8a547aeb0b376d1bdad23",
+    "same": true
+  },
+  {
+    "type": "TOS_SECURITY_POLICY~0x45",
+    "address_309": "0x97da00",
+    "address_310": "0x9c0f00",
+    "bytes_309": 10720,
+    "bytes_310": 10720,
+    "version_309": "E.1.40.A2",
+    "version_310": "E.1.40.A2",
+    "sha256_309": "645154a18dbbc2cb51a2cd09273718a881173327674c46f1074b6f445b43e8d0",
+    "sha256_310": "645154a18dbbc2cb51a2cd09273718a881173327674c46f1074b6f445b43e8d0",
+    "same": true
+  },
+  {
+    "type": "DRTM_TA~0x47",
+    "address_309": "0x980400",
+    "address_310": "0x9c3900",
+    "bytes_309": 24832,
+    "bytes_310": 24832,
+    "version_309": "4.2D.0.3A",
+    "version_310": "4.2D.0.3A",
+    "sha256_309": "103a60e01b64a95fc3ab9278c22fd2c910362660142a6ddce355ba4298701329",
+    "sha256_310": "103a60e01b64a95fc3ab9278c22fd2c910362660142a6ddce355ba4298701329",
+    "same": true
+  },
+  {
+    "type": "BL_ROLLBACK_SPL~0x55",
+    "address_309": "0x986500",
+    "address_310": "0x9c9a00",
+    "bytes_309": 1952,
+    "bytes_310": 1952,
+    "version_309": "5.3E.0.75",
+    "version_310": "5.3E.0.75",
+    "sha256_309": "f5b34c1afa9f4247dfc0cd88e56c2243affceb899251a0ce4aa2c12fd3c60020",
+    "sha256_310": "f5b34c1afa9f4247dfc0cd88e56c2243affceb899251a0ce4aa2c12fd3c60020",
+    "same": true
+  },
+  {
+    "type": "PSP_FW_BOOT_LOADER~0x1",
+    "address_309": "0x986d00",
+    "address_310": "0x9ca200",
+    "bytes_309": 12848,
+    "bytes_310": 12848,
+    "version_309": "0.3E.4.74",
+    "version_310": "0.3E.C.74",
+    "sha256_309": "0876fd60de56edd94dcd2efd087d52f915917e34a951188f9f57322fa8432889",
+    "sha256_310": "a48039fdb68a6f003586198e87ac3857b93bcea0f4646b1d09cc5d70b46a281d",
+    "same": false,
+    "differing_positions_in_overlap": 10737
+  },
+  {
+    "type": "PSP_FW_BOOT_LOADER~0x73",
+    "address_309": "0x98a000",
+    "address_310": "0x9cd500",
+    "bytes_309": 79552,
+    "bytes_310": 79552,
+    "version_309": "0.3E.4.74",
+    "version_310": "0.3E.C.74",
+    "sha256_309": "9ad2e878a56d24034da922577a4032a7ec933ad5f3f376c976b68fa9e519f47e",
+    "sha256_310": "5545cbc7749856876026a623e8d827584bcba13daf7cf15e5aaeeb9aafb1cb12",
+    "same": false,
+    "differing_positions_in_overlap": 61633
+  },
+  {
+    "type": "PSP_FW_TRUSTED_OS~0x2",
+    "address_309": "0x99d700",
+    "address_310": "0x9e0c00",
+    "bytes_309": 108832,
+    "bytes_310": 108832,
+    "version_309": "0.3E.4.74",
+    "version_310": "0.3E.C.74",
+    "sha256_309": "ea99dafb7330501168965954e7321ca2c50310c51e077456e2d46f10acf09c5b",
+    "sha256_310": "3c555ba22c1b0f21e06d4aa41e8624f8eced489f53188689a08978de69876999",
+    "same": false,
+    "differing_positions_in_overlap": 13540
+  },
+  {
+    "type": "DEBUG_UNLOCK~0x13",
+    "address_309": "0x9b8300",
+    "address_310": "0x9fb800",
+    "bytes_309": 8832,
+    "bytes_310": 8832,
+    "version_309": "0.3E.4.74",
+    "version_310": "0.3E.C.74",
+    "sha256_309": "a020ead74ab18070c4c346e78457da81b0db3a375eec174ac21987541c25f722",
+    "sha256_310": "aaeb564fb4730a038038df0005acd23e8a14902d57f4390ffc594f6c63fb79ff",
+    "same": false,
+    "differing_positions_in_overlap": 271
+  },
+  {
+    "type": "TEE_IP_KEY_MGR_DRIVER~0x15",
+    "address_309": "0x9ba600",
+    "address_310": "0x9fdb00",
+    "bytes_309": 16384,
+    "bytes_310": 16384,
+    "version_309": "0.3E.4.74",
+    "version_310": "0.3E.C.74",
+    "sha256_309": "beb74ca05b2fae61c167eaf131b578685bae91903168d74694c44646635e5397",
+    "sha256_310": "e504d5eab325ab563c6187288d84ab93dd8175d53f817b8cf814b7987985b3c0",
+    "same": false,
+    "differing_positions_in_overlap": 17
+  },
+  {
+    "type": "TEE_BOOT_DRIVER~0x1b",
+    "address_309": "0x9be700",
+    "address_310": "0xa01c00",
+    "bytes_309": 20480,
+    "bytes_310": 20480,
+    "version_309": "0.3E.4.74",
+    "version_310": "0.3E.C.74",
+    "sha256_309": "48b714a2784dc1bb1c945f98ea4ce8635f9112846b201a564cf7d513f8ae54ba",
+    "sha256_310": "30744330fdd4b8ec44dc386cb28258ce47827b8705cfa117b28b63fd03545535",
+    "same": false,
+    "differing_positions_in_overlap": 17
+  },
+  {
+    "type": "TEE_SOC_DRIVER~0x1c",
+    "address_309": "0x9c3800",
+    "address_310": "0xa06d00",
+    "bytes_309": 106496,
+    "bytes_310": 106496,
+    "version_309": "0.3E.4.74",
+    "version_310": "0.3E.C.74",
+    "sha256_309": "8be0a4a330db5787a434245086d492c385d04167932fb190f270a2da15b32c32",
+    "sha256_310": "b15b171a0bf776aade7dbe1c9361a80c73a53bebdede77214352364d4516afc4",
+    "same": false,
+    "differing_positions_in_overlap": 80310
+  },
+  {
+    "type": "TEE_FBG_DRIVER~0x1d",
+    "address_309": "0x9dd900",
+    "address_310": "0xa20e00",
+    "bytes_309": 20480,
+    "bytes_310": 20480,
+    "version_309": "0.3E.4.74",
+    "version_310": "0.3E.C.74",
+    "sha256_309": "db998b5fcbd6ea32849724c960b75e55fc80ae060cb34d487c8b3f82cd208ae2",
+    "sha256_310": "7ddae4bef7552f3924e1036ef3d3d4cd9e20b3e7996df958e4cfc25f5414d7cc",
+    "same": false,
+    "differing_positions_in_overlap": 17
+  },
+  {
+    "type": "TEE_INTERFACE_DRIVER~0x1f",
+    "address_309": "0x9e2a00",
+    "address_310": "0xa25f00",
+    "bytes_309": 36864,
+    "bytes_310": 36864,
+    "version_309": "0.3E.4.74",
+    "version_310": "0.3E.C.74",
+    "sha256_309": "de4b023a47f164ff48de0f4ab3188dd502f31b98e3b92700b7595225eb2011b4",
+    "sha256_310": "c56a9be578caeefeda274d10e933cdbbfb6efdf8374f5acc5a05f0c285cf0d85",
+    "same": false,
+    "differing_positions_in_overlap": 20126
+  },
+  {
+    "type": "DRIVER_ENTRIES~0x28",
+    "address_309": "0x9ebb00",
+    "address_310": "0xa2f000",
+    "bytes_309": 65536,
+    "bytes_310": 65536,
+    "version_309": "0.3E.4.74",
+    "version_310": "0.3E.C.74",
+    "sha256_309": "935589caac94bca39c0baaa4047612fb936b2f465a8b43d7ef054e91b18e1f58",
+    "sha256_310": "d6ae738502938a9a784c3de63b5c6e3fc4291d0d23345bfc3e676c84dd97109e",
+    "same": false,
+    "differing_positions_in_overlap": 66
+  },
+  {
+    "type": "BL_PUBLIC_KEY~0x50",
+    "address_309": "0x9fbd00",
+    "address_310": "0xa3f200",
+    "bytes_309": 9008,
+    "bytes_310": 9008,
+    "version_309": "1",
+    "version_310": "1",
+    "sha256_309": "ddb0daddd4f0ae473cd2a3f4dd755f1db311705b192d524c7d86a4157cb289b1",
+    "sha256_310": "ddb0daddd4f0ae473cd2a3f4dd755f1db311705b192d524c7d86a4157cb289b1",
+    "same": true
+  },
+  {
+    "type": "TOS_PUBLIC_KEY~0x51",
+    "address_309": "0x9fe100",
+    "address_310": "0xa41600",
+    "bytes_309": 9168,
+    "bytes_310": 9168,
+    "version_309": "1",
+    "version_310": "1",
+    "sha256_309": "c623e9c43a7754fb1c0eebb0bb91cecc8bb8af67c7402cec07259bae8c4d0f91",
+    "sha256_310": "c623e9c43a7754fb1c0eebb0bb91cecc8bb8af67c7402cec07259bae8c4d0f91",
+    "same": true
+  },
+  {
+    "type": "BIOS_PUBLIC_KEY~0x5",
+    "address_309": "0xb75c00",
+    "address_310": "0xb75c00",
+    "bytes_309": 1088,
+    "bytes_310": 1088,
+    "version_309": "1",
+    "version_310": "1",
+    "sha256_309": "a1f79fcea7ec3a8ea86500548d05ef879c928e38e0b424112be473f9975b0934",
+    "sha256_310": "a1f79fcea7ec3a8ea86500548d05ef879c928e38e0b424112be473f9975b0934",
+    "same": true
+  },
+  {
+    "type": "BIOS_RTM_SIGNATURE~0x7",
+    "address_309": "0xb76100",
+    "address_310": "0xb76100",
+    "bytes_309": 256,
+    "bytes_310": 256,
+    "version_309": "",
+    "version_310": "",
+    "sha256_309": "42ba1d37e4c08a28be4faefcb6d3014003edd36914545b82483caf7eff026b4b",
+    "sha256_310": "c9a34be01fdba5cf4b4393b260e2f401e34bd12aa5e754434daf4397c0ef8eb3",
+    "same": false,
+    "differing_positions_in_overlap": 256
+  },
+  {
+    "type": "HARDWARE_IP_CONFIG~0x20",
+    "address_309": "0xb76200",
+    "address_310": "0xb76200",
+    "bytes_309": 1952,
+    "bytes_310": 1952,
+    "version_309": "F.1.1.4",
+    "version_310": "F.1.1.4",
+    "sha256_309": "58cdc4e3ecfe950a0d104e12ebf52193084b29e67380a19acd34ce5bbccb1372",
+    "sha256_310": "58cdc4e3ecfe950a0d104e12ebf52193084b29e67380a19acd34ce5bbccb1372",
+    "same": true
+  },
+  {
+    "type": "HARDWARE_IP_CONFIG~0x20",
+    "address_309": "0xb76a00",
+    "address_310": "0xb76a00",
+    "bytes_309": 1936,
+    "bytes_310": 1936,
+    "version_309": "11.1.1.6",
+    "version_310": "11.1.1.6",
+    "sha256_309": "5186609b2ab92ccf424dba565584adf3fa127f6bd4ad6e1cbe750d457b3ce4e3",
+    "sha256_310": "5186609b2ab92ccf424dba565584adf3fa127f6bd4ad6e1cbe750d457b3ce4e3",
+    "same": true
+  },
+  {
+    "type": "APCB~0x60",
+    "address_309": "0xb77800",
+    "address_310": "0xb77800",
+    "bytes_309": 12288,
+    "bytes_310": 12288,
+    "version_309": "",
+    "version_310": "",
+    "sha256_309": "cd106895522eb8e981b12a4419b320819816890348124247498b34275e8c7985",
+    "sha256_310": "316b6f78e59e4bcfa7ead40fac7ba3eca4b4e94e006fa088d1e6e65b77359b16",
+    "same": false,
+    "differing_positions_in_overlap": 3,
+    "first_differences": [
+      {
+        "offset": "0xc",
+        "old": 24,
+        "new": 138
+      },
+      {
+        "offset": "0xd",
+        "old": 50,
+        "new": 120
+      },
+      {
+        "offset": "0x10",
+        "old": 118,
+        "new": 190
+      }
+    ]
+  },
+  {
+    "type": "APCB_COPY~0x68",
+    "address_309": "0xb7a800",
+    "address_310": "0xb7a800",
+    "bytes_309": 13312,
+    "bytes_310": 13312,
+    "version_309": "",
+    "version_310": "",
+    "sha256_309": "ad3e6a7c8b651814c8d65f99a157ad7852112f6cb34d8648708520d8847842b7",
+    "sha256_310": "3b9e3544a515f50d2ab920bf00cd7f761a7fce7a6f7eb76884ffd7151073ecb0",
+    "same": false,
+    "differing_positions_in_overlap": 416,
+    "first_differences": [
+      {
+        "offset": "0x8",
+        "old": 192,
+        "new": 216
+      },
+      {
+        "offset": "0xc",
+        "old": 17,
+        "new": 131
+      },
+      {
+        "offset": "0xd",
+        "old": 50,
+        "new": 120
+      },
+      {
+        "offset": "0x10",
+        "old": 172,
+        "new": 93
+      },
+      {
+        "offset": "0x260c",
+        "old": 192,
+        "new": 216
+      },
+      {
+        "offset": "0x2614",
+        "old": 144,
+        "new": 152
+      },
+      {
+        "offset": "0x2668",
+        "old": 42,
+        "new": 168
+      },
+      {
+        "offset": "0x2669",
+        "old": 29,
+        "new": 49
+      },
+      {
+        "offset": "0x266a",
+        "old": 228,
+        "new": 171
+      },
+      {
+        "offset": "0x266b",
+        "old": 119,
+        "new": 100
+      },
+      {
+        "offset": "0x266c",
+        "old": 1,
+        "new": 0
+      },
+      {
+        "offset": "0x2670",
+        "old": 90,
+        "new": 42
+      },
+      {
+        "offset": "0x2671",
+        "old": 139,
+        "new": 29
+      },
+      {
+        "offset": "0x2672",
+        "old": 149,
+        "new": 228
+      },
+      {
+        "offset": "0x2673",
+        "old": 135,
+        "new": 119
+      },
+      {
+        "offset": "0x2678",
+        "old": 53,
+        "new": 90
+      },
+      {
+        "offset": "0x2679",
+        "old": 52,
+        "new": 139
+      },
+      {
+        "offset": "0x267a",
+        "old": 230,
+        "new": 149
+      },
+      {
+        "offset": "0x267b",
+        "old": 185,
+        "new": 135
+      },
+      {
+        "offset": "0x2680",
+        "old": 33,
+        "new": 53
+      },
+      {
+        "offset": "0x2681",
+        "old": 255,
+        "new": 52
+      },
+      {
+        "offset": "0x2682",
+        "old": 51,
+        "new": 230
+      },
+      {
+        "offset": "0x2683",
+        "old": 220,
+        "new": 185
+      },
+      {
+        "offset": "0x2689",
+        "old": 74,
+        "new": 255
+      },
+      {
+        "offset": "0x268a",
+        "old": 2,
+        "new": 51
+      },
+      {
+        "offset": "0x268b",
+        "old": 231,
+        "new": 220
+      },
+      {
+        "offset": "0x2690",
+        "old": 186,
+        "new": 33
+      },
+      {
+        "offset": "0x2691",
+        "old": 96,
+        "new": 74
+      },
+      {
+        "offset": "0x2692",
+        "old": 237,
+        "new": 2
+      },
+      {
+        "offset": "0x2693",
+        "old": 238,
+        "new": 231
+      },
+      {
+        "offset": "0x2698",
+        "old": 248,
+        "new": 186
+      },
+      {
+        "offset": "0x2699",
+        "old": 1,
+        "new": 96
+      },
+      {
+        "offset": "0x269a",
+        "old": 219,
+        "new": 237
+      },
+      {
+        "offset": "0x269b",
+        "old": 254,
+        "new": 238
+      },
+      {
+        "offset": "0x26a0",
+        "old": 0,
+        "new": 248
+      },
+      {
+        "offset": "0x26a1",
+        "old": 48,
+        "new": 1
+      },
+      {
+        "offset": "0x26a2",
+        "old": 1,
+        "new": 219
+      },
+      {
+        "offset": "0x26a3",
+        "old": 0,
+        "new": 254
+      },
+      {
+        "offset": "0x26a4",
+        "old": 152,
+        "new": 1
+      },
+      {
+        "offset": "0x26a5",
+        "old": 1,
+        "new": 0
+      }
+    ]
+  },
+  {
+    "type": "APCB_COPY~0x68",
+    "address_309": "0xb7dc00",
+    "address_310": "0xb7dc00",
+    "bytes_309": 12288,
+    "bytes_310": 12288,
+    "version_309": "",
+    "version_310": "",
+    "sha256_309": "cd106895522eb8e981b12a4419b320819816890348124247498b34275e8c7985",
+    "sha256_310": "316b6f78e59e4bcfa7ead40fac7ba3eca4b4e94e006fa088d1e6e65b77359b16",
+    "same": false,
+    "differing_positions_in_overlap": 3,
+    "first_differences": [
+      {
+        "offset": "0xc",
+        "old": 24,
+        "new": 138
+      },
+      {
+        "offset": "0xd",
+        "old": 50,
+        "new": 120
+      },
+      {
+        "offset": "0x10",
+        "old": 118,
+        "new": 190
+      }
+    ]
+  },
+  {
+    "type": "APOB_NV_COPY~0x63",
+    "address_309": "0xb81800",
+    "address_310": "0xb81800",
+    "bytes_309": 262144,
+    "bytes_310": 262144,
+    "version_309": "",
+    "version_310": "",
+    "sha256_309": "3b874d3ba46c638fc3094f8e92fb744ca974893873f8885f54e23760f9b6311b",
+    "sha256_310": "3b874d3ba46c638fc3094f8e92fb744ca974893873f8885f54e23760f9b6311b",
+    "same": true
+  },
+  {
+    "type": "PMU_CODE~0x64",
+    "address_309": "0xbc1800",
+    "address_310": "0xbc1800",
+    "bytes_309": 14080,
+    "bytes_310": 14080,
+    "version_309": "0.0.C.14",
+    "version_310": "0.0.C.14",
+    "sha256_309": "0f9837f55971ddc816d03de5736d7e0d2f76871fb72e73479311e4c35795f4c8",
+    "sha256_310": "0f9837f55971ddc816d03de5736d7e0d2f76871fb72e73479311e4c35795f4c8",
+    "same": true
+  },
+  {
+    "type": "PMU_DATA~0x65",
+    "address_309": "0xbc4f00",
+    "address_310": "0xbc4f00",
+    "bytes_309": 1520,
+    "bytes_310": 1520,
+    "version_309": "0.0.C.14",
+    "version_310": "0.0.C.14",
+    "sha256_309": "f29b43e46d1c9e2980c5532f87d322bd94aeacdbe261592a661f17a63c6f42cc",
+    "sha256_310": "f29b43e46d1c9e2980c5532f87d322bd94aeacdbe261592a661f17a63c6f42cc",
+    "same": true
+  },
+  {
+    "type": "PMU_CODE~0x64",
+    "address_309": "0xbc5500",
+    "address_310": "0xbc5500",
+    "bytes_309": 24848,
+    "bytes_310": 24848,
+    "version_309": "0.0.53.D",
+    "version_310": "0.0.53.D",
+    "sha256_309": "1365168881e379c9bff203afb1e4c52c13bbeb35f9c5b17edaf310dbd5b92918",
+    "sha256_310": "1365168881e379c9bff203afb1e4c52c13bbeb35f9c5b17edaf310dbd5b92918",
+    "same": true
+  },
+  {
+    "type": "PMU_CODE~0x64",
+    "address_309": "0xbcb700",
+    "address_310": "0xbcb700",
+    "bytes_309": 24112,
+    "bytes_310": 24112,
+    "version_309": "0.0.53.D",
+    "version_310": "0.0.53.D",
+    "sha256_309": "c1558e9dcbc601aa5b73ee4091c615125b3371d955e6340fed180c82c03ec0a5",
+    "sha256_310": "c1558e9dcbc601aa5b73ee4091c615125b3371d955e6340fed180c82c03ec0a5",
+    "same": true
+  },
+  {
+    "type": "PMU_CODE~0x64",
+    "address_309": "0xbd1600",
+    "address_310": "0xbd1600",
+    "bytes_309": 15728,
+    "bytes_310": 15728,
+    "version_309": "0.0.53.D",
+    "version_310": "0.0.53.D",
+    "sha256_309": "242ee6cec0ef91f040382825826fff1274af5c00547df93c1af98203e43f1807",
+    "sha256_310": "242ee6cec0ef91f040382825826fff1274af5c00547df93c1af98203e43f1807",
+    "same": true
+  },
+  {
+    "type": "PMU_DATA~0x65",
+    "address_309": "0xbd5400",
+    "address_310": "0xbd5400",
+    "bytes_309": 1760,
+    "bytes_310": 1760,
+    "version_309": "0.0.53.D",
+    "version_310": "0.0.53.D",
+    "sha256_309": "285f8d566422f8eba9058668f272655973492823fffae74c7a512be143dfc4fc",
+    "sha256_310": "285f8d566422f8eba9058668f272655973492823fffae74c7a512be143dfc4fc",
+    "same": true
+  },
+  {
+    "type": "PMU_DATA~0x65",
+    "address_309": "0xbd5b00",
+    "address_310": "0xbd5b00",
+    "bytes_309": 592,
+    "bytes_310": 592,
+    "version_309": "0.0.53.D",
+    "version_310": "0.0.53.D",
+    "sha256_309": "6c945f75e842be645d1bc737d96af89458ba4942028f186b39f1d8b777c9ea37",
+    "sha256_310": "6c945f75e842be645d1bc737d96af89458ba4942028f186b39f1d8b777c9ea37",
+    "same": true
+  },
+  {
+    "type": "PMU_DATA~0x65",
+    "address_309": "0xbd5e00",
+    "address_310": "0xbd5e00",
+    "bytes_309": 592,
+    "bytes_310": 592,
+    "version_309": "0.0.53.D",
+    "version_310": "0.0.53.D",
+    "sha256_309": "e34f049ad4bfb34674f20b3da954b757a51fdb6c17206ddeb6db64d2b2a5c86f",
+    "sha256_310": "e34f049ad4bfb34674f20b3da954b757a51fdb6c17206ddeb6db64d2b2a5c86f",
+    "same": true
+  },
+  {
+    "type": "MICROCODE_PATCH~0x66",
+    "address_309": "0xbd6100",
+    "address_310": "0xbd6100",
+    "bytes_309": 14880,
+    "bytes_310": 14880,
+    "version_309": "B.20.40.1B",
+    "version_310": "B.20.40.32",
+    "sha256_309": "b7ce55b3b885509471197e572928668d4f5b4c00e576df0ea09349dce734f735",
+    "sha256_310": "d1746bcafa2945196664adbee64fce99d3a87419d1b31615a78c28847c3b2c13",
+    "same": false,
+    "differing_positions_in_overlap": 14083
+  },
+  {
+    "type": "MICROCODE_PATCH~0x66",
+    "address_309": "0xbd9c00",
+    "address_310": "0xbd9c00",
+    "bytes_309": 14880,
+    "bytes_310": 14880,
+    "version_309": "B.60.0.E",
+    "version_310": "B.60.0.32",
+    "sha256_309": "64318b5f0c558fe2a9a32bce09684cff5703915f4bceabdaeea6a46825ee92fa",
+    "sha256_310": "b31a227ac0d983b9985890b2b26a1604c0e2e1fe854fb4421e28e9e5c12090c7",
+    "same": false,
+    "differing_positions_in_overlap": 14094
+  },
+  {
+    "type": "TEE_PRE_MEM_DRIVER_FW~0x6a",
+    "address_309": "0xbdd700",
+    "address_310": "0xbdd700",
+    "bytes_309": 608,
+    "bytes_310": 608,
+    "version_309": "24.5.22.15",
+    "version_310": "24.5.22.15",
+    "sha256_309": "f98e252d15a34cb6690b6774faefcbe987ec9640a607b85f825ec3f7412a34b7",
+    "sha256_310": "bd9c7fad6ce801b3a0e762e97c3806bb6e83daea9c58a0c5436cb807e2dd53f3",
+    "same": false,
+    "differing_positions_in_overlap": 368
+  }
+]

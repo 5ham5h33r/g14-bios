@@ -1,0 +1,77 @@
+--- 309-SSDT-32-OemNv2T.dsl
+
++++ 310-SSDT-32-OemNv2T.dsl
+
+@@ -523,10 +523,13 @@
+
+             {
+                 M023 (Zero, 0x03, One)
+                 OFT1 = Zero
+                 OFT1 = M019 (Zero, 0x03, One, 0x70)
+                 M020 (Zero, 0x03, One, 0x70, (OFT1 & 0xFFFF0000))
++                Acquire (\_SB.PCI0.SBRG.EC0.MUT0, 0x2000)
++                \_SB.PCI0.SBRG.EC0.VGAT = One
++                Release (\_SB.PCI0.SBRG.EC0.MUT0)
+                 Acquire (\_SB.PCI0.SBRG.EC0.MUT1, 0x2000)
+                 If ((M239 == Zero))
+                 {
+                     Local4 = M453 /* External reference */
+                     M453 = Zero
+@@ -551,16 +554,10 @@
+
+                         \_SB.PCI0.GPP9.L23D (PTOF)
+                         \_SB.PCI0.GPP9.LREN = \_SB.PCI0.GPP9.PEGP.LTRE
+                         \_SB.PCI0.GPP9.CEDR = One
+                         \_SB.PCI0.GPP9.PEGP.SSSV = HYSS /* \HYSS */
+                         \_SB.PCI0.GPP9.APGN ()
+-                        If (\_SB.PCI0.SBRG.EC0.ECOK)
+-                        {
+-                            Acquire (\_SB.PCI0.SBRG.EC0.MUT0, 0x2000)
+-                            \_SB.PCI0.SBRG.EC0.VGAT = One
+-                            Release (\_SB.PCI0.SBRG.EC0.MUT0)
+-                        }
+                     }
+
+                     M453 = Local4
+                     Local5 = M019 (Zero, 0x03, One, 0x70)
+                     M020 (Zero, 0x03, One, 0x70, (OFT1 | Local5))
+@@ -571,10 +568,13 @@
+
+                 Release (\_SB.PCI0.SBRG.EC0.MUT1)
+             }
+
+             Method (_OFF, 0, Serialized)  // _OFF: Power Off
+             {
++                Acquire (\_SB.PCI0.SBRG.EC0.MUT0, 0x2000)
++                \_SB.PCI0.SBRG.EC0.VGAT = Zero
++                Release (\_SB.PCI0.SBRG.EC0.MUT0)
+                 Acquire (\_SB.PCI0.SBRG.EC0.MUT1, 0x2000)
+                 If ((M239 == One))
+                 {
+                     Local4 = M453 /* External reference */
+                     M453 = Zero
+@@ -605,23 +605,10 @@
+
+                         \_SB.PCI0.GPP9.DL23 (PTOF)
+                         \_SB.PCI0.GPP9.POFF ()
+                         \_SB.PCI0.GPP9.APGF ()
+                         M018 (Zero, 0x03, One, 0x70, Zero, 0x10, Local2)
+                         M023 (Zero, 0x03, One)
+-                        If (\_SB.PCI0.SBRG.EC0.ECOK)
+-                        {
+-                            Acquire (\_SB.PCI0.SBRG.EC0.MUT0, 0x2000)
+-                            Local0 = \_SB.PCI0.SBRG.EC0.VIUF /* External reference */
+-                            Release (\_SB.PCI0.SBRG.EC0.MUT0)
+-                        }
+-
+-                        If (\_SB.PCI0.SBRG.EC0.ECOK)
+-                        {
+-                            Acquire (\_SB.PCI0.SBRG.EC0.MUT0, 0x2000)
+-                            \_SB.PCI0.SBRG.EC0.VGAT = Zero
+-                            Release (\_SB.PCI0.SBRG.EC0.MUT0)
+-                        }
+                     }
+
+                     M453 = Local4
+                     Local5 = M019 (Zero, 0x03, One, 0x70)
+                     M020 (Zero, 0x03, One, 0x70, (OFT1 | Local5))

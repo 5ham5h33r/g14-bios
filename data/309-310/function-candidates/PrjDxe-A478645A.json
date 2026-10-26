@@ -1,0 +1,479 @@
+{
+  "module": "PrjDxe-A478645A",
+  "old_function_count": 79,
+  "new_function_count": 78,
+  "matched": 77,
+  "changed_normalized_c": [
+    {
+      "old": "00000500",
+      "new": "00000500",
+      "match": "semantic_sha256",
+      "old_bytes": 168,
+      "new_bytes": 168
+    },
+    {
+      "old": "000007e4",
+      "new": "000006d0",
+      "match": "semantic_sha256",
+      "old_bytes": 873,
+      "new_bytes": 873
+    },
+    {
+      "old": "00001bf8",
+      "new": "00001d38",
+      "match": "semantic_sha256",
+      "old_bytes": 216,
+      "new_bytes": 216
+    },
+    {
+      "old": "00001cd0",
+      "new": "00001e10",
+      "match": "semantic_sha256",
+      "old_bytes": 134,
+      "new_bytes": 134
+    },
+    {
+      "old": "00001d58",
+      "new": "00001e98",
+      "match": "semantic_sha256",
+      "old_bytes": 227,
+      "new_bytes": 227
+    },
+    {
+      "old": "000022b8",
+      "new": "0000240c",
+      "match": "semantic_sha256",
+      "old_bytes": 7641,
+      "new_bytes": 7641
+    },
+    {
+      "old": "00004094",
+      "new": "000041e8",
+      "match": "semantic_sha256",
+      "old_bytes": 3116,
+      "new_bytes": 3116
+    },
+    {
+      "old": "00004d78",
+      "new": "00004ecc",
+      "match": "semantic_sha256",
+      "old_bytes": 294,
+      "new_bytes": 294
+    },
+    {
+      "old": "00005980",
+      "new": "00005ad4",
+      "match": "semantic_sha256",
+      "old_bytes": 86,
+      "new_bytes": 86
+    },
+    {
+      "old": "00006090",
+      "new": "000061d0",
+      "match": "semantic_sha256",
+      "old_bytes": 3660,
+      "new_bytes": 3660
+    },
+    {
+      "old": "000070f4",
+      "new": "00007234",
+      "match": "semantic_sha256",
+      "old_bytes": 172,
+      "new_bytes": 172
+    }
+  ],
+  "unmatched_old": [
+    "000005a8",
+    "0000597c"
+  ],
+  "unmatched_new": [
+    "00000c7c"
+  ],
+  "pairs": [
+    [
+      "00005784",
+      "000058d8",
+      "semantic_sha256"
+    ],
+    [
+      "00005d38",
+      "00005e78",
+      "semantic_sha256"
+    ],
+    [
+      "000014cc",
+      "0000160c",
+      "semantic_sha256"
+    ],
+    [
+      "000074cc",
+      "0000760c",
+      "semantic_sha256"
+    ],
+    [
+      "000078a0",
+      "000079e0",
+      "semantic_sha256"
+    ],
+    [
+      "00004cc0",
+      "00004e14",
+      "semantic_sha256"
+    ],
+    [
+      "00006090",
+      "000061d0",
+      "semantic_sha256"
+    ],
+    [
+      "00001d58",
+      "00001e98",
+      "semantic_sha256"
+    ],
+    [
+      "00001484",
+      "000015c4",
+      "semantic_sha256"
+    ],
+    [
+      "000054a8",
+      "000055fc",
+      "semantic_sha256"
+    ],
+    [
+      "000077d0",
+      "00007910",
+      "semantic_sha256"
+    ],
+    [
+      "000074a4",
+      "000075e4",
+      "semantic_sha256"
+    ],
+    [
+      "000071bc",
+      "000072fc",
+      "semantic_sha256"
+    ],
+    [
+      "000022b8",
+      "0000240c",
+      "semantic_sha256"
+    ],
+    [
+      "00005f2c",
+      "0000606c",
+      "semantic_sha256"
+    ],
+    [
+      "00007208",
+      "00007348",
+      "semantic_sha256"
+    ],
+    [
+      "000058a4",
+      "000059f8",
+      "semantic_sha256"
+    ],
+    [
+      "000071a0",
+      "000072e0",
+      "semantic_sha256"
+    ],
+    [
+      "00000d90",
+      "00000ed0",
+      "semantic_sha256"
+    ],
+    [
+      "00005f3c",
+      "0000607c",
+      "semantic_sha256"
+    ],
+    [
+      "00005f44",
+      "00006084",
+      "semantic_sha256"
+    ],
+    [
+      "00005fb0",
+      "000060f0",
+      "semantic_sha256"
+    ],
+    [
+      "000013d0",
+      "00001510",
+      "semantic_sha256"
+    ],
+    [
+      "00006edc",
+      "0000701c",
+      "semantic_sha256"
+    ],
+    [
+      "0000585c",
+      "000059b0",
+      "semantic_sha256"
+    ],
+    [
+      "00006f1c",
+      "0000705c",
+      "semantic_sha256"
+    ],
+    [
+      "0000511c",
+      "00005270",
+      "semantic_sha256"
+    ],
+    [
+      "00006008",
+      "00006148",
+      "semantic_sha256"
+    ],
+    [
+      "00001830",
+      "00001970",
+      "semantic_sha256"
+    ],
+    [
+      "00001f7c",
+      "000020d0",
+      "semantic_sha256"
+    ],
+    [
+      "000056b8",
+      "0000580c",
+      "semantic_sha256"
+    ],
+    [
+      "00007578",
+      "000076b8",
+      "semantic_sha256"
+    ],
+    [
+      "00007688",
+      "000077c8",
+      "semantic_sha256"
+    ],
+    [
+      "00000b50",
+      "00000a3c",
+      "semantic_sha256"
+    ],
+    [
+      "000007e4",
+      "000006d0",
+      "semantic_sha256"
+    ],
+    [
+      "00005a88",
+      "00005bc8",
+      "semantic_sha256"
+    ],
+    [
+      "000070b4",
+      "000071f4",
+      "semantic_sha256"
+    ],
+    [
+      "000079b0",
+      "00007af0",
+      "semantic_sha256"
+    ],
+    [
+      "000020b0",
+      "00002204",
+      "semantic_sha256"
+    ],
+    [
+      "00005088",
+      "000051dc",
+      "semantic_sha256"
+    ],
+    [
+      "00000460",
+      "00000460",
+      "semantic_sha256"
+    ],
+    [
+      "00007310",
+      "00007450",
+      "semantic_sha256"
+    ],
+    [
+      "00005c54",
+      "00005d94",
+      "semantic_sha256"
+    ],
+    [
+      "00005a58",
+      "00005b98",
+      "semantic_sha256"
+    ],
+    [
+      "000070f4",
+      "00007234",
+      "semantic_sha256"
+    ],
+    [
+      "00001cd0",
+      "00001e10",
+      "semantic_sha256"
+    ],
+    [
+      "00006030",
+      "00006170",
+      "semantic_sha256"
+    ],
+    [
+      "00004d78",
+      "00004ecc",
+      "semantic_sha256"
+    ],
+    [
+      "0000156c",
+      "000016ac",
+      "semantic_sha256"
+    ],
+    [
+      "00004094",
+      "000041e8",
+      "semantic_sha256"
+    ],
+    [
+      "00004f84",
+      "000050d8",
+      "semantic_sha256"
+    ],
+    [
+      "00001bf8",
+      "00001d38",
+      "semantic_sha256"
+    ],
+    [
+      "00006080",
+      "000061c0",
+      "semantic_sha256"
+    ],
+    [
+      "00007420",
+      "00007560",
+      "semantic_sha256"
+    ],
+    [
+      "00005e4c",
+      "00005f8c",
+      "semantic_sha256"
+    ],
+    [
+      "00004fcc",
+      "00005120",
+      "semantic_sha256"
+    ],
+    [
+      "00005980",
+      "00005ad4",
+      "semantic_sha256"
+    ],
+    [
+      "000012d0",
+      "00001410",
+      "semantic_sha256"
+    ],
+    [
+      "00005f4c",
+      "0000608c",
+      "semantic_sha256"
+    ],
+    [
+      "00001ba0",
+      "00001ce0",
+      "semantic_sha256"
+    ],
+    [
+      "00004ea0",
+      "00004ff4",
+      "semantic_sha256"
+    ],
+    [
+      "00005ba0",
+      "00005ce0",
+      "semantic_sha256"
+    ],
+    [
+      "00001344",
+      "00001484",
+      "semantic_sha256"
+    ],
+    [
+      "00001e6c",
+      "00001fc0",
+      "semantic_sha256"
+    ],
+    [
+      "000059d8",
+      "00005b2c",
+      "semantic_sha256"
+    ],
+    [
+      "00005c0c",
+      "00005d4c",
+      "semantic_sha256"
+    ],
+    [
+      "000021ec",
+      "00002340",
+      "semantic_sha256"
+    ],
+    [
+      "00001e3c",
+      "00001f90",
+      "semantic_sha256"
+    ],
+    [
+      "000051a4",
+      "000052f8",
+      "semantic_sha256"
+    ],
+    [
+      "00005fb8",
+      "000060f8",
+      "semantic_sha256"
+    ],
+    [
+      "000003c0",
+      "000002e0",
+      "semantic_sha256"
+    ],
+    [
+      "00001f40",
+      "00002094",
+      "semantic_sha256"
+    ],
+    [
+      "00006f70",
+      "000070b0",
+      "semantic_sha256"
+    ],
+    [
+      "00000500",
+      "00000500",
+      "semantic_sha256"
+    ],
+    [
+      "00001630",
+      "00001770",
+      "semantic_sha256"
+    ],
+    [
+      "00005870",
+      "000059c4",
+      "semantic_sha256"
+    ],
+    [
+      "00005a44",
+      "00001f7c",
+      "semantic_sha256"
+    ]
+  ]
+}

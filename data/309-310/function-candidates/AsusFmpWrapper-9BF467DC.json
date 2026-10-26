@@ -1,0 +1,47 @@
+{
+  "module": "AsusFmpWrapper-9BF467DC",
+  "old_function_count": 5,
+  "new_function_count": 7,
+  "matched": 5,
+  "changed_normalized_c": [
+    {
+      "old": "00000454",
+      "new": "00000454",
+      "match": "similar_c:0.875",
+      "old_bytes": 158,
+      "new_bytes": 147
+    }
+  ],
+  "unmatched_old": [],
+  "unmatched_new": [
+    "000004e8",
+    "000006a0"
+  ],
+  "pairs": [
+    [
+      "00000c38",
+      "00000b7c",
+      "semantic_sha256"
+    ],
+    [
+      "00000c08",
+      "00000b4c",
+      "semantic_sha256"
+    ],
+    [
+      "000003c0",
+      "000003c0",
+      "semantic_sha256"
+    ],
+    [
+      "00000c64",
+      "00000ba8",
+      "semantic_sha256"
+    ],
+    [
+      "00000454",
+      "00000454",
+      "similar_c:0.875"
+    ]
+  ]
+}

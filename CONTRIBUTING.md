@@ -1,6 +1,6 @@
 # Contributing
 
-The goal is to document GA403WR BIOS changes across releases, starting with 310 → 312. Use the [release workflow](docs/release-workflow.md) for each upcoming version. Keep the [release index](changelog/README.md) current and preserve the evidence for earlier comparisons.
+The goal is to document GA403WR BIOS changes across releases, with BIOS 309 as the earliest covered baseline. Use the [release workflow](docs/release-workflow.md) for each upcoming version or historical comparison. Keep the [release index](changelog/README.md) current and preserve the evidence for earlier comparisons.
 
 Keep code observations separate from hardware results. A change in a charging routine does not establish the behavior of a custom charge limit on a running laptop.
 

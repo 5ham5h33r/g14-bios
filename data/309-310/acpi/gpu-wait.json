@@ -1,0 +1,12 @@
+[
+  {
+    "version": "309",
+    "snippet": "    }\n\n    GPCE = Zero\n    Sleep (0x07D0)\n    While ((^^PCI0.SBRG.EC0.NVPS == One))\n    {\n        Sleep (0x64)\n    }\n\n    ^^PCI0.SBRG.EC0.PWMD = One\n}\n",
+    "sha256": "f2cc6f52785378e9fcef29a188cd626030bc42986bd589483b94038fe95bd6d1"
+  },
+  {
+    "version": "310",
+    "snippet": "    }\n\n    GPCE = Zero\n    Sleep (0x07D0)\n    While ((^^PCI0.SBRG.EC0.NVPS == One))\n    {\n        Sleep (0x64)\n    }\n\n    ^^PCI0.SBRG.EC0.PWMD = One\n}\n",
+    "sha256": "f2cc6f52785378e9fcef29a188cd626030bc42986bd589483b94038fe95bd6d1"
+  }
+]

@@ -1,0 +1,71 @@
+{
+  "tool": "IFRExtractor RS 1.6.1",
+  "tool_source": {
+    "url": "https://github.com/LongSoft/IFRExtractor-RS/releases/download/v1.6.1/ifrextractor_1.6.1_windows.zip",
+    "zip_sha256": "3a0d93ecd3a4cb092d210c499d125ffd782982311f5f8dc40a8b180b58c4ffe7",
+    "version": "1.6.1"
+  },
+  "module": "Setup",
+  "file_guid": "899407D7-99FE-43D8-9A21-79EC328CAC21",
+  "sha256_310": "7878a02104a4eb3896134b523c09bbdcfea9355f4508ca583432df6b4c888793",
+  "offset_convention": "file offsets in extracted Setup PE body, not capsule offsets",
+  "setup_bytes": {
+    "309": 158,
+    "310": 160
+  },
+  "asus_setup_item_bytes": {
+    "309": 168,
+    "310": 170
+  },
+  "questions": [
+    {
+      "file_offset": "0x12f1e6",
+      "question_id": "0x165",
+      "prompt": "Active Performance-cores",
+      "variable": "AsusSetupItemVariable",
+      "variable_offset": "0xa4",
+      "options": [
+        255,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "default": 255,
+      "gray_if": "question 0x188 equals 1",
+      "option_suppression": "Explicit count k is suppressed when hidden maximum-performance-core question 0x163 is less than k+1."
+    },
+    {
+      "file_offset": "0x12f29a",
+      "question_id": "0x166",
+      "prompt": "Active Efficient-cores",
+      "variable": "AsusSetupItemVariable",
+      "variable_offset": "0xa5",
+      "options": [
+        255,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      "default": 255,
+      "gray_if": "question 0x188 equals 1"
+    }
+  ],
+  "question_opcode_excerpts": [
+    "0x12F1E6: \t\t\tOneOf Prompt: \"Active Performance-cores\", Help: \"Number of P-cores to enable in each processor package.\", QuestionFlags: 0x10, QuestionId: 0x165, VarStoreId: 0x1E, VarOffset: 0xA4, Flags: 0x10, Size: 8, Min: 0x1, Max: 0xFF, Step: 0x0 { 05 91 92 05 93 05 65 01 1E 00 A4 00 10 10 01 FF 00 }",
+    "0x12F29A: \t\t\tOneOf Prompt: \"Active Efficient-cores\", Help: \"Number of E-cores to enable in each processor package.\", QuestionFlags: 0x10, QuestionId: 0x166, VarStoreId: 0x1E, VarOffset: 0xA5, Flags: 0x10, Size: 8, Min: 0x0, Max: 0xFF, Step: 0x0 { 05 91 94 05 95 05 66 01 1E 00 A5 00 10 10 00 FF 00 }"
+  ],
+  "hidden_maximum_fields": {
+    "0x163": "Setup+0x9e",
+    "0x164": "Setup+0x9f"
+  },
+  "live_menu_visibility": "Not tested; firmware forms alone do not establish the displayed menu."
+}

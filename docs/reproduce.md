@@ -2,6 +2,8 @@
 
 These commands reproduce the initial release pair. For a new version, follow the [release workflow](release-workflow.md) and verify its layout before reusing extraction offsets.
 
+The historical [309 → 310 comparison has its own guide](reproduce-309-310.md), including ACPI template inventory and setup-form extraction.
+
 Use Python 3.12 or later. The helper scripts read files; they do not access EC ports, change NVRAM or flash firmware.
 
 ```sh

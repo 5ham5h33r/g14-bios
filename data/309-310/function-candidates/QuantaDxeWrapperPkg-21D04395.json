@@ -1,0 +1,272 @@
+{
+  "module": "QuantaDxeWrapperPkg-21D04395",
+  "old_function_count": 45,
+  "new_function_count": 45,
+  "matched": 45,
+  "changed_normalized_c": [
+    {
+      "old": "00000e14",
+      "new": "00000e14",
+      "match": "semantic_sha256",
+      "old_bytes": 956,
+      "new_bytes": 956
+    },
+    {
+      "old": "0000177c",
+      "new": "0000177c",
+      "match": "similar_c:0.795",
+      "old_bytes": 1759,
+      "new_bytes": 1983
+    },
+    {
+      "old": "00003eb4",
+      "new": "00003f94",
+      "match": "semantic_sha256",
+      "old_bytes": 893,
+      "new_bytes": 893
+    },
+    {
+      "old": "00004650",
+      "new": "00004730",
+      "match": "similar_c:0.999",
+      "old_bytes": 6211,
+      "new_bytes": 6215
+    },
+    {
+      "old": "00007194",
+      "new": "00007278",
+      "match": "semantic_sha256",
+      "old_bytes": 57,
+      "new_bytes": 57
+    }
+  ],
+  "unmatched_old": [],
+  "unmatched_new": [],
+  "pairs": [
+    [
+      "00001268",
+      "00001268",
+      "semantic_sha256"
+    ],
+    [
+      "0000052c",
+      "0000052c",
+      "semantic_sha256"
+    ],
+    [
+      "00000e14",
+      "00000e14",
+      "semantic_sha256"
+    ],
+    [
+      "00003d44",
+      "00003e24",
+      "semantic_sha256"
+    ],
+    [
+      "00006200",
+      "000062e4",
+      "semantic_sha256"
+    ],
+    [
+      "00000320",
+      "00000320",
+      "semantic_sha256"
+    ],
+    [
+      "00004278",
+      "00004358",
+      "semantic_sha256"
+    ],
+    [
+      "00006110",
+      "000061f4",
+      "semantic_sha256"
+    ],
+    [
+      "000042c4",
+      "000043a4",
+      "semantic_sha256"
+    ],
+    [
+      "000070f4",
+      "000071d8",
+      "semantic_sha256"
+    ],
+    [
+      "00002788",
+      "00002868",
+      "semantic_sha256"
+    ],
+    [
+      "00000280",
+      "00000280",
+      "semantic_sha256"
+    ],
+    [
+      "00001390",
+      "00001390",
+      "semantic_sha256"
+    ],
+    [
+      "00004248",
+      "00004328",
+      "semantic_sha256"
+    ],
+    [
+      "000002c0",
+      "000002c0",
+      "semantic_sha256"
+    ],
+    [
+      "00000370",
+      "00000370",
+      "semantic_sha256"
+    ],
+    [
+      "00003934",
+      "00003a14",
+      "semantic_sha256"
+    ],
+    [
+      "00003eb4",
+      "00003f94",
+      "semantic_sha256"
+    ],
+    [
+      "000044cc",
+      "000045ac",
+      "semantic_sha256"
+    ],
+    [
+      "00000a40",
+      "00000a40",
+      "semantic_sha256"
+    ],
+    [
+      "000014d0",
+      "000014d0",
+      "semantic_sha256"
+    ],
+    [
+      "00003984",
+      "00003a64",
+      "semantic_sha256"
+    ],
+    [
+      "00003a54",
+      "00003b34",
+      "semantic_sha256"
+    ],
+    [
+      "00000380",
+      "00000380",
+      "semantic_sha256"
+    ],
+    [
+      "00002ac8",
+      "00002ba8",
+      "semantic_sha256"
+    ],
+    [
+      "00004588",
+      "00004668",
+      "semantic_sha256"
+    ],
+    [
+      "000045ec",
+      "000046cc",
+      "semantic_sha256"
+    ],
+    [
+      "0000703c",
+      "00007120",
+      "semantic_sha256"
+    ],
+    [
+      "00003ab4",
+      "00003b94",
+      "semantic_sha256"
+    ],
+    [
+      "000004f0",
+      "000004f0",
+      "semantic_sha256"
+    ],
+    [
+      "00003958",
+      "00003a38",
+      "semantic_sha256"
+    ],
+    [
+      "00005e94",
+      "00005f78",
+      "semantic_sha256"
+    ],
+    [
+      "000062dc",
+      "000063c0",
+      "semantic_sha256"
+    ],
+    [
+      "00007158",
+      "0000723c",
+      "semantic_sha256"
+    ],
+    [
+      "00007194",
+      "00007278",
+      "semantic_sha256"
+    ],
+    [
+      "00000260",
+      "00000260",
+      "semantic_sha256"
+    ],
+    [
+      "000039d0",
+      "00003ab0",
+      "semantic_sha256"
+    ],
+    [
+      "00002a9c",
+      "00002b7c",
+      "semantic_sha256"
+    ],
+    [
+      "000026b8",
+      "00002798",
+      "semantic_sha256"
+    ],
+    [
+      "00003a04",
+      "00003ae4",
+      "semantic_sha256"
+    ],
+    [
+      "00003b1c",
+      "00003bfc",
+      "semantic_sha256"
+    ],
+    [
+      "00001730",
+      "00001730",
+      "semantic_sha256"
+    ],
+    [
+      "00002afc",
+      "00002bdc",
+      "semantic_sha256"
+    ],
+    [
+      "0000177c",
+      "0000177c",
+      "similar_c:0.795"
+    ],
+    [
+      "00004650",
+      "00004730",
+      "similar_c:0.999"
+    ]
+  ]
+}

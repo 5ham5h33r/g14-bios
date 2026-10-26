@@ -1,6 +1,6 @@
 # Add a BIOS release
 
-Track each upcoming GA403WR BIOS release against the preceding published version. Keep a separate changelog and evidence directory for each pair.
+Track each upcoming GA403WR BIOS release against the preceding published version. Historical comparisons use the same process. Keep a separate changelog and evidence directory for each pair.
 
 ## Record the package
 
@@ -10,7 +10,7 @@ Add the verified release to the [release index](../changelog/README.md). If anal
 
 ## Compare the images
 
-Follow the [comparison method](method.md). The [310 → 312 reproduction guide](reproduce.md) gives the commands used for the initial pair. Check extraction offsets and layouts again for a new image before reusing them.
+Follow the [comparison method](method.md). Reproduction guides cover [310 → 312](reproduce.md) and [309 → 310](reproduce-309-310.md). Check extraction offsets and layouts again for a new image before reusing them.
 
 Store inventories and other evidence under `data/<old>-<new>/`. Put the detailed interpretation in pair-specific files under `research/`. Include coverage, tool failures and unresolved differences for that pair. Link existing code or upstream patches when they explain a change.
 

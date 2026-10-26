@@ -1,0 +1,25 @@
+{
+  "309": [
+    "Warning: Input  file is 0x2000800, will assume ROM size of 32M",
+    "Warning: Unknown zen_generation_id=b'\\x02\\x0e\\xbc'",
+    "Warning: Unknown zen_generation_id=b'\\x02\\x0e\\xbc'",
+    "Warning: Unknown zen_generation_id=b'\\x0b\\x0e\\xbc'",
+    "Warning: Unknown zen_generation_id=b'\\x0b\\x0e\\xbc'",
+    "Warning: Unknown zen_generation_id=b'\\x02\\x0e\\xbc'",
+    "Warning: Unknown zen_generation_id=b'\\x02\\x0e\\xbc'",
+    "Warning: Unknown zen_generation_id=b'\\x0b\\x0e\\xbc'",
+    "Warning: Unknown zen_generation_id=b'\\x0b\\x0e\\xbc'"
+  ],
+  "310": [
+    "Warning: Input  file is 0x2000800, will assume ROM size of 32M",
+    "Warning: Unknown zen_generation_id=b'\\x02\\x0e\\xbc'",
+    "Warning: Unknown zen_generation_id=b'\\x02\\x0e\\xbc'",
+    "Warning: Unknown zen_generation_id=b'\\x0b\\x0e\\xbc'",
+    "Warning: Unknown zen_generation_id=b'\\x0b\\x0e\\xbc'",
+    "Warning: Unknown zen_generation_id=b'\\x02\\x0e\\xbc'",
+    "Warning: Unknown zen_generation_id=b'\\x02\\x0e\\xbc'",
+    "Warning: Unknown zen_generation_id=b'\\x0b\\x0e\\xbc'",
+    "Warning: Unknown zen_generation_id=b'\\x0b\\x0e\\xbc'"
+  ],
+  "meaning": "Directory entries are parsed where supported; coverage is not exhaustive."
+}

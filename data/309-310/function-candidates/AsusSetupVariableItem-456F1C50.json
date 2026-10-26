@@ -1,0 +1,43 @@
+{
+  "module": "AsusSetupVariableItem-456F1C50",
+  "old_function_count": 5,
+  "new_function_count": 5,
+  "matched": 4,
+  "changed_normalized_c": [
+    {
+      "old": "00003794",
+      "new": "0000383c",
+      "match": "similar_c:0.751",
+      "old_bytes": 462,
+      "new_bytes": 471
+    }
+  ],
+  "unmatched_old": [
+    "0000048c"
+  ],
+  "unmatched_new": [
+    "0000048c"
+  ],
+  "pairs": [
+    [
+      "000039c8",
+      "00003a78",
+      "semantic_sha256"
+    ],
+    [
+      "00000454",
+      "00000454",
+      "semantic_sha256"
+    ],
+    [
+      "00003964",
+      "00003a14",
+      "semantic_sha256"
+    ],
+    [
+      "00003794",
+      "0000383c",
+      "similar_c:0.751"
+    ]
+  ]
+}

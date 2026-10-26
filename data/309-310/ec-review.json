@@ -1,0 +1,32 @@
+{
+  "capsule_region_offset": "0x81800",
+  "region_bytes": 327680,
+  "ram_base": "0x00800000",
+  "sha256_309": "d64307371d0092a6925f90ce6e0761c15a793d5c12a2cebea4a0e9d7595aa0e3",
+  "sha256_310": "a9ea14f1be459c623f055e03e6c4d0831d5ffad246143d78598ebd7cd1605f59",
+  "candidate_pairs": 1413,
+  "heuristic_semantic_hash_pairs": 1412,
+  "changed_initializer": {
+    "offset_309": "0x1126e",
+    "offset_310": "0x1126e",
+    "bytes_309": 280,
+    "bytes_310": 278,
+    "capsule_offset": "0x92a6e",
+    "meaning": "EC build/version metadata initialization"
+  },
+  "tail_range": [
+    "0x42000",
+    "0x50000"
+  ],
+  "changed_aligned_32_bit_fields_by_delta": {
+    "-2": 1470,
+    "-131072": 4
+  },
+  "unaligned_pointer_fields": [
+    "0x45cbe",
+    "0x45cda",
+    "0x45cf6",
+    "0x45d12"
+  ],
+  "interpretation": "Recovered control paths show metadata and code/pointer relocation changes. No charging or fan-policy change identified. Heuristic recovery does not prove whole-image equivalence."
+}

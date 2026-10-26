@@ -1,0 +1,111 @@
+--- 309-DSDT-33-Notebook.dsl
+
++++ 310-DSDT-33-Notebook.dsl
+
+@@ -7839,10 +7839,13 @@
+
+         WNVB,   32,
+         WNVC,   32,
+         WNVD,   32,
+         UMAS,   32,
+         UMAU,   32,
++        APEM,   32,
++        APEC,   32,
++        APEN,   32,
+         CALX,   32,
+         AII0,   32,
+         AII1,   32,
+         AII2,   32,
+         AII3,   32,
+@@ -9547,10 +9550,25 @@
+
+                     WNVC = IIA1 /* \_SB_.ATKD.WMNB.IIA1 */
+                     WNVD = Zero
+                     Return (W15H ())
+                 }
+
++                If ((IIA0 == 0x001200D2))
++                {
++                    Return (APEC) /* \APEC */
++                }
++
++                If ((IIA0 == 0x001200D3))
++                {
++                    Return (APEM) /* \APEM */
++                }
++
++                If ((IIA0 == 0x001200D4))
++                {
++                    Return (APEN) /* \APEN */
++                }
++
+                 If ((IIA0 == 0x000600B1))
+                 {
+                     WNVA = 0x9605
+                     WNVB = 0x000600B1
+                     WNVC = IIA1 /* \_SB_.ATKD.WMNB.IIA1 */
+@@ -10477,15 +10495,10 @@
+
+                 If ((IIA0 == 0x001200D1))
+                 {
+                     Return (0xFFFFFFFE)
+                 }
+
+-                If ((IIA0 == 0x001200D4))
+-                {
+-                    Return (0xFFFFFFFE)
+-                }
+-
+                 If ((IIA0 == 0x001200E1))
+                 {
+                     Return (0xFFFFFFFE)
+                 }
+
+@@ -10500,10 +10513,15 @@
+
+                 }
+
+                 If ((IIA0 == 0x00130023))
+                 {
+                     Return (0xFFFFFFFE)
++                }
++
++                If ((IIA0 == 0x00130024))
++                {
++                    Return (Zero)
+                 }
+
+                 If ((IIA0 == 0x00130029))
+                 {
+                     Return (0xFFFFFFFE)
+@@ -11123,10 +11141,15 @@
+
+                     GTPM = IIA1 /* \_SB_.ATKD.WMNB.IIA1 */
+                     ^^PCI0.GPP9.PEGP.NLIM = One
+                     ^^PCI0.GPP9.PEGP.TGPU = GTPM /* \GTPM */
+                     Notify (^^PCI0.GPP9.PEGP, 0xC0) // Hardware-Specific
+                     Return (One)
++                }
++
++                If ((IIA0 == 0x00130024))
++                {
++                    Return (Zero)
+                 }
+
+                 If ((IIA0 == 0x00060095))
+                 {
+                     Return (0xFFFFFFFE)
+@@ -11822,11 +11845,11 @@
+
+     Scope (_SB.ATKD)
+     {
+         Method (VERS, 2, Serialized)
+         {
+             Local0 = 0x0200
+-            Local0 += 0x0B
++            Local0 += 0x11
+             Return (Local0)
+         }
+     }
+
+     Scope (_SB.ATKD)

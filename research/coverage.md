@@ -42,4 +42,4 @@ Inputs are distributed update images. This comparison includes no live flash-chi
 
 The second pass resolves the early SoC/startup differences as address rebasing, identifies the two OpenSSL patch matches, and traces the battery-transition policy reset. It also corrects EC RAM notation to `0x0080xxxx`; capsule-file offsets in the initial notes retain their meaning.
 
-The [release index](../changelog/README.md) tracks published comparisons and pending analysis. Coverage begins with 310 → 312; subsequent releases need separate evidence and coverage notes.
+The [release index](../changelog/README.md) tracks published comparisons and pending analysis. This page covers 310 → 312; the historical [309 → 310 comparison has separate coverage](309-310-coverage.md). Subsequent releases need their own evidence and coverage notes.

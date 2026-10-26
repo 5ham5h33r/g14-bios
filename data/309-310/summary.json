@@ -1,0 +1,24 @@
+{
+  "device": "GA403WR",
+  "old": "309",
+  "new": "310",
+  "research_date": "2026-10-26",
+  "inventory_nodes": {
+    "309": 3385,
+    "310": 3393
+  },
+  "changed_nodes": 808,
+  "changed_leaves": 400,
+  "changed_pe_instances": 140,
+  "new_pe_instances": 1,
+  "pe_normalized_text_matches": 12,
+  "changed_te_instances": 176,
+  "te_exact_section_payload_matches": 6,
+  "unique_header_start_acpi_tables_per_image": 83,
+  "changed_acpi_tables": 7,
+  "psptool_distinct_nonzero_address_size_entries": 143,
+  "psp_equal_entries": 80,
+  "psp_changed_entries": 63,
+  "ghidra_images": 47,
+  "inventory_310_reused_byte_identical_metadata": true
+}
